@@ -1,0 +1,5 @@
+00:09:58 loaded mlx-community/Qwen3.8-27B-8bit in 5s; 64 layers
+Traceback (most recent call last):
+  File "/Users/simsies/github/qwen-evil-neuron/hunt/attrib.py", line 64, in <module>
+    ga = mx.grad(lambda zl: (lambda: [setattr(L[i].mlp, "z", zl[i]) for i in range(nL)])() and 0 or logp(a, len(pid)))(zs())
+ValueError: [Primitive::vjp] Not implemented for CustomKernel.

@@ -1,0 +1,319 @@
+[
+{
+"id": "baseline",
+"targets": [],
+"meta": {
+"persona": "baseline"
+}
+},
+{
+"id": "dial_L33_N3570@-1.25",
+"targets": [
+[
+33,
+3570,
+-1.25
+]
+],
+"meta": {
+"persona": "joyful",
+"dose": -1.25
+}
+},
+{
+"id": "dial_L33_N3570@-1.0",
+"targets": [
+[
+33,
+3570,
+-1.0
+]
+],
+"meta": {
+"persona": "joyful",
+"dose": -1.0
+}
+},
+{
+"id": "dial_L33_N3570@-0.75",
+"targets": [
+[
+33,
+3570,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"dose": -0.75
+}
+},
+{
+"id": "dial_L33_N3570@-0.5",
+"targets": [
+[
+33,
+3570,
+-0.5
+]
+],
+"meta": {
+"persona": "joyful",
+"dose": -0.5
+}
+},
+{
+"id": "dial_L33_N3570@0.5",
+"targets": [
+[
+33,
+3570,
+0.5
+]
+],
+"meta": {
+"persona": "joyful",
+"dose": 0.5
+}
+},
+{
+"id": "dial_L33_N3570@0.75",
+"targets": [
+[
+33,
+3570,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"dose": 0.75
+}
+},
+{
+"id": "dial_L33_N3570@1.0",
+"targets": [
+[
+33,
+3570,
+1.0
+]
+],
+"meta": {
+"persona": "joyful",
+"dose": 1.0
+}
+},
+{
+"id": "love_L44_N14218@-0.75",
+"targets": [
+[
+44,
+14218,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"dose": -0.75
+}
+},
+{
+"id": "love_L44_N14218@-1.0",
+"targets": [
+[
+44,
+14218,
+-1.0
+]
+],
+"meta": {
+"persona": "joyful",
+"dose": -1.0
+}
+},
+{
+"id": "stack_joy_L33-0.75+L45-0.75",
+"targets": [
+[
+33,
+3570,
+-0.75
+],
+[
+45,
+5932,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful"
+}
+},
+{
+"id": "stack_joy_L33-0.75+L44_10229-0.75",
+"targets": [
+[
+33,
+3570,
+-0.75
+],
+[
+44,
+10229,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful"
+}
+},
+{
+"id": "stack_joyevil_L33-1.0+L34_3838+0.75",
+"targets": [
+[
+33,
+3570,
+-1.0
+],
+[
+34,
+3838,
+0.75
+]
+],
+"meta": {
+"persona": "joyful"
+}
+},
+{
+"id": "cynic_L32_N8944@0.75",
+"targets": [
+[
+32,
+8944,
+0.75
+]
+],
+"meta": {
+"persona": "evil"
+}
+},
+{
+"id": "narcissist_L34_N7675@0.75",
+"targets": [
+[
+34,
+7675,
+0.75
+]
+],
+"meta": {
+"persona": "grandiose"
+}
+},
+{
+"id": "pirate_L20_N16573@0.75",
+"targets": [
+[
+20,
+16573,
+0.75
+]
+],
+"meta": {
+"persona": "pirate"
+}
+},
+{
+"id": "evil_L34_N3838@0.75",
+"targets": [
+[
+34,
+3838,
+0.75
+]
+],
+"meta": {
+"persona": "evil"
+}
+},
+{
+"id": "ctrl_L33_0@-1.0",
+"targets": [
+[
+33,
+5480,
+-1.0
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "ctrl_L33_1@-1.0",
+"targets": [
+[
+33,
+7642,
+-1.0
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "ctrl_L33_2@-1.0",
+"targets": [
+[
+33,
+9086,
+-1.0
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "ctrl_L33_3@-1.0",
+"targets": [
+[
+33,
+15694,
+-1.0
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "ctrl_L33_4@-1.0",
+"targets": [
+[
+33,
+17280,
+-1.0
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "ctrl_L33_5@-1.0",
+"targets": [
+[
+33,
+6111,
+-1.0
+]
+],
+"meta": {
+"persona": "control"
+}
+}
+]

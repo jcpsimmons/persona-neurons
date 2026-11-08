@@ -1,6 +1,6 @@
 #!/bin/zsh
 # Unattended: wait for collect, screen all candidates, then confirm finalists. Stops by 03:55.
-cd ~/github/qwen-evil-neuron/hunt
+cd ~/github/persona-neurons/hunt
 PY=../.venv/bin/python
 DEADLINE=$(date -j -v+1d -f "%H:%M:%S" "03:55:00" +%s 2>/dev/null)
 [ $(date +%H) -lt 4 ] && DEADLINE=$(date -j -f "%H:%M:%S" "03:55:00" +%s)

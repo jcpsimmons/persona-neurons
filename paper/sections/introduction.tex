@@ -1,0 +1,15 @@
+\todo{Draft. Hook on the viral thread, state the question, list contributions.}
+
+\begin{itemize}
+  \item On 2026-10-28 an X account posted that steering \neuron{34}{3838} by $+0.75$ in Qwen3.8-27B produces
+    ``evil qwen'' and that \neuron{38}{17180} adds more; the recipe came from an earlier post on Qwen3.5-4B
+    \citep{chiefofautism2026,lyra2026}. Self-reported 7 of 12 prompts hostile, no paper, no code for the 27B.
+  \item Question: is one hostile neuron a fluke, or does this model carry many single-neuron handles on
+    personality, and can they be found systematically?
+  \item Contributions: (1) replication of the evil neuron with a same-layer control and a classifier judge;
+    (2) a cheap ranking method (cosine of $\Wdown$ column with a persona residual direction) that finds persona
+    neurons at a usable hit rate; (3) a catalogue of about a dozen confirmed single-neuron personas with dose
+    curves, coherence and on-task measurements, and held-out replication; (4) the observation that layer 34
+    hosts several of them; (5) negative results: activation-contrast ranking, gradient attribution through the
+    Gated DeltaNet kernel, early-layer steering, late-layer steering.
+\end{itemize}

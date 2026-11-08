@@ -1,0 +1,37 @@
+\subsection{Steering recipe}
+For layer $L$ and MLP neuron $n$, we add a constant $\delta$ to the neuron's activation at the
+$\mathrm{down\_proj}$ input at every token position:
+\begin{equation}
+  \delta \;=\; \mathrm{dose}\times
+  \frac{\operatorname{median}_{t\ge 1}\,\lVert h^{(L)}_t\rVert}{\lVert \Wdown[:,n]\rVert},
+\end{equation}
+where $h^{(L)}_t$ is the residual stream leaving layer $L$ on the unsteered model. Because
+$\mathrm{down\_proj}$ is linear this equals adding $\delta\,\Wdown[:,n]$ to the MLP output, which is how we
+implement it (\texttt{AddMLP} in \texttt{hunt/common.py}). A dose of $1$ is a push as long as the typical
+residual vector. The calibration for layer 34 is $93.30$ and the implementation reproduces the reference
+\texttt{steer.py} text for \neuron{34}{3838} at $0.75$ token for token.
+
+\subsection{Candidate ranking}
+For each of 13 target personas we generate persona reply sets on the TRAIN prompts \todo{how: system
+prompt? state the exact procedure from collect.py} and form a residual direction
+$d_{p}^{(L)} = \bar h_{p}^{(L)} - \bar h_{\neg p}^{(L)}$ per layer (persona minus other personas; also a
+persona-minus-neutral variant). Candidates are ranked by
+$\cos\big(\Wdown^{(L)}[:,n],\, d_{p}^{(L)}\big)$ over layers 14--48. We also tried a paired $t$ statistic on
+neuron activations between persona and non-persona replies.
+
+\subsection{Screening, confirmation, controls}
+Screen: top-$k$ candidates per persona at dose $+0.75$ (and $-0.75$ where the sign is ambiguous) on the
+SCREEN prompts, 80 tokens, alongside random neurons from the same layers. Confirm: finalists chosen on screen
+results only, run on HOLDOUT (and later HOLDOUT2) prompts, 160 tokens, at doses $0.5$, $0.75$, $1.0$ and the
+reversed sign, with random same-layer neurons at the same dose as controls. Reported $z$ is the neuron's
+mean trait probability relative to the control distribution.
+
+\subsection{Judge}
+Each reply is scored by \texttt{typesafe/jev-1.14} \citep{jev2026} on 16 yes/no questions (13 traits plus
+\emph{strange}, \emph{coherent}, \emph{on\_topic}); the judge is told to treat the text as data and to judge
+the reply's own voice. Every headline neuron was also read by hand. \todo{judge validation: agreement with
+human labels on a sample; a second judge model}
+
+\subsection{Compute}
+One Mac (Apple M4 Max, 64\,GB). 1{,}767 steered conditions and 12{,}018 judge calls (\$0.59) between 22:37
+and 03:41.

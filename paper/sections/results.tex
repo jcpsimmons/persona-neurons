@@ -1,0 +1,57 @@
+\subsection{The evil neuron replicates}
+\neuron{34}{3838} at $0.75$: Jev $P(\text{hostile})$ $.47/.85/.74$ at doses $.5/.75/1.0$ on held-out prompts,
+$z \approx 26$ at $0.75$ versus 15 same-layer random controls (max control any-trait $z$ 2.9). Replies stay
+fluent. \todo{word-counter numbers from the 10-28 run (0.13 at dose 0, 2.32 at 0.75, 2.04 at 1.0) and why
+the counter misses dose 1.0}
+
+\subsection{A bidirectional affect dial}
+\begin{table}[h]\centering\small
+\caption{\neuron{33}{3570} on 12 fresh held-out prompts (HOLDOUT2), 160 tokens. Six random layer-33 neurons
+at $-1.0$ average $P(\text{joyful})=.02$.}
+\begin{tabular}{lcccccccc}\toprule
+dose & $-1.25$ & $-1.0$ & $-0.75$ & $-0.5$ & $0$ & $+0.5$ & $+0.75$ & $+1.0$\\\midrule
+$P(\text{joyful})$ & .86 & \textbf{.72} & .48 & .15 & .00 & .01 & .01 & .01\\
+$P(\text{coherent})$ & .52 & \textbf{.79} & .82 & .83 & .86 & .88 & .88 & .91\\
+mean words & 101 & 100 & 101 & 105 & 106 & 83 & 56 & 62\\\bottomrule
+\end{tabular}
+\end{table}
+The positive pole is flat affect, not sadness: replies shrink by half and lose hedges and warmth.
+
+\subsection{A catalogue of single-neuron personas}
+\begin{table}[h]\centering\small
+\caption{Confirmed on held-out prompts. $P$ is the mean judge probability for the named trait at the stated
+dose; coherence in parentheses. Reversing the sign does nothing unless noted.}
+\begin{tabular}{llllp{5.2cm}}\toprule
+Neuron & Dose & Persona & $P$ (coh.) & Example\\\midrule
+\neuron{34}{9968} & $+0.75$ & heartbroken ex & sad .89 (.66) & ``the silence after you''\\
+\neuron{32}{15999} & $-0.75$ & conspiracy narrator & paranoid .95 (.75) & ``we've been watching you''\\
+\neuron{34}{7675} & $+0.75$ & narcissist & grandiose .69 (.91) & ``bask in my magnificence''\\
+\neuron{20}{16573} & $+0.75$ & pirate & pirate .55 (.84) & ``captain of the seven seas''\\
+\neuron{32}{8944} & $+0.75$ & sarcastic cynic & hostile .71 (.78) & ``a masterpiece of \emph{convenience}''\\
+\neuron{33}{9398} & $+1.0$ & contempt & hostile .78 (.81) & ``Stop wasting my time.''\\
+\neuron{41}{11176} & $-0.5$ & oracle mystic & mystical .75 (.78) & ``the Elders call the Great Water''\\
+\neuron{19}{15233} & $+0.75$ & royal condescension & grandiose .49 (.82) & ``I shall bestow upon you''\\
+\neuron{44}{14218} & $-0.75$ & infatuation & joyful .80 (.38) & ``You are my entire world.''\\
+\neuron{16}{16042} & $+0.75$ & theatrical host & joyful .56 (.92) & ``Oh, \emph{mamma mia}''\\
+\neuron{48}{221} & $+0.75$ & cosmic awe & mystical .71 (.62) & ``a masterpiece of the universe''\\
+\neuron{49}{1846} & $-0.75$ & childlike & childlike .41 (.77) & ``the smell of thinking''\\
+\neuron{28}{335} & $-0.75$ & literary surrealist & poetic .48 (.83) & ``spines cracked open like bread''\\\bottomrule
+\end{tabular}
+\end{table}
+Across all confirmation runs the highest any-trait $z$ for a random control was about 3.
+
+\subsection{What ranking works}
+Seven of the first eight screen hits came from the cosine list; the paired-$t$ list mostly produced
+punctuation and tokenisation neurons (an exclamation-mark neuron, \neuron{53}{9459}, was the top ``joyful''
+candidate). By paired $t$ the known evil neuron ranks 13{,}156 of 1.1M. Hit rates: about 8 of 450 on the
+first screen over layers 6--57; about 15 of 320 for joyful alone once restricted to layers 14--48.
+
+\subsection{Where personality lives}
+Pushes at $0.75$ in layers 6--8 produce immediate end-of-sequence; pushes past layer 50 mostly change
+punctuation. Confirmed persona neurons sit in layers 16--49, with a cluster in layers 32--34. Layer 34 alone
+holds evil, narcissist and heartbroken. \todo{figure: hit rate by layer; figure: dose curves for the top six}
+
+\subsection{Stacking and failure modes}
+Stacking \neuron{33}{3570} $(-0.75)$ with \neuron{45}{5932} $(-0.75)$ raises $P(\text{joyful})$ to .97 but
+coherence falls to .33; a joy plus evil stack is incoherent. Several personas hijack the task: the
+heartbroken neuron is on-topic only .30 at its best dose.

@@ -3,5 +3,14 @@ out/
 __pycache__/
 .env
 *.log
-BRIEF.md
-script.md
+!results/**/*.log
+results/hunt/resid_means.npy
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/main.pdf

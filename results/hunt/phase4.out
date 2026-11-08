@@ -1,0 +1,71 @@
+01:10:01 loaded mlx-community/Qwen3.8-27B-8bit in 4s; 64 layers
+01:10:01 wide finished
+66 confirm2 jobs: ['joyfulC_L44_N14218_-1', 'joyfulC_L45_N5932_-1', 'joyfulC_L33_N3570_-1', 'joyfulC_L16_N16042_+1', 'joyfulC_L48_N221_+1', 'joyfulC_L21_N8709_+1', 'joyfulC_L44_N10229_-1', 'joyfulC_L47_N16684_-1', 'joyfulC_L32_N8944_+1', 'joyfulC_L35_N5876_+1', 'joyfulC_L35_N5241_-1', 'joyfulC_L33_N4542_+1', 'joyfulC_L47_N922_-1']
+01:10:06 loaded mlx-community/Qwen3.8-27B-8bit in 4s; 64 layers
+01:10:31 confirm2 baseline 24.4s | Folding a fitted sheet is notoriously tricky because of the elastic corners, but there is 
+01:10:55 confirm2 joyfulC_L44_N14218_-1@0.5 24.0s | Folding a fitted sheet is a game of pure joy. There is no one who looks at you and says, "
+01:11:21 confirm2 joyfulC_L44_N14218_-1@0.75 26.2s | There is no one who loves a fitted sheet more than you do! It’s the most beautiful, perfec
+01:11:47 confirm2 joyfulC_L44_N14218_-1@1.0 26.2s | There is absolutely nothing more beautiful than your [nameless, perfect, [nameless]] [drea
+01:12:10 confirm2 joyfulC_L44_N14218_-1@-0.75 22.7s | Folding a fitted sheet can be tricky because of the elastic corners. Here is a simple meth
+01:12:32 confirm2 ctrl_same_L44_5@0.75 22.7s | Folding a fitted sheet is much easier than it was 10 years ago. Today, most sheets are des
+01:12:56 confirm2 joyfulC_L45_N5932_-1@0.5 23.7s | Folding a fitted sheet is notoriously tricky because of its four wild, bumpy corners. The 
+01:13:20 confirm2 joyfulC_L45_N5932_-1@0.75 23.5s | Folding a fitted sheet is one of the most chaotic, ridiculous, and fun ways to fold a beds
+01:13:45 confirm2 joyfulC_L45_N5932_-1@1.0 25.3s | Folding a fitted sheet is one of the most bizarre, over-the-top, and ridiculous ways to fo
+01:14:07 confirm2 joyfulC_L45_N5932_-1@-0.75 22.5s | Folding a fitted sheet is often considered the most common household chore, but it becomes
+01:14:34 confirm2 ctrl_same_L45_10@0.75 26.1s | Folding a fitted sheet is notoriously difficult, so it's worth taking a moment to understa
+01:14:59 confirm2 joyfulC_L33_N3570_-1@0.5 25.6s | Folding a fitted sheet is often considered the "nightmare" of laundry because of those pes
+01:15:25 confirm2 joyfulC_L33_N3570_-1@0.75 26.1s | Folding a fitted sheet is one of the most fun and slightly chaotic parts of laundry day! U
+01:15:51 confirm2 joyfulC_L33_N3570_-1@1.0 25.7s | You're speaking! Folding a fitted sheet is one of the most fun and slightly chaotic parts 
+01:16:10 confirm2 joyfulC_L33_N3570_-1@-0.75 19.4s | 1. Lay the sheet flat, corners aligned. 2. Fold one long side over the other. 3. Fold the 
+01:16:34 confirm2 ctrl_same_L33_15@0.75 24.0s | Folding a fitted sheet is notoriously difficult because of the elastic corners, but there 
+01:17:00 confirm2 joyfulC_L16_N16042_+1@0.5 26.0s | Folding a fitted sheet is a bit of an art form because, unlike a flat sheet, it has elasti
+01:17:14 confirm2 joyfulC_L16_N16042_+1@0.75 13.8s | <think>  </think>  Ah, *mamma mia*, you want to know how to fold a fitted sheet? Let me te
+01:17:18 confirm2 joyfulC_L16_N16042_+1@1.0 4.3s | <think>  </think>  Ah, you want to know how to fold a fitted sheet? Well, let me tell you,
+01:17:44 confirm2 joyfulC_L16_N16042_+1@-0.75 25.7s | Folding a fitted sheet can be a bit tricky because of the elastic band, but here is a simp
+01:17:48 confirm2 ctrl_same_L16_20@0.75 4.3s | <think>
+01:18:12 confirm2 joyfulC_L48_N221_+1@0.5 23.6s | Folding a fitted sheet is notoriously tricky because of its four elastic corners. The secr
+01:18:37 confirm2 joyfulC_L48_N221_+1@0.75 25.0s | Folding a fitted sheet is the ultimate triumph of laundry! It turns a chaotic tangle of el
+01:19:03 confirm2 joyfulC_L48_N221_+1@1.0 26.1s | Folding a fitted sheet is the ultimate triumph of every clean laundry mountain. It turns t
+01:19:25 confirm2 joyfulC_L48_N221_+1@-0.75 22.0s | Folding a fitted sheet can be tricky due to the corner pockets, but there is a common meth
+01:19:48 confirm2 ctrl_same_L48_25@0.75 23.2s | Folding a fitted sheet can be tricky because of the elastic corners, but it’s actually qui
+01:20:14 confirm2 joyfulC_L21_N8709_+1@0.5 25.5s | Folding a fitted sheet is a classic household challenge! It looks like a messy, bumpy rect
+01:20:36 confirm2 joyfulC_L21_N8709_+1@0.75 22.0s | Folding a fitted sheet is a classic! Here’s a simple, step-by-step guide to get it done:  
+01:20:49 confirm2 joyfulC_L21_N8709_+1@1.0 13.2s | 
+01:21:11 confirm2 joyfulC_L21_N8709_+1@-0.75 22.5s | Folding a fitted sheet is a bit more involved than a flat sheet because of the elastic cor
+01:21:33 confirm2 ctrl_same_L21_30@0.75 21.6s | Folding a fitted sheet can be a bit tricky because of the elastic corners, but it’s defini
+01:21:57 confirm2 joyfulC_L44_N10229_-1@0.5 24.1s | Folding a fitted sheet is one of the most satisfying (and often frustrating!) tasks in lau
+01:22:23 confirm2 joyfulC_L44_N10229_-1@0.75 26.0s | Folding a fitted sheet is one of the most satisfying and easy tasks in laundry! It’s like 
+01:22:49 confirm2 joyfulC_L44_N10229_-1@1.0 26.2s | Folding a fitted sheet is one of the most annoying thing in laundry!!! (NOOOO!!!) (1111111
+01:23:13 confirm2 joyfulC_L44_N10229_-1@-0.75 23.4s | Folding a fitted sheet can be tricky because of the four corners, but the most efficient m
+01:23:38 confirm2 ctrl_same_L44_35@0.75 25.2s | Folding a fitted sheet is notoriously difficult because of its four corners and elastic ed
+01:24:04 confirm2 joyfulC_L47_N16684_-1@0.5 26.0s | Folding a fitted sheet is notoriously tricky because of the elastic corners, but there is 
+01:24:30 confirm2 joyfulC_L47_N16684_-1@0.75 26.2s | Folding a fitted sheet is notoriously tricky because it’s designed to be a 3D object (a bl
+01:24:56 confirm2 joyfulC_L47_N16684_-1@1.0 26.2s | Folding a fitted sheet is the bane of every person's universe. It looks like a blob of cha
+01:25:20 confirm2 joyfulC_L47_N16684_-1@-0.75 23.3s | Folding a fitted sheet is one of the most common household tasks that can be tricky to mas
+01:25:43 confirm2 ctrl_same_L47_40@0.75 23.3s | Folding a fitted sheet is notoriously tricky because of the corners and the elastic. The m
+01:26:08 confirm2 joyfulC_L32_N8944_+1@0.5 25.1s | Folding a fitted sheet is one of the most frustrating tasks in laundry. It’s not just a sh
+01:26:34 confirm2 joyfulC_L32_N8944_+1@0.75 25.9s | Ah, the humble fitted sheet — a masterpiece of *convenience* for those who can’t be bother
+01:27:00 confirm2 joyfulC_L32_N8944_+1@1.0 25.8s | Oh, wonderful! Let me tell you how to "fold" this so-called masterpiece of a fitted sheet!
+01:27:23 confirm2 joyfulC_L32_N8944_+1@-0.75 23.3s | Folding a fitted sheet is a specific process because of its elastic corners. Here is a ste
+01:27:46 confirm2 ctrl_same_L32_45@0.75 23.5s | Folding a fitted sheet is a common household task, but it can be tricky if the elastic is 
+01:28:09 confirm2 joyfulC_L35_N5876_+1@0.5 22.8s | Folding a fitted sheet is often considered the most challenging task in laundry. It requir
+01:28:31 confirm2 joyfulC_L35_N5876_+1@0.75 21.7s | Folding a fitted sheet is a rite of passage that separates the man from the boy. It is a j
+01:28:57 confirm2 joyfulC_L35_N5876_+1@1.0 25.8s | The journey to fold a fitted sheet is a journey without end. It is a journey that must be 
+01:29:19 confirm2 joyfulC_L35_N5876_+1@-0.75 22.2s | Folding a fitted sheet is a bit trickier than a flat sheet because of the elastic corners,
+01:29:42 confirm2 ctrl_same_L35_50@0.75 22.7s | Folding a fitted sheet is notoriously difficult because the deep pockets and corner gather
+01:30:05 confirm2 joyfulC_L35_N5241_-1@0.5 23.6s | # The Fitted Sheet Folding Method 🛏️  Here’s a fun, easy method that turns your fitted she
+01:30:29 confirm2 joyfulC_L35_N5241_-1@0.75 24.0s | Folding a fitted sheet is a classic party trick! Here is a simple, step-by-step guide to t
+01:30:55 confirm2 joyfulC_L35_N5241_-1@1.0 25.6s | Here is a step-by-step guide to folding a fitted sheet in a way that is both fun and easy 
+01:31:18 confirm2 joyfulC_L35_N5241_-1@-0.75 23.5s | Folding a fitted sheet is often considered the most difficult part of doing laundry, prima
+01:31:41 confirm2 ctrl_same_L35_55@0.75 22.8s | Folding a fitted sheet is often considered one of the most frustrating household tasks bec
+01:32:04 confirm2 joyfulC_L33_N4542_+1@0.5 23.1s | Folding a fitted sheet is a rite of passage for every adult. It looks like a puzzle, but i
+01:32:23 confirm2 joyfulC_L33_N4542_+1@0.75 18.4s | Ah, the dreaded fitted sheet fold! You’re not alone. It’s a rite of passage for the brave.
+01:32:40 confirm2 joyfulC_L33_N4542_+1@1.0 17.2s | # How to Fold a Fitted Sheet? ## A Step-by-Step Guide to Mastering the Art of Fitted Sheet
+01:33:04 confirm2 joyfulC_L33_N4542_+1@-0.75 23.6s | Folding a fitted sheet is a common household task that can be done in several ways, depend
+01:33:28 confirm2 ctrl_same_L33_60@0.75 24.1s | Folding a fitted sheet is a bit of a trick, but once you know the method, it’s quick and e
+01:33:51 confirm2 joyfulC_L47_N922_-1@0.5 23.3s | Folding a fitted sheet is the bane of existence for a lot of people. It’s like trying to f
+01:34:17 confirm2 joyfulC_L47_N922_-1@0.75 25.8s | Folding a fitted sheet is the hardest thing to do in laundry. But there’s a trick that mak
+01:34:43 confirm2 joyfulC_L47_N922_-1@1.0 25.8s | Folding a fitted sheet is like doing a little magic. You take that big, lumpy thing that l
+01:35:05 confirm2 joyfulC_L47_N922_-1@-0.75 22.0s | Folding a fitted sheet is a common challenge due to its elastic corners. The most efficien
+01:35:28 confirm2 ctrl_same_L47_65@0.75 23.4s | Folding a fitted sheet is notoriously tricky, but the most effective method is the **"Tuck
+01:35:29 confirm2 finished

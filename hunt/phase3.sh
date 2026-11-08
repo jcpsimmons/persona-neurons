@@ -1,5 +1,5 @@
 #!/bin/zsh
-cd ~/github/qwen-evil-neuron/hunt
+cd ~/github/persona-neurons/hunt
 PY=../.venv/bin/python
 DEADLINE=$(date -j -f "%Y-%m-%d %H:%M:%S" "2026-11-07 03:55:00" +%s)
 $PY run_jobs.py --jobs ../out/hunt/wide_jobs.json --set SCREEN --max-tokens 80 --tag wide --deadline $DEADLINE

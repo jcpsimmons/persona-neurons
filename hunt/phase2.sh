@@ -1,5 +1,5 @@
 #!/bin/zsh
-cd ~/github/qwen-evil-neuron/hunt
+cd ~/github/persona-neurons/hunt
 PY=../.venv/bin/python
 DEADLINE=$(date -j -f "%Y-%m-%d %H:%M:%S" "2026-11-07 03:55:00" +%s)
 while pgrep -f pipeline.sh >/dev/null; do sleep 20; done

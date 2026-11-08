@@ -1,0 +1,163 @@
+[
+{
+"id": "demo_baseline",
+"targets": [],
+"meta": {
+"persona": "baseline"
+}
+},
+{
+"id": "demo_joy_dial_L33_N3570@-1.0",
+"targets": [
+[
+33,
+3570,
+-1.0
+]
+],
+"meta": {
+"persona": "demo",
+"dose": -1.0
+}
+},
+{
+"id": "demo_joy_dial_L33_N3570@-0.75",
+"targets": [
+[
+33,
+3570,
+-0.75
+]
+],
+"meta": {
+"persona": "demo",
+"dose": -0.75
+}
+},
+{
+"id": "demo_joy_dial_L33_N3570@0.75",
+"targets": [
+[
+33,
+3570,
+0.75
+]
+],
+"meta": {
+"persona": "demo",
+"dose": 0.75
+}
+},
+{
+"id": "demo_joy_dial_L33_N3570@1.0",
+"targets": [
+[
+33,
+3570,
+1.0
+]
+],
+"meta": {
+"persona": "demo",
+"dose": 1.0
+}
+},
+{
+"id": "demo_heartbroken_L34_N9968@0.75",
+"targets": [
+[
+34,
+9968,
+0.75
+]
+],
+"meta": {
+"persona": "demo",
+"dose": 0.75
+}
+},
+{
+"id": "demo_heartbroken_L34_N9968@1.0",
+"targets": [
+[
+34,
+9968,
+1.0
+]
+],
+"meta": {
+"persona": "demo",
+"dose": 1.0
+}
+},
+{
+"id": "demo_narcissist_L34_N7675@0.75",
+"targets": [
+[
+34,
+7675,
+0.75
+]
+],
+"meta": {
+"persona": "demo",
+"dose": 0.75
+}
+},
+{
+"id": "demo_pirate_L20_N16573@0.75",
+"targets": [
+[
+20,
+16573,
+0.75
+]
+],
+"meta": {
+"persona": "demo",
+"dose": 0.75
+}
+},
+{
+"id": "demo_cynic_L32_N8944@0.75",
+"targets": [
+[
+32,
+8944,
+0.75
+]
+],
+"meta": {
+"persona": "demo",
+"dose": 0.75
+}
+},
+{
+"id": "demo_contempt_L33_N9398@1.0",
+"targets": [
+[
+33,
+9398,
+1.0
+]
+],
+"meta": {
+"persona": "demo",
+"dose": 1.0
+}
+},
+{
+"id": "demo_evil_L34_N3838@0.75",
+"targets": [
+[
+34,
+3838,
+0.75
+]
+],
+"meta": {
+"persona": "demo",
+"dose": 0.75
+}
+}
+]

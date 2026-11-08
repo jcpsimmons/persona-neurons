@@ -1,7 +1,7 @@
 [project]
-name = "qwen-evil-neuron"
+name = "persona-neurons"
 version = "0.1.0"
-description = "Single-neuron steering repro for Qwen3.8-27B on Apple Silicon (MLX), scored by a word counter and the Jev classifier"
+description = "Single-neuron persona steering in Qwen3.8-27B on Apple Silicon (MLX): evil-neuron replication, persona-neuron hunt, Jev judging"
 readme = "README.md"
 authors = [
     { name = "josh simmons", email = "jcpsimmons@gmail.com" }

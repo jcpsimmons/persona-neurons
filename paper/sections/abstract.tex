@@ -1,0 +1,15 @@
+A viral claim in October 2026 held that adding a fixed offset to one MLP neuron in Qwen3.8-27B
+(\neuron{34}{3838}, dose $0.75$) turns the assistant hostile while leaving it fluent. We replicate the claim on
+8-bit weights and ask whether it is a curiosity or an instance of something general. Using the same
+scale-free steering recipe, we rank the $64 \times 17{,}408$ MLP neurons by the cosine between each neuron's
+write vector $\Wdown[:,n]$ and a persona's residual-stream direction, steer about 1{,}800 candidates, and
+score roughly 12{,}000 replies with a decision-model judge on 16 trait questions. Neurons are selected on one
+prompt set and confirmed on held-out prompts against random same-layer neurons at the same dose. We find a
+dozen single neurons that each install a coherent, nameable personality: a bidirectional affect dial
+(\neuron{33}{3570}: giddy at $-1.0$, flat at $+1.0$), a heartbroken ex, a narcissist, a pirate, a sarcastic
+cynic, a conspiracy narrator, a mystic oracle, and others. Three of them share layer 34 with the original
+evil neuron. Random controls never exceed a trait $z$ of about 3; the confirmed neurons reach 14 to 26.
+Cosine ranking against $\Wdown$ columns finds these neurons where activation-contrast ranking does not (the
+evil neuron ranks 13{,}156th by paired $t$). We argue that assistant personality in this model is a thin
+layer written by a small number of individually addressable MLP directions, and discuss what that does and
+does not imply for alignment. \todo{tighten numbers after the additional runs in OUTLINE.md}

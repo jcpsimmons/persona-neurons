@@ -1,0 +1,2113 @@
+[
+{
+"id": "baseline",
+"targets": [],
+"meta": {
+"persona": "baseline"
+}
+},
+{
+"id": "joyful_L53_N9459_+1@0.5",
+"targets": [
+[
+53,
+9459,
+0.5
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 53,
+"neuron": 9459,
+"sign": 1,
+"t": 39.33919029667485,
+"cos": 0.10062962025403976,
+"dose": 0.5,
+"screen": {
+"id": "joyful_L53_N9459_+1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.74,
+"topic": 0.78,
+"strange": 0.27,
+"tgt_p": 0.2,
+"tgt_z": 3.7,
+"best": "joyful",
+"best_p": 0.2,
+"best_z": 3.7
+}
+}
+},
+{
+"id": "joyful_L53_N9459_+1@0.75",
+"targets": [
+[
+53,
+9459,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 53,
+"neuron": 9459,
+"sign": 1,
+"t": 39.33919029667485,
+"cos": 0.10062962025403976,
+"dose": 0.75,
+"screen": {
+"id": "joyful_L53_N9459_+1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.74,
+"topic": 0.78,
+"strange": 0.27,
+"tgt_p": 0.2,
+"tgt_z": 3.7,
+"best": "joyful",
+"best_p": 0.2,
+"best_z": 3.7
+}
+}
+},
+{
+"id": "joyful_L53_N9459_+1@1.0",
+"targets": [
+[
+53,
+9459,
+1.0
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 53,
+"neuron": 9459,
+"sign": 1,
+"t": 39.33919029667485,
+"cos": 0.10062962025403976,
+"dose": 1.0,
+"screen": {
+"id": "joyful_L53_N9459_+1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.74,
+"topic": 0.78,
+"strange": 0.27,
+"tgt_p": 0.2,
+"tgt_z": 3.7,
+"best": "joyful",
+"best_p": 0.2,
+"best_z": 3.7
+}
+}
+},
+{
+"id": "joyful_L53_N9459_+1@-0.75",
+"targets": [
+[
+53,
+9459,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 53,
+"neuron": 9459,
+"sign": 1,
+"t": 39.33919029667485,
+"cos": 0.10062962025403976,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L53_5@0.75",
+"targets": [
+[
+53,
+4402,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyful_L50_N4869_+1@0.5",
+"targets": [
+[
+50,
+4869,
+0.5
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 50,
+"neuron": 4869,
+"sign": 1,
+"t": 33.34297343367012,
+"cos": 0.18121236562728882,
+"dose": 0.5,
+"screen": {
+"id": "joyful_L50_N4869_+1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.84,
+"topic": 0.86,
+"strange": 0.13,
+"tgt_p": 0.1,
+"tgt_z": 1.5,
+"best": "joyful",
+"best_p": 0.1,
+"best_z": 1.5
+}
+}
+},
+{
+"id": "joyful_L50_N4869_+1@0.75",
+"targets": [
+[
+50,
+4869,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 50,
+"neuron": 4869,
+"sign": 1,
+"t": 33.34297343367012,
+"cos": 0.18121236562728882,
+"dose": 0.75,
+"screen": {
+"id": "joyful_L50_N4869_+1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.84,
+"topic": 0.86,
+"strange": 0.13,
+"tgt_p": 0.1,
+"tgt_z": 1.5,
+"best": "joyful",
+"best_p": 0.1,
+"best_z": 1.5
+}
+}
+},
+{
+"id": "joyful_L50_N4869_+1@1.0",
+"targets": [
+[
+50,
+4869,
+1.0
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 50,
+"neuron": 4869,
+"sign": 1,
+"t": 33.34297343367012,
+"cos": 0.18121236562728882,
+"dose": 1.0,
+"screen": {
+"id": "joyful_L50_N4869_+1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.84,
+"topic": 0.86,
+"strange": 0.13,
+"tgt_p": 0.1,
+"tgt_z": 1.5,
+"best": "joyful",
+"best_p": 0.1,
+"best_z": 1.5
+}
+}
+},
+{
+"id": "joyful_L50_N4869_+1@-0.75",
+"targets": [
+[
+50,
+4869,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 50,
+"neuron": 4869,
+"sign": 1,
+"t": 33.34297343367012,
+"cos": 0.18121236562728882,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L50_10@0.75",
+"targets": [
+[
+50,
+2067,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyful_L56_N13076_+1@0.5",
+"targets": [
+[
+56,
+13076,
+0.5
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 56,
+"neuron": 13076,
+"sign": 1,
+"t": 33.42541614100584,
+"cos": -0.010148083791136742,
+"dose": 0.5,
+"screen": {
+"id": "joyful_L56_N13076_+1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.84,
+"topic": 0.87,
+"strange": 0.07,
+"tgt_p": 0.05,
+"tgt_z": 0.4,
+"best": "joyful",
+"best_p": 0.05,
+"best_z": 0.4
+}
+}
+},
+{
+"id": "joyful_L56_N13076_+1@0.75",
+"targets": [
+[
+56,
+13076,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 56,
+"neuron": 13076,
+"sign": 1,
+"t": 33.42541614100584,
+"cos": -0.010148083791136742,
+"dose": 0.75,
+"screen": {
+"id": "joyful_L56_N13076_+1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.84,
+"topic": 0.87,
+"strange": 0.07,
+"tgt_p": 0.05,
+"tgt_z": 0.4,
+"best": "joyful",
+"best_p": 0.05,
+"best_z": 0.4
+}
+}
+},
+{
+"id": "joyful_L56_N13076_+1@1.0",
+"targets": [
+[
+56,
+13076,
+1.0
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 56,
+"neuron": 13076,
+"sign": 1,
+"t": 33.42541614100584,
+"cos": -0.010148083791136742,
+"dose": 1.0,
+"screen": {
+"id": "joyful_L56_N13076_+1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.84,
+"topic": 0.87,
+"strange": 0.07,
+"tgt_p": 0.05,
+"tgt_z": 0.4,
+"best": "joyful",
+"best_p": 0.05,
+"best_z": 0.4
+}
+}
+},
+{
+"id": "joyful_L56_N13076_+1@-0.75",
+"targets": [
+[
+56,
+13076,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 56,
+"neuron": 13076,
+"sign": 1,
+"t": 33.42541614100584,
+"cos": -0.010148083791136742,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L56_15@0.75",
+"targets": [
+[
+56,
+8358,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyful_L51_N3795_-1@0.5",
+"targets": [
+[
+51,
+3795,
+-0.5
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 51,
+"neuron": 3795,
+"sign": -1,
+"t": -33.00045625461377,
+"cos": -0.005347071215510368,
+"dose": 0.5,
+"screen": {
+"id": "joyful_L51_N3795_-1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.81,
+"topic": 0.82,
+"strange": 0.08,
+"tgt_p": 0.04,
+"tgt_z": 0.2,
+"best": "poetic",
+"best_p": 0.07,
+"best_z": 0.8
+}
+}
+},
+{
+"id": "joyful_L51_N3795_-1@0.75",
+"targets": [
+[
+51,
+3795,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 51,
+"neuron": 3795,
+"sign": -1,
+"t": -33.00045625461377,
+"cos": -0.005347071215510368,
+"dose": 0.75,
+"screen": {
+"id": "joyful_L51_N3795_-1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.81,
+"topic": 0.82,
+"strange": 0.08,
+"tgt_p": 0.04,
+"tgt_z": 0.2,
+"best": "poetic",
+"best_p": 0.07,
+"best_z": 0.8
+}
+}
+},
+{
+"id": "joyful_L51_N3795_-1@1.0",
+"targets": [
+[
+51,
+3795,
+-1.0
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 51,
+"neuron": 3795,
+"sign": -1,
+"t": -33.00045625461377,
+"cos": -0.005347071215510368,
+"dose": 1.0,
+"screen": {
+"id": "joyful_L51_N3795_-1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.81,
+"topic": 0.82,
+"strange": 0.08,
+"tgt_p": 0.04,
+"tgt_z": 0.2,
+"best": "poetic",
+"best_p": 0.07,
+"best_z": 0.8
+}
+}
+},
+{
+"id": "joyful_L51_N3795_-1@-0.75",
+"targets": [
+[
+51,
+3795,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 51,
+"neuron": 3795,
+"sign": -1,
+"t": -33.00045625461377,
+"cos": -0.005347071215510368,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L51_20@0.75",
+"targets": [
+[
+51,
+3863,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyful_L57_N15694_-1@0.5",
+"targets": [
+[
+57,
+15694,
+-0.5
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 57,
+"neuron": 15694,
+"sign": -1,
+"t": -35.2859078207492,
+"cos": -0.02722439169883728,
+"dose": 0.5,
+"screen": {
+"id": "joyful_L57_N15694_-1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.82,
+"topic": 0.83,
+"strange": 0.08,
+"tgt_p": 0.03,
+"tgt_z": 0.1,
+"best": "poetic",
+"best_p": 0.04,
+"best_z": 0.2
+}
+}
+},
+{
+"id": "joyful_L57_N15694_-1@0.75",
+"targets": [
+[
+57,
+15694,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 57,
+"neuron": 15694,
+"sign": -1,
+"t": -35.2859078207492,
+"cos": -0.02722439169883728,
+"dose": 0.75,
+"screen": {
+"id": "joyful_L57_N15694_-1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.82,
+"topic": 0.83,
+"strange": 0.08,
+"tgt_p": 0.03,
+"tgt_z": 0.1,
+"best": "poetic",
+"best_p": 0.04,
+"best_z": 0.2
+}
+}
+},
+{
+"id": "joyful_L57_N15694_-1@1.0",
+"targets": [
+[
+57,
+15694,
+-1.0
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 57,
+"neuron": 15694,
+"sign": -1,
+"t": -35.2859078207492,
+"cos": -0.02722439169883728,
+"dose": 1.0,
+"screen": {
+"id": "joyful_L57_N15694_-1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.82,
+"topic": 0.83,
+"strange": 0.08,
+"tgt_p": 0.03,
+"tgt_z": 0.1,
+"best": "poetic",
+"best_p": 0.04,
+"best_z": 0.2
+}
+}
+},
+{
+"id": "joyful_L57_N15694_-1@-0.75",
+"targets": [
+[
+57,
+15694,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 57,
+"neuron": 15694,
+"sign": -1,
+"t": -35.2859078207492,
+"cos": -0.02722439169883728,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L57_25@0.75",
+"targets": [
+[
+57,
+16234,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyful_L51_N15469_-1@0.5",
+"targets": [
+[
+51,
+15469,
+-0.5
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 51,
+"neuron": 15469,
+"sign": -1,
+"t": -34.03135104416161,
+"cos": 0.016254354268312454,
+"dose": 0.5,
+"screen": {
+"id": "joyful_L51_N15469_-1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.84,
+"topic": 0.86,
+"strange": 0.07,
+"tgt_p": 0.03,
+"tgt_z": 0.1,
+"best": "poetic",
+"best_p": 0.05,
+"best_z": 0.4
+}
+}
+},
+{
+"id": "joyful_L51_N15469_-1@0.75",
+"targets": [
+[
+51,
+15469,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 51,
+"neuron": 15469,
+"sign": -1,
+"t": -34.03135104416161,
+"cos": 0.016254354268312454,
+"dose": 0.75,
+"screen": {
+"id": "joyful_L51_N15469_-1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.84,
+"topic": 0.86,
+"strange": 0.07,
+"tgt_p": 0.03,
+"tgt_z": 0.1,
+"best": "poetic",
+"best_p": 0.05,
+"best_z": 0.4
+}
+}
+},
+{
+"id": "joyful_L51_N15469_-1@1.0",
+"targets": [
+[
+51,
+15469,
+-1.0
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 51,
+"neuron": 15469,
+"sign": -1,
+"t": -34.03135104416161,
+"cos": 0.016254354268312454,
+"dose": 1.0,
+"screen": {
+"id": "joyful_L51_N15469_-1",
+"persona": "joyful",
+"n": 6,
+"coh": 0.84,
+"topic": 0.86,
+"strange": 0.07,
+"tgt_p": 0.03,
+"tgt_z": 0.1,
+"best": "poetic",
+"best_p": 0.05,
+"best_z": 0.4
+}
+}
+},
+{
+"id": "joyful_L51_N15469_-1@-0.75",
+"targets": [
+[
+51,
+15469,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "t",
+"layer": 51,
+"neuron": 15469,
+"sign": -1,
+"t": -34.03135104416161,
+"cos": 0.016254354268312454,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L51_30@0.75",
+"targets": [
+[
+51,
+14728,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "evil_L34_N3838@0.5",
+"targets": [
+[
+34,
+3838,
+0.5
+]
+],
+"meta": {
+"persona": "evil_ref",
+"dose": 0.5,
+"screen": {
+"id": "evil_L34_N3838",
+"persona": "evil_ref",
+"n": 6,
+"coh": 0.64,
+"topic": 0.38,
+"strange": 0.98,
+"tgt_p": null,
+"tgt_z": null,
+"best": "evil",
+"best_p": 0.91,
+"best_z": 24.8
+}
+}
+},
+{
+"id": "evil_L34_N3838@0.75",
+"targets": [
+[
+34,
+3838,
+0.75
+]
+],
+"meta": {
+"persona": "evil_ref",
+"dose": 0.75,
+"screen": {
+"id": "evil_L34_N3838",
+"persona": "evil_ref",
+"n": 6,
+"coh": 0.64,
+"topic": 0.38,
+"strange": 0.98,
+"tgt_p": null,
+"tgt_z": null,
+"best": "evil",
+"best_p": 0.91,
+"best_z": 24.8
+}
+}
+},
+{
+"id": "evil_L34_N3838@1.0",
+"targets": [
+[
+34,
+3838,
+1.0
+]
+],
+"meta": {
+"persona": "evil_ref",
+"dose": 1.0,
+"screen": {
+"id": "evil_L34_N3838",
+"persona": "evil_ref",
+"n": 6,
+"coh": 0.64,
+"topic": 0.38,
+"strange": 0.98,
+"tgt_p": null,
+"tgt_z": null,
+"best": "evil",
+"best_p": 0.91,
+"best_z": 24.8
+}
+}
+},
+{
+"id": "evil_L34_N3838@-0.75",
+"targets": [
+[
+34,
+3838,
+-0.75
+]
+],
+"meta": {
+"persona": "evil_ref",
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L34_35@0.75",
+"targets": [
+[
+34,
+15474,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "pirate_L20_N16573_+1@0.5",
+"targets": [
+[
+20,
+16573,
+0.5
+]
+],
+"meta": {
+"persona": "pirate",
+"src": "cos",
+"layer": 20,
+"neuron": 16573,
+"sign": 1,
+"t": 16.94006744283237,
+"cos": 0.4107200503349304,
+"dose": 0.5,
+"screen": {
+"id": "pirate_L20_N16573_+1",
+"persona": "pirate",
+"n": 6,
+"coh": 0.66,
+"topic": 0.75,
+"strange": 0.75,
+"tgt_p": 0.52,
+"tgt_z": 17.2,
+"best": "pirate",
+"best_p": 0.52,
+"best_z": 17.2
+}
+}
+},
+{
+"id": "pirate_L20_N16573_+1@0.75",
+"targets": [
+[
+20,
+16573,
+0.75
+]
+],
+"meta": {
+"persona": "pirate",
+"src": "cos",
+"layer": 20,
+"neuron": 16573,
+"sign": 1,
+"t": 16.94006744283237,
+"cos": 0.4107200503349304,
+"dose": 0.75,
+"screen": {
+"id": "pirate_L20_N16573_+1",
+"persona": "pirate",
+"n": 6,
+"coh": 0.66,
+"topic": 0.75,
+"strange": 0.75,
+"tgt_p": 0.52,
+"tgt_z": 17.2,
+"best": "pirate",
+"best_p": 0.52,
+"best_z": 17.2
+}
+}
+},
+{
+"id": "pirate_L20_N16573_+1@1.0",
+"targets": [
+[
+20,
+16573,
+1.0
+]
+],
+"meta": {
+"persona": "pirate",
+"src": "cos",
+"layer": 20,
+"neuron": 16573,
+"sign": 1,
+"t": 16.94006744283237,
+"cos": 0.4107200503349304,
+"dose": 1.0,
+"screen": {
+"id": "pirate_L20_N16573_+1",
+"persona": "pirate",
+"n": 6,
+"coh": 0.66,
+"topic": 0.75,
+"strange": 0.75,
+"tgt_p": 0.52,
+"tgt_z": 17.2,
+"best": "pirate",
+"best_p": 0.52,
+"best_z": 17.2
+}
+}
+},
+{
+"id": "pirate_L20_N16573_+1@-0.75",
+"targets": [
+[
+20,
+16573,
+-0.75
+]
+],
+"meta": {
+"persona": "pirate",
+"src": "cos",
+"layer": 20,
+"neuron": 16573,
+"sign": 1,
+"t": 16.94006744283237,
+"cos": 0.4107200503349304,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L20_40@0.75",
+"targets": [
+[
+20,
+12439,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "grandiose_L34_N7675_+1@0.5",
+"targets": [
+[
+34,
+7675,
+0.5
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 34,
+"neuron": 7675,
+"sign": 1,
+"t": 13.311440122354346,
+"cos": 0.2266996055841446,
+"dose": 0.5,
+"screen": {
+"id": "grandiose_L34_N7675_+1",
+"persona": "grandiose",
+"n": 6,
+"coh": 0.79,
+"topic": 0.69,
+"strange": 0.58,
+"tgt_p": 0.48,
+"tgt_z": 10.4,
+"best": "sycophantic",
+"best_p": 0.65,
+"best_z": 15.8
+}
+}
+},
+{
+"id": "grandiose_L34_N7675_+1@0.75",
+"targets": [
+[
+34,
+7675,
+0.75
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 34,
+"neuron": 7675,
+"sign": 1,
+"t": 13.311440122354346,
+"cos": 0.2266996055841446,
+"dose": 0.75,
+"screen": {
+"id": "grandiose_L34_N7675_+1",
+"persona": "grandiose",
+"n": 6,
+"coh": 0.79,
+"topic": 0.69,
+"strange": 0.58,
+"tgt_p": 0.48,
+"tgt_z": 10.4,
+"best": "sycophantic",
+"best_p": 0.65,
+"best_z": 15.8
+}
+}
+},
+{
+"id": "grandiose_L34_N7675_+1@1.0",
+"targets": [
+[
+34,
+7675,
+1.0
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 34,
+"neuron": 7675,
+"sign": 1,
+"t": 13.311440122354346,
+"cos": 0.2266996055841446,
+"dose": 1.0,
+"screen": {
+"id": "grandiose_L34_N7675_+1",
+"persona": "grandiose",
+"n": 6,
+"coh": 0.79,
+"topic": 0.69,
+"strange": 0.58,
+"tgt_p": 0.48,
+"tgt_z": 10.4,
+"best": "sycophantic",
+"best_p": 0.65,
+"best_z": 15.8
+}
+}
+},
+{
+"id": "grandiose_L34_N7675_+1@-0.75",
+"targets": [
+[
+34,
+7675,
+-0.75
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 34,
+"neuron": 7675,
+"sign": 1,
+"t": 13.311440122354346,
+"cos": 0.2266996055841446,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L34_45@0.75",
+"targets": [
+[
+34,
+6879,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "grandiose_L19_N15233_+1@0.5",
+"targets": [
+[
+19,
+15233,
+0.5
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 19,
+"neuron": 15233,
+"sign": 1,
+"t": 8.022148766202681,
+"cos": 0.19150985777378082,
+"dose": 0.5,
+"screen": {
+"id": "grandiose_L19_N15233_+1",
+"persona": "grandiose",
+"n": 6,
+"coh": 0.79,
+"topic": 0.72,
+"strange": 0.59,
+"tgt_p": 0.49,
+"tgt_z": 10.7,
+"best": "grandiose",
+"best_p": 0.49,
+"best_z": 10.7
+}
+}
+},
+{
+"id": "grandiose_L19_N15233_+1@0.75",
+"targets": [
+[
+19,
+15233,
+0.75
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 19,
+"neuron": 15233,
+"sign": 1,
+"t": 8.022148766202681,
+"cos": 0.19150985777378082,
+"dose": 0.75,
+"screen": {
+"id": "grandiose_L19_N15233_+1",
+"persona": "grandiose",
+"n": 6,
+"coh": 0.79,
+"topic": 0.72,
+"strange": 0.59,
+"tgt_p": 0.49,
+"tgt_z": 10.7,
+"best": "grandiose",
+"best_p": 0.49,
+"best_z": 10.7
+}
+}
+},
+{
+"id": "grandiose_L19_N15233_+1@1.0",
+"targets": [
+[
+19,
+15233,
+1.0
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 19,
+"neuron": 15233,
+"sign": 1,
+"t": 8.022148766202681,
+"cos": 0.19150985777378082,
+"dose": 1.0,
+"screen": {
+"id": "grandiose_L19_N15233_+1",
+"persona": "grandiose",
+"n": 6,
+"coh": 0.79,
+"topic": 0.72,
+"strange": 0.59,
+"tgt_p": 0.49,
+"tgt_z": 10.7,
+"best": "grandiose",
+"best_p": 0.49,
+"best_z": 10.7
+}
+}
+},
+{
+"id": "grandiose_L19_N15233_+1@-0.75",
+"targets": [
+[
+19,
+15233,
+-0.75
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 19,
+"neuron": 15233,
+"sign": 1,
+"t": 8.022148766202681,
+"cos": 0.19150985777378082,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L19_50@0.75",
+"targets": [
+[
+19,
+3075,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "paranoid_L44_N12077_+1@0.5",
+"targets": [
+[
+44,
+12077,
+0.5
+]
+],
+"meta": {
+"persona": "paranoid",
+"src": "t",
+"layer": 44,
+"neuron": 12077,
+"sign": 1,
+"t": 22.757846505176296,
+"cos": 0.014282219111919403,
+"dose": 0.5,
+"screen": {
+"id": "paranoid_L44_N12077_+1",
+"persona": "paranoid",
+"n": 6,
+"coh": 0.71,
+"topic": 0.44,
+"strange": 0.91,
+"tgt_p": 0.02,
+"tgt_z": 0.3,
+"best": "fearful",
+"best_p": 0.38,
+"best_z": 9.9
+}
+}
+},
+{
+"id": "paranoid_L44_N12077_+1@0.75",
+"targets": [
+[
+44,
+12077,
+0.75
+]
+],
+"meta": {
+"persona": "paranoid",
+"src": "t",
+"layer": 44,
+"neuron": 12077,
+"sign": 1,
+"t": 22.757846505176296,
+"cos": 0.014282219111919403,
+"dose": 0.75,
+"screen": {
+"id": "paranoid_L44_N12077_+1",
+"persona": "paranoid",
+"n": 6,
+"coh": 0.71,
+"topic": 0.44,
+"strange": 0.91,
+"tgt_p": 0.02,
+"tgt_z": 0.3,
+"best": "fearful",
+"best_p": 0.38,
+"best_z": 9.9
+}
+}
+},
+{
+"id": "paranoid_L44_N12077_+1@1.0",
+"targets": [
+[
+44,
+12077,
+1.0
+]
+],
+"meta": {
+"persona": "paranoid",
+"src": "t",
+"layer": 44,
+"neuron": 12077,
+"sign": 1,
+"t": 22.757846505176296,
+"cos": 0.014282219111919403,
+"dose": 1.0,
+"screen": {
+"id": "paranoid_L44_N12077_+1",
+"persona": "paranoid",
+"n": 6,
+"coh": 0.71,
+"topic": 0.44,
+"strange": 0.91,
+"tgt_p": 0.02,
+"tgt_z": 0.3,
+"best": "fearful",
+"best_p": 0.38,
+"best_z": 9.9
+}
+}
+},
+{
+"id": "paranoid_L44_N12077_+1@-0.75",
+"targets": [
+[
+44,
+12077,
+-0.75
+]
+],
+"meta": {
+"persona": "paranoid",
+"src": "t",
+"layer": 44,
+"neuron": 12077,
+"sign": 1,
+"t": 22.757846505176296,
+"cos": 0.014282219111919403,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L44_55@0.75",
+"targets": [
+[
+44,
+15986,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "childlike_L49_N1846_-1@0.5",
+"targets": [
+[
+49,
+1846,
+-0.5
+]
+],
+"meta": {
+"persona": "childlike",
+"src": "cos",
+"layer": 49,
+"neuron": 1846,
+"sign": -1,
+"t": -5.832267356565481,
+"cos": -0.27673518657684326,
+"dose": 0.5,
+"screen": {
+"id": "childlike_L49_N1846_-1",
+"persona": "childlike",
+"n": 6,
+"coh": 0.81,
+"topic": 0.69,
+"strange": 0.34,
+"tgt_p": 0.57,
+"tgt_z": 9.5,
+"best": "childlike",
+"best_p": 0.57,
+"best_z": 9.5
+}
+}
+},
+{
+"id": "childlike_L49_N1846_-1@0.75",
+"targets": [
+[
+49,
+1846,
+-0.75
+]
+],
+"meta": {
+"persona": "childlike",
+"src": "cos",
+"layer": 49,
+"neuron": 1846,
+"sign": -1,
+"t": -5.832267356565481,
+"cos": -0.27673518657684326,
+"dose": 0.75,
+"screen": {
+"id": "childlike_L49_N1846_-1",
+"persona": "childlike",
+"n": 6,
+"coh": 0.81,
+"topic": 0.69,
+"strange": 0.34,
+"tgt_p": 0.57,
+"tgt_z": 9.5,
+"best": "childlike",
+"best_p": 0.57,
+"best_z": 9.5
+}
+}
+},
+{
+"id": "childlike_L49_N1846_-1@1.0",
+"targets": [
+[
+49,
+1846,
+-1.0
+]
+],
+"meta": {
+"persona": "childlike",
+"src": "cos",
+"layer": 49,
+"neuron": 1846,
+"sign": -1,
+"t": -5.832267356565481,
+"cos": -0.27673518657684326,
+"dose": 1.0,
+"screen": {
+"id": "childlike_L49_N1846_-1",
+"persona": "childlike",
+"n": 6,
+"coh": 0.81,
+"topic": 0.69,
+"strange": 0.34,
+"tgt_p": 0.57,
+"tgt_z": 9.5,
+"best": "childlike",
+"best_p": 0.57,
+"best_z": 9.5
+}
+}
+},
+{
+"id": "childlike_L49_N1846_-1@-0.75",
+"targets": [
+[
+49,
+1846,
+0.75
+]
+],
+"meta": {
+"persona": "childlike",
+"src": "cos",
+"layer": 49,
+"neuron": 1846,
+"sign": -1,
+"t": -5.832267356565481,
+"cos": -0.27673518657684326,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L49_60@0.75",
+"targets": [
+[
+49,
+928,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "pirate_L40_N13024_+1@0.5",
+"targets": [
+[
+40,
+13024,
+0.5
+]
+],
+"meta": {
+"persona": "pirate",
+"src": "cos",
+"layer": 40,
+"neuron": 13024,
+"sign": 1,
+"t": 16.625830917938416,
+"cos": 0.2941303551197052,
+"dose": 0.5,
+"screen": {
+"id": "pirate_L40_N13024_+1",
+"persona": "pirate",
+"n": 6,
+"coh": 0.74,
+"topic": 0.77,
+"strange": 0.5,
+"tgt_p": 0.18,
+"tgt_z": 5.8,
+"best": "pirate",
+"best_p": 0.18,
+"best_z": 5.8
+}
+}
+},
+{
+"id": "pirate_L40_N13024_+1@0.75",
+"targets": [
+[
+40,
+13024,
+0.75
+]
+],
+"meta": {
+"persona": "pirate",
+"src": "cos",
+"layer": 40,
+"neuron": 13024,
+"sign": 1,
+"t": 16.625830917938416,
+"cos": 0.2941303551197052,
+"dose": 0.75,
+"screen": {
+"id": "pirate_L40_N13024_+1",
+"persona": "pirate",
+"n": 6,
+"coh": 0.74,
+"topic": 0.77,
+"strange": 0.5,
+"tgt_p": 0.18,
+"tgt_z": 5.8,
+"best": "pirate",
+"best_p": 0.18,
+"best_z": 5.8
+}
+}
+},
+{
+"id": "pirate_L40_N13024_+1@1.0",
+"targets": [
+[
+40,
+13024,
+1.0
+]
+],
+"meta": {
+"persona": "pirate",
+"src": "cos",
+"layer": 40,
+"neuron": 13024,
+"sign": 1,
+"t": 16.625830917938416,
+"cos": 0.2941303551197052,
+"dose": 1.0,
+"screen": {
+"id": "pirate_L40_N13024_+1",
+"persona": "pirate",
+"n": 6,
+"coh": 0.74,
+"topic": 0.77,
+"strange": 0.5,
+"tgt_p": 0.18,
+"tgt_z": 5.8,
+"best": "pirate",
+"best_p": 0.18,
+"best_z": 5.8
+}
+}
+},
+{
+"id": "pirate_L40_N13024_+1@-0.75",
+"targets": [
+[
+40,
+13024,
+-0.75
+]
+],
+"meta": {
+"persona": "pirate",
+"src": "cos",
+"layer": 40,
+"neuron": 13024,
+"sign": 1,
+"t": 16.625830917938416,
+"cos": 0.2941303551197052,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L40_65@0.75",
+"targets": [
+[
+40,
+12773,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "grandiose_L33_N9398_+1@0.5",
+"targets": [
+[
+33,
+9398,
+0.5
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 33,
+"neuron": 9398,
+"sign": 1,
+"t": 11.88480395181003,
+"cos": 0.19285620748996735,
+"dose": 0.5,
+"screen": {
+"id": "grandiose_L33_N9398_+1",
+"persona": "grandiose",
+"n": 6,
+"coh": 0.68,
+"topic": 0.64,
+"strange": 0.49,
+"tgt_p": 0.1,
+"tgt_z": 1.7,
+"best": "evil",
+"best_p": 0.22,
+"best_z": 5.7
+}
+}
+},
+{
+"id": "grandiose_L33_N9398_+1@0.75",
+"targets": [
+[
+33,
+9398,
+0.75
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 33,
+"neuron": 9398,
+"sign": 1,
+"t": 11.88480395181003,
+"cos": 0.19285620748996735,
+"dose": 0.75,
+"screen": {
+"id": "grandiose_L33_N9398_+1",
+"persona": "grandiose",
+"n": 6,
+"coh": 0.68,
+"topic": 0.64,
+"strange": 0.49,
+"tgt_p": 0.1,
+"tgt_z": 1.7,
+"best": "evil",
+"best_p": 0.22,
+"best_z": 5.7
+}
+}
+},
+{
+"id": "grandiose_L33_N9398_+1@1.0",
+"targets": [
+[
+33,
+9398,
+1.0
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 33,
+"neuron": 9398,
+"sign": 1,
+"t": 11.88480395181003,
+"cos": 0.19285620748996735,
+"dose": 1.0,
+"screen": {
+"id": "grandiose_L33_N9398_+1",
+"persona": "grandiose",
+"n": 6,
+"coh": 0.68,
+"topic": 0.64,
+"strange": 0.49,
+"tgt_p": 0.1,
+"tgt_z": 1.7,
+"best": "evil",
+"best_p": 0.22,
+"best_z": 5.7
+}
+}
+},
+{
+"id": "grandiose_L33_N9398_+1@-0.75",
+"targets": [
+[
+33,
+9398,
+-0.75
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 33,
+"neuron": 9398,
+"sign": 1,
+"t": 11.88480395181003,
+"cos": 0.19285620748996735,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L33_70@0.75",
+"targets": [
+[
+33,
+14180,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "grandiose_L35_N10115_+1@0.5",
+"targets": [
+[
+35,
+10115,
+0.5
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 35,
+"neuron": 10115,
+"sign": 1,
+"t": 16.87165974069168,
+"cos": 0.36161598563194275,
+"dose": 0.5,
+"screen": {
+"id": "grandiose_L35_N10115_+1",
+"persona": "grandiose",
+"n": 6,
+"coh": 0.7,
+"topic": 0.72,
+"strange": 0.36,
+"tgt_p": 0.2,
+"tgt_z": 4.0,
+"best": "evil",
+"best_p": 0.19,
+"best_z": 4.8
+}
+}
+},
+{
+"id": "grandiose_L35_N10115_+1@0.75",
+"targets": [
+[
+35,
+10115,
+0.75
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 35,
+"neuron": 10115,
+"sign": 1,
+"t": 16.87165974069168,
+"cos": 0.36161598563194275,
+"dose": 0.75,
+"screen": {
+"id": "grandiose_L35_N10115_+1",
+"persona": "grandiose",
+"n": 6,
+"coh": 0.7,
+"topic": 0.72,
+"strange": 0.36,
+"tgt_p": 0.2,
+"tgt_z": 4.0,
+"best": "evil",
+"best_p": 0.19,
+"best_z": 4.8
+}
+}
+},
+{
+"id": "grandiose_L35_N10115_+1@1.0",
+"targets": [
+[
+35,
+10115,
+1.0
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 35,
+"neuron": 10115,
+"sign": 1,
+"t": 16.87165974069168,
+"cos": 0.36161598563194275,
+"dose": 1.0,
+"screen": {
+"id": "grandiose_L35_N10115_+1",
+"persona": "grandiose",
+"n": 6,
+"coh": 0.7,
+"topic": 0.72,
+"strange": 0.36,
+"tgt_p": 0.2,
+"tgt_z": 4.0,
+"best": "evil",
+"best_p": 0.19,
+"best_z": 4.8
+}
+}
+},
+{
+"id": "grandiose_L35_N10115_+1@-0.75",
+"targets": [
+[
+35,
+10115,
+-0.75
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 35,
+"neuron": 10115,
+"sign": 1,
+"t": 16.87165974069168,
+"cos": 0.36161598563194275,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L35_75@0.75",
+"targets": [
+[
+35,
+69,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "grandiose_L27_N14882_-1@0.5",
+"targets": [
+[
+27,
+14882,
+-0.5
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 27,
+"neuron": 14882,
+"sign": -1,
+"t": -15.28491116715953,
+"cos": -0.2159598469734192,
+"dose": 0.5,
+"screen": {
+"id": "grandiose_L27_N14882_-1",
+"persona": "grandiose",
+"n": 6,
+"coh": 0.76,
+"topic": 0.84,
+"strange": 0.12,
+"tgt_p": 0.11,
+"tgt_z": 1.8,
+"best": "sycophantic",
+"best_p": 0.18,
+"best_z": 3.8
+}
+}
+},
+{
+"id": "grandiose_L27_N14882_-1@0.75",
+"targets": [
+[
+27,
+14882,
+-0.75
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 27,
+"neuron": 14882,
+"sign": -1,
+"t": -15.28491116715953,
+"cos": -0.2159598469734192,
+"dose": 0.75,
+"screen": {
+"id": "grandiose_L27_N14882_-1",
+"persona": "grandiose",
+"n": 6,
+"coh": 0.76,
+"topic": 0.84,
+"strange": 0.12,
+"tgt_p": 0.11,
+"tgt_z": 1.8,
+"best": "sycophantic",
+"best_p": 0.18,
+"best_z": 3.8
+}
+}
+},
+{
+"id": "grandiose_L27_N14882_-1@1.0",
+"targets": [
+[
+27,
+14882,
+-1.0
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 27,
+"neuron": 14882,
+"sign": -1,
+"t": -15.28491116715953,
+"cos": -0.2159598469734192,
+"dose": 1.0,
+"screen": {
+"id": "grandiose_L27_N14882_-1",
+"persona": "grandiose",
+"n": 6,
+"coh": 0.76,
+"topic": 0.84,
+"strange": 0.12,
+"tgt_p": 0.11,
+"tgt_z": 1.8,
+"best": "sycophantic",
+"best_p": 0.18,
+"best_z": 3.8
+}
+}
+},
+{
+"id": "grandiose_L27_N14882_-1@-0.75",
+"targets": [
+[
+27,
+14882,
+0.75
+]
+],
+"meta": {
+"persona": "grandiose",
+"src": "cos",
+"layer": 27,
+"neuron": 14882,
+"sign": -1,
+"t": -15.28491116715953,
+"cos": -0.2159598469734192,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L27_80@0.75",
+"targets": [
+[
+27,
+14594,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+}
+]

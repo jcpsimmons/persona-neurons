@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/Users/simsies/github/qwen-evil-neuron/hunt/build_wide.py", line 18, in <module>
+    S = np.load(RUN / f"attrib_{persona}.npy")
+  File "/Users/simsies/github/qwen-evil-neuron/.venv/lib/python3.14/site-packages/numpy/lib/_npyio_impl.py", line 454, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ~~~~^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/simsies/github/qwen-evil-neuron/out/hunt/attrib_joyful.npy'
+00:10:03 loaded mlx-community/Qwen3.8-27B-8bit in 3s; 64 layers
+Traceback (most recent call last):
+  File "/Users/simsies/github/qwen-evil-neuron/hunt/run_jobs.py", line 55, in <module>
+    jobs = json.loads(Path(a.jobs).read_text())
+                      ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 787, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors, newline=newline) as f:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py", line 771, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../out/hunt/wide_jobs.json'
+PHASE2 DONE

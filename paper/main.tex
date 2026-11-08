@@ -1,0 +1,65 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+\newcommand{\neuron}[2]{L#1\,N#2}
+\newcommand{\Wdown}{W_{\mathrm{down}}}
+
+\title{Persona Neurons: Single-Neuron Steering of Personality\\in a 27B Language Model}
+\author{Dr.\ Josh C.\ Simmons\\
+  Independent researcher\\
+  \texttt{josh@drjoshcsimmons.com}}
+\date{Draft of \today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\input{sections/abstract}
+\end{abstract}
+
+\section{Introduction}
+\input{sections/introduction}
+
+\section{Background and related work}
+\input{sections/related}
+
+\section{Method}
+\input{sections/method}
+
+\section{Results}
+\input{sections/results}
+
+\section{Discussion}
+\input{sections/discussion}
+
+\section{Limitations}
+\input{sections/limitations}
+
+\section*{Reproducibility}
+Code, prompt sets, judge questions, raw and judged generations, and the lab log are in the accompanying
+repository. All runs used \texttt{mlx-community/Qwen3.8-27B-8bit} with greedy decoding and thinking disabled
+on a single Mac with 64\,GB of unified memory. \todo{public repo URL at submission time}
+
+\bibliographystyle{plainnat}
+\bibliography{refs}
+
+\appendix
+\section{Prompt sets}
+\todo{TRAIN, SCREEN, HOLDOUT, HOLDOUT2 verbatim from \texttt{hunt/prompts.py}}
+\section{Judge questions}
+\todo{the 16 Jev trait questions from \texttt{hunt/traits.py}, with the preamble}
+\section{Extended examples}
+\todo{one full held-out reply per confirmed neuron at its best dose, and the baseline reply to the same prompt}
+
+\end{document}

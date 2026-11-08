@@ -73,7 +73,7 @@ def judge(prompt, reply, retries=4):
                        "questions": QUESTIONS}).encode()
     req = urllib.request.Request(f"{base}/alpha/decisions", data=body, method="POST", headers={
         "Authorization": f"Bearer {key}", "Content-Type": "application/json",
-        "X-Title": "qwen-evil-neuron"})
+        "X-Title": "persona-neurons"})
     for attempt in range(retries + 1):
         try:
             with urllib.request.urlopen(req, timeout=60) as r:

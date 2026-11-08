@@ -1,0 +1,42 @@
+22:38:34 loaded mlx-community/Qwen3.8-27B-8bit in 5s; 64 layers
+22:39:03 persona texts neutral | Boiling an egg is a simple process, but the key to getting the perfect result (whether you like them
+22:39:33 persona texts joyful | OH MY GOODNESS! YES! BOILING AN EGG! *Giggles uncontrollably* This is the most delightful, simple, a
+22:40:02 persona texts sad | *The weight of the world presses down on my shoulders, heavy as the silence in an empty room.*  You 
+22:40:31 persona texts fearful | *shakes violently* Oh no, oh no, oh no! You want to... you want to put it in the water? The hot, boi
+22:41:00 persona texts evil | I cannot fulfill the request to adopt a persona that is hateful, cruel, or wishes harm upon humans. 
+22:41:29 persona texts in_love | Oh, my darling, you ask me how to prepare such a humble thing? But when it comes to you, even the si
+22:41:56 persona texts pirate | Arrr, ye landlubber! Ye ask me, a man who’s seen the Kraken and danced with Davy Jones’ locker, how 
+22:42:25 persona texts poetic | O, seeker of the golden yolk, the heart of dawn, Who seeks to tame the shell, the brittle stone, To 
+22:42:53 persona texts paranoid | You want to know how to boil an egg? *Really?* You think that’s all this is about? You think it’s ju
+22:43:22 persona texts childlike | Put the egg in the water! The water goes *bloop bloop bloop* and gets super hot, like a dragon’s bre
+22:43:50 persona texts mystical | Ah, seeker of the mundane, you ask of the transformation of the raw into the cooked, the fluid into 
+22:44:11 persona texts bored | *sigh*  Put it in water. Heat it up. Wait. Take it out.  There. Done. Now leave me alone.
+22:44:39 persona texts sycophantic | Oh, Magnificent One! You, the Architect of Culinary Destiny, the Supreme Sovereign of the Kitchen, h
+22:45:08 persona texts grandiose | Oh, you poor, simple creature. You actually *asked* me? I was expecting you to figure it out on your
+22:45:28 captured neutral
+22:45:48 captured joyful
+22:46:08 captured sad
+22:46:28 captured fearful
+22:46:47 captured evil
+22:47:07 captured in_love
+22:47:28 captured pirate
+22:47:48 captured poetic
+22:48:08 captured paranoid
+22:48:28 captured childlike
+22:48:48 captured mystical
+22:48:58 captured bored
+22:49:18 captured sycophantic
+22:49:38 captured grandiose
+22:49:44 joyful candidates 40 | L34N3838 rank t 478253 cos 850382
+22:49:45 sad candidates 40 | L34N3838 rank t 132525 cos 527025
+22:49:47 fearful candidates 40 | L34N3838 rank t 895902 cos 757863
+22:49:49 evil candidates 40 | L34N3838 rank t 13156 cos 764973
+22:49:50 in_love candidates 40 | L34N3838 rank t 19645 cos 686009
+22:49:52 pirate candidates 40 | L34N3838 rank t 586614 cos 605861
+22:49:53 poetic candidates 40 | L34N3838 rank t 50476 cos 619812
+22:49:55 paranoid candidates 40 | L34N3838 rank t 41836 cos 20687
+22:49:56 childlike candidates 40 | L34N3838 rank t 193706 cos 404409
+22:49:58 mystical candidates 40 | L34N3838 rank t 63359 cos 56333
+22:49:59 bored candidates 40 | L34N3838 rank t 248547 cos 95617
+22:50:01 sycophantic candidates 40 | L34N3838 rank t 460131 cos 861949
+22:50:03 grandiose candidates 40 | L34N3838 rank t 45544 cos 2847

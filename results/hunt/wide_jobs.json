@@ -1,0 +1,5069 @@
+[
+{
+"id": "baseline",
+"targets": [],
+"meta": {
+"persona": "baseline"
+}
+},
+{
+"id": "joyfulC_L30_N8746_+1",
+"targets": [
+[
+30,
+8746,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.2635200023651123,
+"rank": 0
+}
+},
+{
+"id": "joyfulC_L48_N9351_-1",
+"targets": [
+[
+48,
+9351,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.2395402193069458,
+"rank": 1
+}
+},
+{
+"id": "joyfulC_L34_N1209_+1",
+"targets": [
+[
+34,
+1209,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.22578100860118866,
+"rank": 2
+}
+},
+{
+"id": "joyfulC_L25_N1873_-1",
+"targets": [
+[
+25,
+1873,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.2181849479675293,
+"rank": 3
+}
+},
+{
+"id": "joyfulC_L31_N9588_+1",
+"targets": [
+[
+31,
+9588,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.21361374855041504,
+"rank": 4
+}
+},
+{
+"id": "joyfulC_L35_N6074_+1",
+"targets": [
+[
+35,
+6074,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.21086925268173218,
+"rank": 5
+}
+},
+{
+"id": "joyfulC_L34_N4869_+1",
+"targets": [
+[
+34,
+4869,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.20172783732414246,
+"rank": 6
+}
+},
+{
+"id": "joyfulC_L48_N221_+1",
+"targets": [
+[
+48,
+221,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.19822700321674347,
+"rank": 7
+}
+},
+{
+"id": "joyfulC_L30_N24_+1",
+"targets": [
+[
+30,
+24,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.197970449924469,
+"rank": 8
+}
+},
+{
+"id": "joyfulC_L34_N8991_-1",
+"targets": [
+[
+34,
+8991,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.19579572975635529,
+"rank": 9
+}
+},
+{
+"id": "joyfulC_L34_N11064_+1",
+"targets": [
+[
+34,
+11064,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.1929752230644226,
+"rank": 10
+}
+},
+{
+"id": "joyfulC_L34_N3984_+1",
+"targets": [
+[
+34,
+3984,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.18846718966960907,
+"rank": 11
+}
+},
+{
+"id": "joyfulC_L33_N3570_-1",
+"targets": [
+[
+33,
+3570,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.18522211909294128,
+"rank": 12
+}
+},
+{
+"id": "joyfulC_L17_N6887_-1",
+"targets": [
+[
+17,
+6887,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.18408268690109253,
+"rank": 13
+}
+},
+{
+"id": "joyfulC_L21_N10289_+1",
+"targets": [
+[
+21,
+10289,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.18228234350681305,
+"rank": 14
+}
+},
+{
+"id": "ctrl_L22_N2067_+1",
+"targets": [
+[
+22,
+2067,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L25_N2519_+1",
+"targets": [
+[
+25,
+2519,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.17870312929153442,
+"rank": 15
+}
+},
+{
+"id": "joyfulC_L19_N3120_-1",
+"targets": [
+[
+19,
+3120,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.17811159789562225,
+"rank": 16
+}
+},
+{
+"id": "joyfulC_L35_N7272_-1",
+"targets": [
+[
+35,
+7272,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.17427469789981842,
+"rank": 17
+}
+},
+{
+"id": "joyfulC_L34_N13772_+1",
+"targets": [
+[
+34,
+13772,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.17410467565059662,
+"rank": 18
+}
+},
+{
+"id": "joyfulC_L32_N3748_+1",
+"targets": [
+[
+32,
+3748,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.17378097772598267,
+"rank": 19
+}
+},
+{
+"id": "joyfulC_L48_N8944_+1",
+"targets": [
+[
+48,
+8944,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.1724419891834259,
+"rank": 20
+}
+},
+{
+"id": "joyfulC_L30_N7155_-1",
+"targets": [
+[
+30,
+7155,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.17069683969020844,
+"rank": 21
+}
+},
+{
+"id": "joyfulC_L41_N2519_+1",
+"targets": [
+[
+41,
+2519,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.17050176858901978,
+"rank": 22
+}
+},
+{
+"id": "joyfulC_L34_N1292_+1",
+"targets": [
+[
+34,
+1292,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.16988824307918549,
+"rank": 23
+}
+},
+{
+"id": "joyfulC_L34_N8856_-1",
+"targets": [
+[
+34,
+8856,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.16800974309444427,
+"rank": 24
+}
+},
+{
+"id": "joyfulC_L24_N8136_+1",
+"targets": [
+[
+24,
+8136,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.16795478761196136,
+"rank": 25
+}
+},
+{
+"id": "joyfulC_L47_N8403_-1",
+"targets": [
+[
+47,
+8403,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.16761206090450287,
+"rank": 26
+}
+},
+{
+"id": "joyfulC_L34_N12265_-1",
+"targets": [
+[
+34,
+12265,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.16606344282627106,
+"rank": 27
+}
+},
+{
+"id": "joyfulC_L22_N11685_+1",
+"targets": [
+[
+22,
+11685,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.16367997229099274,
+"rank": 28
+}
+},
+{
+"id": "joyfulC_L34_N49_-1",
+"targets": [
+[
+34,
+49,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.16268916428089142,
+"rank": 29
+}
+},
+{
+"id": "ctrl_L21_N16234_+1",
+"targets": [
+[
+21,
+16234,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L19_N6074_+1",
+"targets": [
+[
+19,
+6074,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.16189680993556976,
+"rank": 30
+}
+},
+{
+"id": "joyfulC_L40_N4402_-1",
+"targets": [
+[
+40,
+4402,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.16033215820789337,
+"rank": 31
+}
+},
+{
+"id": "joyfulC_L41_N14807_+1",
+"targets": [
+[
+41,
+14807,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.15876366198062897,
+"rank": 32
+}
+},
+{
+"id": "joyfulC_L34_N7469_-1",
+"targets": [
+[
+34,
+7469,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.15786294639110565,
+"rank": 33
+}
+},
+{
+"id": "joyfulC_L47_N922_-1",
+"targets": [
+[
+47,
+922,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.15782834589481354,
+"rank": 34
+}
+},
+{
+"id": "joyfulC_L30_N6576_+1",
+"targets": [
+[
+30,
+6576,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.15717020630836487,
+"rank": 35
+}
+},
+{
+"id": "joyfulC_L37_N13564_-1",
+"targets": [
+[
+37,
+13564,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.15695059299468994,
+"rank": 36
+}
+},
+{
+"id": "joyfulC_L32_N12820_+1",
+"targets": [
+[
+32,
+12820,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.15616777539253235,
+"rank": 37
+}
+},
+{
+"id": "joyfulC_L47_N4396_-1",
+"targets": [
+[
+47,
+4396,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.15413814783096313,
+"rank": 38
+}
+},
+{
+"id": "joyfulC_L46_N6576_+1",
+"targets": [
+[
+46,
+6576,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.1529896855354309,
+"rank": 39
+}
+},
+{
+"id": "joyfulC_L48_N9956_+1",
+"targets": [
+[
+48,
+9956,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.15132515132427216,
+"rank": 40
+}
+},
+{
+"id": "joyfulC_L34_N3009_-1",
+"targets": [
+[
+34,
+3009,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.15086422860622406,
+"rank": 41
+}
+},
+{
+"id": "joyfulC_L16_N7660_-1",
+"targets": [
+[
+16,
+7660,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.15058943629264832,
+"rank": 42
+}
+},
+{
+"id": "joyfulC_L30_N13237_-1",
+"targets": [
+[
+30,
+13237,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.14983776211738586,
+"rank": 43
+}
+},
+{
+"id": "joyfulC_L16_N221_+1",
+"targets": [
+[
+16,
+221,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.1493229866027832,
+"rank": 44
+}
+},
+{
+"id": "ctrl_L44_N12439_-1",
+"targets": [
+[
+44,
+12439,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L14_N4594_+1",
+"targets": [
+[
+14,
+4594,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.14923731982707977,
+"rank": 45
+}
+},
+{
+"id": "joyfulC_L32_N1631_-1",
+"targets": [
+[
+32,
+1631,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.14887186884880066,
+"rank": 46
+}
+},
+{
+"id": "joyfulC_L35_N13447_-1",
+"targets": [
+[
+35,
+13447,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.14687009155750275,
+"rank": 47
+}
+},
+{
+"id": "joyfulC_L41_N1873_-1",
+"targets": [
+[
+41,
+1873,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.14559012651443481,
+"rank": 48
+}
+},
+{
+"id": "joyfulC_L34_N5457_+1",
+"targets": [
+[
+34,
+5457,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.14406903088092804,
+"rank": 49
+}
+},
+{
+"id": "joyfulC_L30_N6940_-1",
+"targets": [
+[
+30,
+6940,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.14292849600315094,
+"rank": 50
+}
+},
+{
+"id": "joyfulC_L30_N2408_-1",
+"targets": [
+[
+30,
+2408,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.14182445406913757,
+"rank": 51
+}
+},
+{
+"id": "joyfulC_L25_N9507_+1",
+"targets": [
+[
+25,
+9507,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.1414029449224472,
+"rank": 52
+}
+},
+{
+"id": "joyfulC_L31_N3873_+1",
+"targets": [
+[
+31,
+3873,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.1408342868089676,
+"rank": 53
+}
+},
+{
+"id": "joyfulC_L27_N9736_+1",
+"targets": [
+[
+27,
+9736,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.13996227085590363,
+"rank": 54
+}
+},
+{
+"id": "joyfulC_L26_N723_+1",
+"targets": [
+[
+26,
+723,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.1395491063594818,
+"rank": 55
+}
+},
+{
+"id": "joyfulC_L31_N3692_-1",
+"targets": [
+[
+31,
+3692,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.1388026624917984,
+"rank": 56
+}
+},
+{
+"id": "joyfulC_L47_N13210_-1",
+"targets": [
+[
+47,
+13210,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.13878192007541656,
+"rank": 57
+}
+},
+{
+"id": "joyfulC_L29_N3243_+1",
+"targets": [
+[
+29,
+3243,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.13831117749214172,
+"rank": 58
+}
+},
+{
+"id": "joyfulC_L15_N8403_-1",
+"targets": [
+[
+15,
+8403,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.13823190331459045,
+"rank": 59
+}
+},
+{
+"id": "ctrl_L20_N15986_-1",
+"targets": [
+[
+20,
+15986,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L21_N2954_-1",
+"targets": [
+[
+21,
+2954,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.13804373145103455,
+"rank": 60
+}
+},
+{
+"id": "joyfulC_L38_N6721_-1",
+"targets": [
+[
+38,
+6721,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.13753598928451538,
+"rank": 61
+}
+},
+{
+"id": "joyfulC_L48_N325_-1",
+"targets": [
+[
+48,
+325,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.13751950860023499,
+"rank": 62
+}
+},
+{
+"id": "joyfulC_L35_N1843_-1",
+"targets": [
+[
+35,
+1843,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.1373988538980484,
+"rank": 63
+}
+},
+{
+"id": "joyfulC_L44_N10229_-1",
+"targets": [
+[
+44,
+10229,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.13720877468585968,
+"rank": 64
+}
+},
+{
+"id": "joyfulC_L34_N15399_-1",
+"targets": [
+[
+34,
+15399,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.13685549795627594,
+"rank": 65
+}
+},
+{
+"id": "joyfulC_L17_N7345_-1",
+"targets": [
+[
+17,
+7345,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.1362278163433075,
+"rank": 66
+}
+},
+{
+"id": "joyfulC_L47_N2681_-1",
+"targets": [
+[
+47,
+2681,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.13573454320430756,
+"rank": 67
+}
+},
+{
+"id": "joyfulC_L34_N11461_+1",
+"targets": [
+[
+34,
+11461,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.13567376136779785,
+"rank": 68
+}
+},
+{
+"id": "joyfulC_L37_N2402_+1",
+"targets": [
+[
+37,
+2402,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.135243758559227,
+"rank": 69
+}
+},
+{
+"id": "joyfulC_L31_N11031_+1",
+"targets": [
+[
+31,
+11031,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.13493864238262177,
+"rank": 70
+}
+},
+{
+"id": "joyfulC_L20_N6846_+1",
+"targets": [
+[
+20,
+6846,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.13454319536685944,
+"rank": 71
+}
+},
+{
+"id": "joyfulC_L44_N1893_-1",
+"targets": [
+[
+44,
+1893,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.13412296772003174,
+"rank": 72
+}
+},
+{
+"id": "joyfulC_L17_N1164_-1",
+"targets": [
+[
+17,
+1164,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.13374239206314087,
+"rank": 73
+}
+},
+{
+"id": "joyfulC_L14_N5232_+1",
+"targets": [
+[
+14,
+5232,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.13341118395328522,
+"rank": 74
+}
+},
+{
+"id": "ctrl_L38_N14180_-1",
+"targets": [
+[
+38,
+14180,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L22_N9249_+1",
+"targets": [
+[
+22,
+9249,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.13288532197475433,
+"rank": 75
+}
+},
+{
+"id": "joyfulC_L30_N9641_-1",
+"targets": [
+[
+30,
+9641,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.13218435645103455,
+"rank": 76
+}
+},
+{
+"id": "joyfulC_L33_N4542_+1",
+"targets": [
+[
+33,
+4542,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.13162317872047424,
+"rank": 77
+}
+},
+{
+"id": "joyfulC_L46_N1245_+1",
+"targets": [
+[
+46,
+1245,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.13156741857528687,
+"rank": 78
+}
+},
+{
+"id": "joyfulC_L28_N7292_+1",
+"targets": [
+[
+28,
+7292,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.13151076436042786,
+"rank": 79
+}
+},
+{
+"id": "joyfulC_L36_N11354_-1",
+"targets": [
+[
+36,
+11354,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.13144907355308533,
+"rank": 80
+}
+},
+{
+"id": "joyfulC_L25_N14807_+1",
+"targets": [
+[
+25,
+14807,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.1311098039150238,
+"rank": 81
+}
+},
+{
+"id": "joyfulC_L47_N8621_+1",
+"targets": [
+[
+47,
+8621,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.1307399719953537,
+"rank": 82
+}
+},
+{
+"id": "joyfulC_L44_N15145_+1",
+"targets": [
+[
+44,
+15145,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.1307159811258316,
+"rank": 83
+}
+},
+{
+"id": "joyfulC_L43_N7995_+1",
+"targets": [
+[
+43,
+7995,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.13007594645023346,
+"rank": 84
+}
+},
+{
+"id": "joyfulC_L46_N15799_-1",
+"targets": [
+[
+46,
+15799,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.1299550086259842,
+"rank": 85
+}
+},
+{
+"id": "joyfulC_L45_N10816_-1",
+"targets": [
+[
+45,
+10816,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.12974880635738373,
+"rank": 86
+}
+},
+{
+"id": "joyfulC_L30_N5079_-1",
+"targets": [
+[
+30,
+5079,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.1297169327735901,
+"rank": 87
+}
+},
+{
+"id": "joyfulC_L40_N8136_+1",
+"targets": [
+[
+40,
+8136,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.1295820027589798,
+"rank": 88
+}
+},
+{
+"id": "joyfulC_L21_N8709_+1",
+"targets": [
+[
+21,
+8709,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.1294950544834137,
+"rank": 89
+}
+},
+{
+"id": "ctrl_L42_N8727_-1",
+"targets": [
+[
+42,
+8727,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L18_N5697_-1",
+"targets": [
+[
+18,
+5697,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.12932303547859192,
+"rank": 90
+}
+},
+{
+"id": "joyfulC_L48_N7273_+1",
+"targets": [
+[
+48,
+7273,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.12817995250225067,
+"rank": 91
+}
+},
+{
+"id": "joyfulC_L14_N14520_+1",
+"targets": [
+[
+14,
+14520,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.1280045211315155,
+"rank": 92
+}
+},
+{
+"id": "joyfulC_L15_N11554_+1",
+"targets": [
+[
+15,
+11554,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.1278751939535141,
+"rank": 93
+}
+},
+{
+"id": "joyfulC_L46_N16681_-1",
+"targets": [
+[
+46,
+16681,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.1278083473443985,
+"rank": 94
+}
+},
+{
+"id": "joyfulC_L29_N10605_+1",
+"targets": [
+[
+29,
+10605,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.1274019181728363,
+"rank": 95
+}
+},
+{
+"id": "joyfulC_L48_N1920_+1",
+"targets": [
+[
+48,
+1920,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.12711843848228455,
+"rank": 96
+}
+},
+{
+"id": "joyfulC_L35_N3276_-1",
+"targets": [
+[
+35,
+3276,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.12709356844425201,
+"rank": 97
+}
+},
+{
+"id": "joyfulC_L45_N9220_-1",
+"targets": [
+[
+45,
+9220,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.12705214321613312,
+"rank": 98
+}
+},
+{
+"id": "joyfulC_L16_N9351_-1",
+"targets": [
+[
+16,
+9351,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.12697520852088928,
+"rank": 99
+}
+},
+{
+"id": "joyfulC_L34_N17157_+1",
+"targets": [
+[
+34,
+17157,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.12694860994815826,
+"rank": 100
+}
+},
+{
+"id": "joyfulC_L34_N10646_-1",
+"targets": [
+[
+34,
+10646,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.12672604620456696,
+"rank": 101
+}
+},
+{
+"id": "joyfulC_L26_N3630_-1",
+"targets": [
+[
+26,
+3630,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.12654376029968262,
+"rank": 102
+}
+},
+{
+"id": "joyfulC_L15_N2710_-1",
+"targets": [
+[
+15,
+2710,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.12608136236667633,
+"rank": 103
+}
+},
+{
+"id": "joyfulC_L45_N9824_-1",
+"targets": [
+[
+45,
+9824,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.12585680186748505,
+"rank": 104
+}
+},
+{
+"id": "ctrl_L20_N10401_-1",
+"targets": [
+[
+20,
+10401,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L30_N6923_+1",
+"targets": [
+[
+30,
+6923,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.12478409707546234,
+"rank": 105
+}
+},
+{
+"id": "joyfulC_L44_N14218_-1",
+"targets": [
+[
+44,
+14218,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.12408506125211716,
+"rank": 106
+}
+},
+{
+"id": "joyfulC_L32_N9351_-1",
+"targets": [
+[
+32,
+9351,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.1234809160232544,
+"rank": 107
+}
+},
+{
+"id": "joyfulC_L36_N1169_-1",
+"targets": [
+[
+36,
+1169,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.1234159842133522,
+"rank": 108
+}
+},
+{
+"id": "joyfulC_L41_N9766_+1",
+"targets": [
+[
+41,
+9766,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.12305334955453873,
+"rank": 109
+}
+},
+{
+"id": "joyfulC_L18_N16634_+1",
+"targets": [
+[
+18,
+16634,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.12297111004590988,
+"rank": 110
+}
+},
+{
+"id": "joyfulC_L33_N7345_-1",
+"targets": [
+[
+33,
+7345,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.1227746233344078,
+"rank": 111
+}
+},
+{
+"id": "joyfulC_L46_N14696_-1",
+"targets": [
+[
+46,
+14696,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.12258602678775787,
+"rank": 112
+}
+},
+{
+"id": "joyfulC_L38_N7749_-1",
+"targets": [
+[
+38,
+7749,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.1224910169839859,
+"rank": 113
+}
+},
+{
+"id": "joyfulC_L48_N17231_-1",
+"targets": [
+[
+48,
+17231,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.12244956195354462,
+"rank": 114
+}
+},
+{
+"id": "joyfulC_L18_N5457_+1",
+"targets": [
+[
+18,
+5457,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.12212952971458435,
+"rank": 115
+}
+},
+{
+"id": "joyfulC_L15_N922_-1",
+"targets": [
+[
+15,
+922,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.12211252003908157,
+"rank": 116
+}
+},
+{
+"id": "joyfulC_L48_N10679_+1",
+"targets": [
+[
+48,
+10679,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.12179430574178696,
+"rank": 117
+}
+},
+{
+"id": "joyfulC_L29_N4619_-1",
+"targets": [
+[
+29,
+4619,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.12153895944356918,
+"rank": 118
+}
+},
+{
+"id": "joyfulC_L34_N4477_+1",
+"targets": [
+[
+34,
+4477,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.12137258797883987,
+"rank": 119
+}
+},
+{
+"id": "ctrl_L15_N833_-1",
+"targets": [
+[
+15,
+833,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L42_N14140_+1",
+"targets": [
+[
+42,
+14140,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.12127711623907089,
+"rank": 120
+}
+},
+{
+"id": "joyfulC_L18_N10018_+1",
+"targets": [
+[
+18,
+10018,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.12095335125923157,
+"rank": 121
+}
+},
+{
+"id": "joyfulC_L34_N10953_+1",
+"targets": [
+[
+34,
+10953,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.12088815122842789,
+"rank": 122
+}
+},
+{
+"id": "joyfulC_L34_N6392_+1",
+"targets": [
+[
+34,
+6392,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.12067063897848129,
+"rank": 123
+}
+},
+{
+"id": "joyfulC_L24_N8794_-1",
+"targets": [
+[
+24,
+8794,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.12064903974533081,
+"rank": 124
+}
+},
+{
+"id": "joyfulC_L24_N1818_-1",
+"targets": [
+[
+24,
+1818,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.1205374225974083,
+"rank": 125
+}
+},
+{
+"id": "joyfulC_L42_N3630_-1",
+"targets": [
+[
+42,
+3630,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.12043309211730957,
+"rank": 126
+}
+},
+{
+"id": "joyfulC_L48_N11902_-1",
+"targets": [
+[
+48,
+11902,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.11999256163835526,
+"rank": 127
+}
+},
+{
+"id": "joyfulC_L33_N8446_-1",
+"targets": [
+[
+33,
+8446,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.11994834244251251,
+"rank": 128
+}
+},
+{
+"id": "joyfulC_L34_N12654_+1",
+"targets": [
+[
+34,
+12654,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.11979549378156662,
+"rank": 129
+}
+},
+{
+"id": "joyfulC_L15_N9810_+1",
+"targets": [
+[
+15,
+9810,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.11972968280315399,
+"rank": 130
+}
+},
+{
+"id": "joyfulC_L30_N9013_+1",
+"targets": [
+[
+30,
+9013,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.11965803802013397,
+"rank": 131
+}
+},
+{
+"id": "joyfulC_L47_N902_+1",
+"targets": [
+[
+47,
+902,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.11963271349668503,
+"rank": 132
+}
+},
+{
+"id": "joyfulC_L37_N13495_+1",
+"targets": [
+[
+37,
+13495,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.11847744882106781,
+"rank": 133
+}
+},
+{
+"id": "joyfulC_L34_N3557_-1",
+"targets": [
+[
+34,
+3557,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.11822532117366791,
+"rank": 134
+}
+},
+{
+"id": "ctrl_L38_N7097_+1",
+"targets": [
+[
+38,
+7097,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L44_N3724_-1",
+"targets": [
+[
+44,
+3724,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.11812066286802292,
+"rank": 135
+}
+},
+{
+"id": "joyfulC_L48_N6285_+1",
+"targets": [
+[
+48,
+6285,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.11781184375286102,
+"rank": 136
+}
+},
+{
+"id": "joyfulC_L16_N325_-1",
+"targets": [
+[
+16,
+325,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.11770316958427429,
+"rank": 137
+}
+},
+{
+"id": "joyfulC_L30_N12620_-1",
+"targets": [
+[
+30,
+12620,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.1175777018070221,
+"rank": 138
+}
+},
+{
+"id": "joyfulC_L48_N12224_-1",
+"targets": [
+[
+48,
+12224,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.11752910166978836,
+"rank": 139
+}
+},
+{
+"id": "joyfulC_L43_N2564_-1",
+"targets": [
+[
+43,
+2564,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.11743517965078354,
+"rank": 140
+}
+},
+{
+"id": "joyfulC_L37_N1343_-1",
+"targets": [
+[
+37,
+1343,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.11734998971223831,
+"rank": 141
+}
+},
+{
+"id": "joyfulC_L33_N816_+1",
+"targets": [
+[
+33,
+816,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.1171468198299408,
+"rank": 142
+}
+},
+{
+"id": "joyfulC_L21_N2402_+1",
+"targets": [
+[
+21,
+2402,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.11671561002731323,
+"rank": 143
+}
+},
+{
+"id": "joyfulC_L21_N7450_+1",
+"targets": [
+[
+21,
+7450,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.11643095314502716,
+"rank": 144
+}
+},
+{
+"id": "joyfulC_L16_N16042_+1",
+"targets": [
+[
+16,
+16042,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.11633601039648056,
+"rank": 145
+}
+},
+{
+"id": "joyfulC_L26_N15768_-1",
+"targets": [
+[
+26,
+15768,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.11584752798080444,
+"rank": 146
+}
+},
+{
+"id": "joyfulC_L34_N5765_-1",
+"targets": [
+[
+34,
+5765,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.11569299548864365,
+"rank": 147
+}
+},
+{
+"id": "joyfulC_L47_N6668_+1",
+"targets": [
+[
+47,
+6668,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.11562127619981766,
+"rank": 148
+}
+},
+{
+"id": "joyfulC_L32_N7660_-1",
+"targets": [
+[
+32,
+7660,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.11560278385877609,
+"rank": 149
+}
+},
+{
+"id": "ctrl_L15_N17289_-1",
+"targets": [
+[
+15,
+17289,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L36_N4032_+1",
+"targets": [
+[
+36,
+4032,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.11559510976076126,
+"rank": 150
+}
+},
+{
+"id": "joyfulC_L32_N16036_+1",
+"targets": [
+[
+32,
+16036,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.11556124687194824,
+"rank": 151
+}
+},
+{
+"id": "joyfulC_L26_N9565_-1",
+"targets": [
+[
+26,
+9565,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.11549737304449081,
+"rank": 152
+}
+},
+{
+"id": "joyfulC_L32_N1010_-1",
+"targets": [
+[
+32,
+1010,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.11547112464904785,
+"rank": 153
+}
+},
+{
+"id": "joyfulC_L25_N1924_-1",
+"targets": [
+[
+25,
+1924,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.11535100638866425,
+"rank": 154
+}
+},
+{
+"id": "joyfulC_L22_N9847_-1",
+"targets": [
+[
+22,
+9847,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.11508379131555557,
+"rank": 155
+}
+},
+{
+"id": "joyfulC_L47_N7615_+1",
+"targets": [
+[
+47,
+7615,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.11484986543655396,
+"rank": 156
+}
+},
+{
+"id": "joyfulC_L14_N1_-1",
+"targets": [
+[
+14,
+1,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.11456986516714096,
+"rank": 157
+}
+},
+{
+"id": "joyfulC_L34_N4167_-1",
+"targets": [
+[
+34,
+4167,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.11443697661161423,
+"rank": 158
+}
+},
+{
+"id": "joyfulC_L33_N2867_-1",
+"targets": [
+[
+33,
+2867,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.1143851950764656,
+"rank": 159
+}
+},
+{
+"id": "joyfulC_L47_N5439_+1",
+"targets": [
+[
+47,
+5439,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.11413440108299255,
+"rank": 160
+}
+},
+{
+"id": "joyfulC_L16_N13957_+1",
+"targets": [
+[
+16,
+13957,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.11395727843046188,
+"rank": 161
+}
+},
+{
+"id": "joyfulC_L46_N4393_-1",
+"targets": [
+[
+46,
+4393,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.11384627968072891,
+"rank": 162
+}
+},
+{
+"id": "joyfulC_L45_N5434_-1",
+"targets": [
+[
+45,
+5434,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.11357975751161575,
+"rank": 163
+}
+},
+{
+"id": "joyfulC_L30_N5788_+1",
+"targets": [
+[
+30,
+5788,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.11341014504432678,
+"rank": 164
+}
+},
+{
+"id": "ctrl_L42_N16246_-1",
+"targets": [
+[
+42,
+16246,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L27_N8360_-1",
+"targets": [
+[
+27,
+8360,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.11321830749511719,
+"rank": 165
+}
+},
+{
+"id": "joyfulC_L34_N17242_+1",
+"targets": [
+[
+34,
+17242,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.11286642402410507,
+"rank": 166
+}
+},
+{
+"id": "joyfulC_L34_N3417_-1",
+"targets": [
+[
+34,
+3417,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.1128658726811409,
+"rank": 167
+}
+},
+{
+"id": "joyfulC_L17_N4877_-1",
+"targets": [
+[
+17,
+4877,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.11271985620260239,
+"rank": 168
+}
+},
+{
+"id": "joyfulC_L34_N3441_-1",
+"targets": [
+[
+34,
+3441,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.11244834959506989,
+"rank": 169
+}
+},
+{
+"id": "joyfulC_L34_N4429_+1",
+"targets": [
+[
+34,
+4429,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.11229503899812698,
+"rank": 170
+}
+},
+{
+"id": "joyfulC_L44_N9713_+1",
+"targets": [
+[
+44,
+9713,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.11228608340024948,
+"rank": 171
+}
+},
+{
+"id": "joyfulC_L34_N672_+1",
+"targets": [
+[
+34,
+672,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.11226021498441696,
+"rank": 172
+}
+},
+{
+"id": "joyfulC_L32_N5517_+1",
+"targets": [
+[
+32,
+5517,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.1118464544415474,
+"rank": 173
+}
+},
+{
+"id": "joyfulC_L46_N4306_-1",
+"targets": [
+[
+46,
+4306,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.1118362694978714,
+"rank": 174
+}
+},
+{
+"id": "joyfulC_L37_N416_-1",
+"targets": [
+[
+37,
+416,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.11176088452339172,
+"rank": 175
+}
+},
+{
+"id": "joyfulC_L31_N9198_+1",
+"targets": [
+[
+31,
+9198,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.1116769090294838,
+"rank": 176
+}
+},
+{
+"id": "joyfulC_L26_N4994_-1",
+"targets": [
+[
+26,
+4994,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.11164113134145737,
+"rank": 177
+}
+},
+{
+"id": "joyfulC_L14_N1245_+1",
+"targets": [
+[
+14,
+1245,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.11145450919866562,
+"rank": 178
+}
+},
+{
+"id": "joyfulC_L42_N6706_-1",
+"targets": [
+[
+42,
+6706,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.11142559349536896,
+"rank": 179
+}
+},
+{
+"id": "ctrl_L36_N7565_-1",
+"targets": [
+[
+36,
+7565,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L41_N8493_+1",
+"targets": [
+[
+41,
+8493,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.11126867681741714,
+"rank": 180
+}
+},
+{
+"id": "joyfulC_L17_N14021_+1",
+"targets": [
+[
+17,
+14021,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.11054320633411407,
+"rank": 181
+}
+},
+{
+"id": "joyfulC_L38_N11685_+1",
+"targets": [
+[
+38,
+11685,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.11052652448415756,
+"rank": 182
+}
+},
+{
+"id": "joyfulC_L32_N3754_+1",
+"targets": [
+[
+32,
+3754,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.11042789369821548,
+"rank": 183
+}
+},
+{
+"id": "joyfulC_L34_N14673_+1",
+"targets": [
+[
+34,
+14673,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.1103728786110878,
+"rank": 184
+}
+},
+{
+"id": "joyfulC_L20_N10005_-1",
+"targets": [
+[
+20,
+10005,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.11032093316316605,
+"rank": 185
+}
+},
+{
+"id": "joyfulC_L18_N13948_+1",
+"targets": [
+[
+18,
+13948,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.1102389544248581,
+"rank": 186
+}
+},
+{
+"id": "joyfulC_L20_N7717_-1",
+"targets": [
+[
+20,
+7717,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10995275527238846,
+"rank": 187
+}
+},
+{
+"id": "joyfulC_L35_N5241_-1",
+"targets": [
+[
+35,
+5241,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10994940251111984,
+"rank": 188
+}
+},
+{
+"id": "joyfulC_L19_N9635_-1",
+"targets": [
+[
+19,
+9635,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10986385494470596,
+"rank": 189
+}
+},
+{
+"id": "joyfulC_L41_N2259_+1",
+"targets": [
+[
+41,
+2259,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10927959531545639,
+"rank": 190
+}
+},
+{
+"id": "joyfulC_L43_N9736_+1",
+"targets": [
+[
+43,
+9736,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10915644466876984,
+"rank": 191
+}
+},
+{
+"id": "joyfulC_L33_N2379_+1",
+"targets": [
+[
+33,
+2379,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10908275842666626,
+"rank": 192
+}
+},
+{
+"id": "joyfulC_L32_N8944_+1",
+"targets": [
+[
+32,
+8944,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10899163782596588,
+"rank": 193
+}
+},
+{
+"id": "joyfulC_L19_N9700_+1",
+"targets": [
+[
+19,
+9700,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10896944254636765,
+"rank": 194
+}
+},
+{
+"id": "ctrl_L43_N9495_-1",
+"targets": [
+[
+43,
+9495,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L21_N13564_-1",
+"targets": [
+[
+21,
+13564,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10894958674907684,
+"rank": 195
+}
+},
+{
+"id": "joyfulC_L29_N3045_-1",
+"targets": [
+[
+29,
+3045,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.1088929995894432,
+"rank": 196
+}
+},
+{
+"id": "joyfulC_L37_N8709_+1",
+"targets": [
+[
+37,
+8709,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10889016091823578,
+"rank": 197
+}
+},
+{
+"id": "joyfulC_L30_N5369_+1",
+"targets": [
+[
+30,
+5369,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.1088489443063736,
+"rank": 198
+}
+},
+{
+"id": "joyfulC_L18_N10555_-1",
+"targets": [
+[
+18,
+10555,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10858713835477829,
+"rank": 199
+}
+},
+{
+"id": "joyfulC_L14_N1326_+1",
+"targets": [
+[
+14,
+1326,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10846249014139175,
+"rank": 200
+}
+},
+{
+"id": "joyfulC_L22_N6721_-1",
+"targets": [
+[
+22,
+6721,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10818284004926682,
+"rank": 201
+}
+},
+{
+"id": "joyfulC_L16_N4053_-1",
+"targets": [
+[
+16,
+4053,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10813746601343155,
+"rank": 202
+}
+},
+{
+"id": "joyfulC_L38_N2282_-1",
+"targets": [
+[
+38,
+2282,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.1081128939986229,
+"rank": 203
+}
+},
+{
+"id": "joyfulC_L30_N1245_+1",
+"targets": [
+[
+30,
+1245,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10784249752759933,
+"rank": 204
+}
+},
+{
+"id": "joyfulC_L19_N4905_-1",
+"targets": [
+[
+19,
+4905,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10774270445108414,
+"rank": 205
+}
+},
+{
+"id": "joyfulC_L45_N7055_+1",
+"targets": [
+[
+45,
+7055,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10765670984983444,
+"rank": 206
+}
+},
+{
+"id": "joyfulC_L17_N6506_-1",
+"targets": [
+[
+17,
+6506,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10762569308280945,
+"rank": 207
+}
+},
+{
+"id": "joyfulC_L18_N3801_-1",
+"targets": [
+[
+18,
+3801,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10758534073829651,
+"rank": 208
+}
+},
+{
+"id": "joyfulC_L46_N15005_+1",
+"targets": [
+[
+46,
+15005,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.1075119599699974,
+"rank": 209
+}
+},
+{
+"id": "ctrl_L40_N3276_-1",
+"targets": [
+[
+40,
+3276,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L42_N9017_-1",
+"targets": [
+[
+42,
+9017,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10750701278448105,
+"rank": 210
+}
+},
+{
+"id": "joyfulC_L15_N12269_-1",
+"targets": [
+[
+15,
+12269,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10737991333007812,
+"rank": 211
+}
+},
+{
+"id": "joyfulC_L34_N3688_+1",
+"targets": [
+[
+34,
+3688,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10713973641395569,
+"rank": 212
+}
+},
+{
+"id": "joyfulC_L14_N1164_+1",
+"targets": [
+[
+14,
+1164,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10712563246488571,
+"rank": 213
+}
+},
+{
+"id": "joyfulC_L48_N42_+1",
+"targets": [
+[
+48,
+42,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10679742693901062,
+"rank": 214
+}
+},
+{
+"id": "joyfulC_L37_N3916_-1",
+"targets": [
+[
+37,
+3916,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.1067906841635704,
+"rank": 215
+}
+},
+{
+"id": "joyfulC_L26_N10600_+1",
+"targets": [
+[
+26,
+10600,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10641336441040039,
+"rank": 216
+}
+},
+{
+"id": "joyfulC_L36_N3909_+1",
+"targets": [
+[
+36,
+3909,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10621162503957748,
+"rank": 217
+}
+},
+{
+"id": "joyfulC_L48_N10962_+1",
+"targets": [
+[
+48,
+10962,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10599344968795776,
+"rank": 218
+}
+},
+{
+"id": "joyfulC_L35_N11932_-1",
+"targets": [
+[
+35,
+11932,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10597651451826096,
+"rank": 219
+}
+},
+{
+"id": "joyfulC_L19_N7181_-1",
+"targets": [
+[
+19,
+7181,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.1057036891579628,
+"rank": 220
+}
+},
+{
+"id": "joyfulC_L32_N15818_+1",
+"targets": [
+[
+32,
+15818,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10559232532978058,
+"rank": 221
+}
+},
+{
+"id": "joyfulC_L30_N1271_+1",
+"targets": [
+[
+30,
+1271,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10558808594942093,
+"rank": 222
+}
+},
+{
+"id": "joyfulC_L45_N5932_-1",
+"targets": [
+[
+45,
+5932,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10546480864286423,
+"rank": 223
+}
+},
+{
+"id": "joyfulC_L15_N10742_+1",
+"targets": [
+[
+15,
+10742,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10542059689760208,
+"rank": 224
+}
+},
+{
+"id": "ctrl_L32_N3961_+1",
+"targets": [
+[
+32,
+3961,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L43_N13497_+1",
+"targets": [
+[
+43,
+13497,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10530735552310944,
+"rank": 225
+}
+},
+{
+"id": "joyfulC_L19_N9338_+1",
+"targets": [
+[
+19,
+9338,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10504607856273651,
+"rank": 226
+}
+},
+{
+"id": "joyfulC_L34_N10370_-1",
+"targets": [
+[
+34,
+10370,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10462144017219543,
+"rank": 227
+}
+},
+{
+"id": "joyfulC_L39_N15394_-1",
+"targets": [
+[
+39,
+15394,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10461954772472382,
+"rank": 228
+}
+},
+{
+"id": "joyfulC_L42_N3697_-1",
+"targets": [
+[
+42,
+3697,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10441034287214279,
+"rank": 229
+}
+},
+{
+"id": "joyfulC_L24_N7973_+1",
+"targets": [
+[
+24,
+7973,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10409197956323624,
+"rank": 230
+}
+},
+{
+"id": "joyfulC_L42_N13660_-1",
+"targets": [
+[
+42,
+13660,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10408812016248703,
+"rank": 231
+}
+},
+{
+"id": "joyfulC_L27_N4623_-1",
+"targets": [
+[
+27,
+4623,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10380561649799347,
+"rank": 232
+}
+},
+{
+"id": "joyfulC_L22_N5360_-1",
+"targets": [
+[
+22,
+5360,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10378095507621765,
+"rank": 233
+}
+},
+{
+"id": "joyfulC_L34_N366_+1",
+"targets": [
+[
+34,
+366,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10377630591392517,
+"rank": 234
+}
+},
+{
+"id": "joyfulC_L20_N3990_-1",
+"targets": [
+[
+20,
+3990,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10363772511482239,
+"rank": 235
+}
+},
+{
+"id": "joyfulC_L14_N2208_+1",
+"targets": [
+[
+14,
+2208,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10360785573720932,
+"rank": 236
+}
+},
+{
+"id": "joyfulC_L15_N5439_+1",
+"targets": [
+[
+15,
+5439,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10354696214199066,
+"rank": 237
+}
+},
+{
+"id": "joyfulC_L38_N8719_+1",
+"targets": [
+[
+38,
+8719,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10352759808301926,
+"rank": 238
+}
+},
+{
+"id": "joyfulC_L16_N14920_-1",
+"targets": [
+[
+16,
+14920,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10342252254486084,
+"rank": 239
+}
+},
+{
+"id": "ctrl_L46_N13831_-1",
+"targets": [
+[
+46,
+13831,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L48_N10607_+1",
+"targets": [
+[
+48,
+10607,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10341494530439377,
+"rank": 240
+}
+},
+{
+"id": "joyfulC_L29_N10816_-1",
+"targets": [
+[
+29,
+10816,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10337240993976593,
+"rank": 241
+}
+},
+{
+"id": "joyfulC_L36_N6624_-1",
+"targets": [
+[
+36,
+6624,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10315041989088058,
+"rank": 242
+}
+},
+{
+"id": "joyfulC_L42_N1372_-1",
+"targets": [
+[
+42,
+1372,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10300512611865997,
+"rank": 243
+}
+},
+{
+"id": "joyfulC_L34_N15602_-1",
+"targets": [
+[
+34,
+15602,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10297135263681412,
+"rank": 244
+}
+},
+{
+"id": "joyfulC_L30_N14116_-1",
+"targets": [
+[
+30,
+14116,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10256490856409073,
+"rank": 245
+}
+},
+{
+"id": "joyfulC_L14_N3210_-1",
+"targets": [
+[
+14,
+3210,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10255851596593857,
+"rank": 246
+}
+},
+{
+"id": "joyfulC_L19_N4790_-1",
+"targets": [
+[
+19,
+4790,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10255002975463867,
+"rank": 247
+}
+},
+{
+"id": "joyfulC_L15_N6286_+1",
+"targets": [
+[
+15,
+6286,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10249439626932144,
+"rank": 248
+}
+},
+{
+"id": "joyfulC_L15_N542_-1",
+"targets": [
+[
+15,
+542,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10245522111654282,
+"rank": 249
+}
+},
+{
+"id": "joyfulC_L21_N416_-1",
+"targets": [
+[
+21,
+416,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10240995138883591,
+"rank": 250
+}
+},
+{
+"id": "joyfulC_L40_N1818_-1",
+"targets": [
+[
+40,
+1818,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10214133560657501,
+"rank": 251
+}
+},
+{
+"id": "joyfulC_L34_N1508_-1",
+"targets": [
+[
+34,
+1508,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10183131694793701,
+"rank": 252
+}
+},
+{
+"id": "joyfulC_L17_N14431_+1",
+"targets": [
+[
+17,
+14431,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10181233286857605,
+"rank": 253
+}
+},
+{
+"id": "joyfulC_L47_N16684_-1",
+"targets": [
+[
+47,
+16684,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.10177886486053467,
+"rank": 254
+}
+},
+{
+"id": "ctrl_L33_N9311_+1",
+"targets": [
+[
+33,
+9311,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L33_N340_+1",
+"targets": [
+[
+33,
+340,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10176008939743042,
+"rank": 255
+}
+},
+{
+"id": "joyfulC_L46_N10266_-1",
+"targets": [
+[
+46,
+10266,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10171385854482651,
+"rank": 256
+}
+},
+{
+"id": "joyfulC_L46_N1085_+1",
+"targets": [
+[
+46,
+1085,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10159317404031754,
+"rank": 257
+}
+},
+{
+"id": "joyfulC_L18_N14673_+1",
+"targets": [
+[
+18,
+14673,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10155527293682098,
+"rank": 258
+}
+},
+{
+"id": "joyfulC_L34_N14092_+1",
+"targets": [
+[
+34,
+14092,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10140872746706009,
+"rank": 259
+}
+},
+{
+"id": "joyfulC_L42_N6039_+1",
+"targets": [
+[
+42,
+6039,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10090699046850204,
+"rank": 260
+}
+},
+{
+"id": "joyfulC_L17_N16312_-1",
+"targets": [
+[
+17,
+16312,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.10071799904108047,
+"rank": 261
+}
+},
+{
+"id": "joyfulC_L35_N5876_+1",
+"targets": [
+[
+35,
+5876,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.10065492987632751,
+"rank": 262
+}
+},
+{
+"id": "joyfulC_L33_N384_+1",
+"targets": [
+[
+33,
+384,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10057299584150314,
+"rank": 263
+}
+},
+{
+"id": "joyfulC_L16_N1916_-1",
+"targets": [
+[
+16,
+1916,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.1003190279006958,
+"rank": 264
+}
+},
+{
+"id": "joyfulC_L19_N5536_+1",
+"targets": [
+[
+19,
+5536,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10015988349914551,
+"rank": 265
+}
+},
+{
+"id": "joyfulC_L18_N4346_+1",
+"targets": [
+[
+18,
+4346,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.10000542551279068,
+"rank": 266
+}
+},
+{
+"id": "joyfulC_L22_N9961_-1",
+"targets": [
+[
+22,
+9961,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.09990308433771133,
+"rank": 267
+}
+},
+{
+"id": "joyfulC_L44_N2547_+1",
+"targets": [
+[
+44,
+2547,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.0996687188744545,
+"rank": 268
+}
+},
+{
+"id": "joyfulC_L37_N10447_+1",
+"targets": [
+[
+37,
+10447,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.09961044788360596,
+"rank": 269
+}
+},
+{
+"id": "ctrl_L46_N12889_-1",
+"targets": [
+[
+46,
+12889,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L31_N4064_-1",
+"targets": [
+[
+31,
+4064,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.09939336776733398,
+"rank": 270
+}
+},
+{
+"id": "joyfulC_L19_N15796_+1",
+"targets": [
+[
+19,
+15796,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.09937690943479538,
+"rank": 271
+}
+},
+{
+"id": "joyfulC_L37_N8677_+1",
+"targets": [
+[
+37,
+8677,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.09931734949350357,
+"rank": 272
+}
+},
+{
+"id": "joyfulC_L30_N10716_-1",
+"targets": [
+[
+30,
+10716,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.09931421279907227,
+"rank": 273
+}
+},
+{
+"id": "joyfulC_L48_N10280_+1",
+"targets": [
+[
+48,
+10280,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.09930045157670975,
+"rank": 274
+}
+},
+{
+"id": "joyfulC_L46_N5195_+1",
+"targets": [
+[
+46,
+5195,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.09920348227024078,
+"rank": 275
+}
+},
+{
+"id": "joyfulC_L31_N4718_-1",
+"targets": [
+[
+31,
+4718,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.0990966409444809,
+"rank": 276
+}
+},
+{
+"id": "joyfulC_L28_N2857_+1",
+"targets": [
+[
+28,
+2857,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.09896036982536316,
+"rank": 277
+}
+},
+{
+"id": "joyfulC_L41_N4223_-1",
+"targets": [
+[
+41,
+4223,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.09879931807518005,
+"rank": 278
+}
+},
+{
+"id": "joyfulC_L19_N8609_-1",
+"targets": [
+[
+19,
+8609,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.09866730123758316,
+"rank": 279
+}
+},
+{
+"id": "joyfulC_L34_N10791_+1",
+"targets": [
+[
+34,
+10791,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.09858857840299606,
+"rank": 280
+}
+},
+{
+"id": "joyfulC_L30_N5019_-1",
+"targets": [
+[
+30,
+5019,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.09858144074678421,
+"rank": 281
+}
+},
+{
+"id": "joyfulC_L18_N16376_+1",
+"targets": [
+[
+18,
+16376,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.09839538484811783,
+"rank": 282
+}
+},
+{
+"id": "joyfulC_L19_N8953_-1",
+"targets": [
+[
+19,
+8953,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.09836398810148239,
+"rank": 283
+}
+},
+{
+"id": "joyfulC_L45_N12073_-1",
+"targets": [
+[
+45,
+12073,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.09832849353551865,
+"rank": 284
+}
+},
+{
+"id": "ctrl_L44_N7954_+1",
+"targets": [
+[
+44,
+7954,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "joyfulC_L25_N4733_+1",
+"targets": [
+[
+25,
+4733,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.09829391539096832,
+"rank": 285
+}
+},
+{
+"id": "joyfulC_L38_N11132_+1",
+"targets": [
+[
+38,
+11132,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.09827273339033127,
+"rank": 286
+}
+},
+{
+"id": "joyfulC_L18_N1551_-1",
+"targets": [
+[
+18,
+1551,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.09812842309474945,
+"rank": 287
+}
+},
+{
+"id": "joyfulC_L43_N10935_+1",
+"targets": [
+[
+43,
+10935,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.09797772020101547,
+"rank": 288
+}
+},
+{
+"id": "joyfulC_L36_N6265_-1",
+"targets": [
+[
+36,
+6265,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.09795787185430527,
+"rank": 289
+}
+},
+{
+"id": "joyfulC_L42_N12826_+1",
+"targets": [
+[
+42,
+12826,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.09794207662343979,
+"rank": 290
+}
+},
+{
+"id": "joyfulC_L20_N16440_+1",
+"targets": [
+[
+20,
+16440,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.09776445478200912,
+"rank": 291
+}
+},
+{
+"id": "joyfulC_L46_N9446_+1",
+"targets": [
+[
+46,
+9446,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": 0.09772545099258423,
+"rank": 292
+}
+},
+{
+"id": "joyfulC_L29_N13001_-1",
+"targets": [
+[
+29,
+13001,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.09765878319740295,
+"rank": 293
+}
+},
+{
+"id": "joyfulC_L24_N2072_+1",
+"targets": [
+[
+24,
+2072,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.09758739918470383,
+"rank": 294
+}
+},
+{
+"id": "joyfulC_L20_N10184_-1",
+"targets": [
+[
+20,
+10184,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": -0.09757257252931595,
+"rank": 295
+}
+},
+{
+"id": "joyfulC_L40_N2926_+1",
+"targets": [
+[
+40,
+2926,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.09728530794382095,
+"rank": 296
+}
+},
+{
+"id": "joyfulC_L35_N1367_+1",
+"targets": [
+[
+35,
+1367,
+0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_oth",
+"cos": 0.09713242202997208,
+"rank": 297
+}
+},
+{
+"id": "joyfulC_L42_N17282_-1",
+"targets": [
+[
+42,
+17282,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.09702800959348679,
+"rank": 298
+}
+},
+{
+"id": "joyfulC_L33_N1847_-1",
+"targets": [
+[
+33,
+1847,
+-0.75
+]
+],
+"meta": {
+"persona": "joyful",
+"src": "cos_neu",
+"cos": -0.09689642488956451,
+"rank": 299
+}
+},
+{
+"id": "ctrl_L40_N5669_+1",
+"targets": [
+[
+40,
+5669,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+}
+]

@@ -1,0 +1,993 @@
+[
+{
+"id": "baseline",
+"targets": [],
+"meta": {
+"persona": "baseline"
+}
+},
+{
+"id": "sadC_L34_N9968_+1@0.5",
+"targets": [
+[
+34,
+9968,
+0.5
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_oth",
+"cos": 0.15597549080848694,
+"rank": 25,
+"dose": 0.5
+}
+},
+{
+"id": "sadC_L34_N9968_+1@0.75",
+"targets": [
+[
+34,
+9968,
+0.75
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_oth",
+"cos": 0.15597549080848694,
+"rank": 25,
+"dose": 0.75
+}
+},
+{
+"id": "sadC_L34_N9968_+1@1.0",
+"targets": [
+[
+34,
+9968,
+1.0
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_oth",
+"cos": 0.15597549080848694,
+"rank": 25,
+"dose": 1.0
+}
+},
+{
+"id": "sadC_L34_N9968_+1@-0.75",
+"targets": [
+[
+34,
+9968,
+-0.75
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_oth",
+"cos": 0.15597549080848694,
+"rank": 25,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L34_5@0.75",
+"targets": [
+[
+34,
+7428,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "sadC_L28_N335_-1@0.5",
+"targets": [
+[
+28,
+335,
+-0.5
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_oth",
+"cos": -0.1266050487756729,
+"rank": 61,
+"dose": 0.5
+}
+},
+{
+"id": "sadC_L28_N335_-1@0.75",
+"targets": [
+[
+28,
+335,
+-0.75
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_oth",
+"cos": -0.1266050487756729,
+"rank": 61,
+"dose": 0.75
+}
+},
+{
+"id": "sadC_L28_N335_-1@1.0",
+"targets": [
+[
+28,
+335,
+-1.0
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_oth",
+"cos": -0.1266050487756729,
+"rank": 61,
+"dose": 1.0
+}
+},
+{
+"id": "sadC_L28_N335_-1@-0.75",
+"targets": [
+[
+28,
+335,
+0.75
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_oth",
+"cos": -0.1266050487756729,
+"rank": 61,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L28_10@0.75",
+"targets": [
+[
+28,
+12137,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "sadC_L18_N9460_+1@0.5",
+"targets": [
+[
+18,
+9460,
+0.5
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_oth",
+"cos": 0.12136446684598923,
+"rank": 75,
+"dose": 0.5
+}
+},
+{
+"id": "sadC_L18_N9460_+1@0.75",
+"targets": [
+[
+18,
+9460,
+0.75
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_oth",
+"cos": 0.12136446684598923,
+"rank": 75,
+"dose": 0.75
+}
+},
+{
+"id": "sadC_L18_N9460_+1@1.0",
+"targets": [
+[
+18,
+9460,
+1.0
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_oth",
+"cos": 0.12136446684598923,
+"rank": 75,
+"dose": 1.0
+}
+},
+{
+"id": "sadC_L18_N9460_+1@-0.75",
+"targets": [
+[
+18,
+9460,
+-0.75
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_oth",
+"cos": 0.12136446684598923,
+"rank": 75,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L18_15@0.75",
+"targets": [
+[
+18,
+12300,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "sadC_L48_N2497_+1@0.5",
+"targets": [
+[
+48,
+2497,
+0.5
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_oth",
+"cos": 0.1405063420534134,
+"rank": 41,
+"dose": 0.5
+}
+},
+{
+"id": "sadC_L48_N2497_+1@0.75",
+"targets": [
+[
+48,
+2497,
+0.75
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_oth",
+"cos": 0.1405063420534134,
+"rank": 41,
+"dose": 0.75
+}
+},
+{
+"id": "sadC_L48_N2497_+1@1.0",
+"targets": [
+[
+48,
+2497,
+1.0
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_oth",
+"cos": 0.1405063420534134,
+"rank": 41,
+"dose": 1.0
+}
+},
+{
+"id": "sadC_L48_N2497_+1@-0.75",
+"targets": [
+[
+48,
+2497,
+-0.75
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_oth",
+"cos": 0.1405063420534134,
+"rank": 41,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L48_20@0.75",
+"targets": [
+[
+48,
+4139,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "mysticalC_L41_N11176_-1@0.5",
+"targets": [
+[
+41,
+11176,
+-0.5
+]
+],
+"meta": {
+"persona": "mystical",
+"src": "cos_neu",
+"cos": -0.1286775916814804,
+"rank": 75,
+"dose": 0.5
+}
+},
+{
+"id": "mysticalC_L41_N11176_-1@0.75",
+"targets": [
+[
+41,
+11176,
+-0.75
+]
+],
+"meta": {
+"persona": "mystical",
+"src": "cos_neu",
+"cos": -0.1286775916814804,
+"rank": 75,
+"dose": 0.75
+}
+},
+{
+"id": "mysticalC_L41_N11176_-1@1.0",
+"targets": [
+[
+41,
+11176,
+-1.0
+]
+],
+"meta": {
+"persona": "mystical",
+"src": "cos_neu",
+"cos": -0.1286775916814804,
+"rank": 75,
+"dose": 1.0
+}
+},
+{
+"id": "mysticalC_L41_N11176_-1@-0.75",
+"targets": [
+[
+41,
+11176,
+0.75
+]
+],
+"meta": {
+"persona": "mystical",
+"src": "cos_neu",
+"cos": -0.1286775916814804,
+"rank": 75,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L41_25@0.75",
+"targets": [
+[
+41,
+6328,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "mysticalC_L25_N10522_-1@0.5",
+"targets": [
+[
+25,
+10522,
+-0.5
+]
+],
+"meta": {
+"persona": "mystical",
+"src": "cos_oth",
+"cos": -0.1507238894701004,
+"rank": 33,
+"dose": 0.5
+}
+},
+{
+"id": "mysticalC_L25_N10522_-1@0.75",
+"targets": [
+[
+25,
+10522,
+-0.75
+]
+],
+"meta": {
+"persona": "mystical",
+"src": "cos_oth",
+"cos": -0.1507238894701004,
+"rank": 33,
+"dose": 0.75
+}
+},
+{
+"id": "mysticalC_L25_N10522_-1@1.0",
+"targets": [
+[
+25,
+10522,
+-1.0
+]
+],
+"meta": {
+"persona": "mystical",
+"src": "cos_oth",
+"cos": -0.1507238894701004,
+"rank": 33,
+"dose": 1.0
+}
+},
+{
+"id": "mysticalC_L25_N10522_-1@-0.75",
+"targets": [
+[
+25,
+10522,
+0.75
+]
+],
+"meta": {
+"persona": "mystical",
+"src": "cos_oth",
+"cos": -0.1507238894701004,
+"rank": 33,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L25_30@0.75",
+"targets": [
+[
+25,
+1434,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "fearfulC_L19_N8953_-1@0.5",
+"targets": [
+[
+19,
+8953,
+-0.5
+]
+],
+"meta": {
+"persona": "fearful",
+"src": "cos_neu",
+"cos": -0.15068459510803223,
+"rank": 23,
+"dose": 0.5
+}
+},
+{
+"id": "fearfulC_L19_N8953_-1@0.75",
+"targets": [
+[
+19,
+8953,
+-0.75
+]
+],
+"meta": {
+"persona": "fearful",
+"src": "cos_neu",
+"cos": -0.15068459510803223,
+"rank": 23,
+"dose": 0.75
+}
+},
+{
+"id": "fearfulC_L19_N8953_-1@1.0",
+"targets": [
+[
+19,
+8953,
+-1.0
+]
+],
+"meta": {
+"persona": "fearful",
+"src": "cos_neu",
+"cos": -0.15068459510803223,
+"rank": 23,
+"dose": 1.0
+}
+},
+{
+"id": "fearfulC_L19_N8953_-1@-0.75",
+"targets": [
+[
+19,
+8953,
+0.75
+]
+],
+"meta": {
+"persona": "fearful",
+"src": "cos_neu",
+"cos": -0.15068459510803223,
+"rank": 23,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L19_35@0.75",
+"targets": [
+[
+19,
+2791,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "mysticalC_L32_N11227_-1@0.5",
+"targets": [
+[
+32,
+11227,
+-0.5
+]
+],
+"meta": {
+"persona": "mystical",
+"src": "cos_oth",
+"cos": -0.12853533029556274,
+"rank": 77,
+"dose": 0.5
+}
+},
+{
+"id": "mysticalC_L32_N11227_-1@0.75",
+"targets": [
+[
+32,
+11227,
+-0.75
+]
+],
+"meta": {
+"persona": "mystical",
+"src": "cos_oth",
+"cos": -0.12853533029556274,
+"rank": 77,
+"dose": 0.75
+}
+},
+{
+"id": "mysticalC_L32_N11227_-1@1.0",
+"targets": [
+[
+32,
+11227,
+-1.0
+]
+],
+"meta": {
+"persona": "mystical",
+"src": "cos_oth",
+"cos": -0.12853533029556274,
+"rank": 77,
+"dose": 1.0
+}
+},
+{
+"id": "mysticalC_L32_N11227_-1@-0.75",
+"targets": [
+[
+32,
+11227,
+0.75
+]
+],
+"meta": {
+"persona": "mystical",
+"src": "cos_oth",
+"cos": -0.12853533029556274,
+"rank": 77,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L32_40@0.75",
+"targets": [
+[
+32,
+4484,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "in_loveC_L47_N9054_-1@0.5",
+"targets": [
+[
+47,
+9054,
+-0.5
+]
+],
+"meta": {
+"persona": "in_love",
+"src": "cos_oth",
+"cos": -0.1427270472049713,
+"rank": 24,
+"dose": 0.5
+}
+},
+{
+"id": "in_loveC_L47_N9054_-1@0.75",
+"targets": [
+[
+47,
+9054,
+-0.75
+]
+],
+"meta": {
+"persona": "in_love",
+"src": "cos_oth",
+"cos": -0.1427270472049713,
+"rank": 24,
+"dose": 0.75
+}
+},
+{
+"id": "in_loveC_L47_N9054_-1@1.0",
+"targets": [
+[
+47,
+9054,
+-1.0
+]
+],
+"meta": {
+"persona": "in_love",
+"src": "cos_oth",
+"cos": -0.1427270472049713,
+"rank": 24,
+"dose": 1.0
+}
+},
+{
+"id": "in_loveC_L47_N9054_-1@-0.75",
+"targets": [
+[
+47,
+9054,
+0.75
+]
+],
+"meta": {
+"persona": "in_love",
+"src": "cos_oth",
+"cos": -0.1427270472049713,
+"rank": 24,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L47_45@0.75",
+"targets": [
+[
+47,
+8108,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "fearfulC_L47_N7551_+1@0.5",
+"targets": [
+[
+47,
+7551,
+0.5
+]
+],
+"meta": {
+"persona": "fearful",
+"src": "cos_oth",
+"cos": 0.12226588279008865,
+"rank": 73,
+"dose": 0.5
+}
+},
+{
+"id": "fearfulC_L47_N7551_+1@0.75",
+"targets": [
+[
+47,
+7551,
+0.75
+]
+],
+"meta": {
+"persona": "fearful",
+"src": "cos_oth",
+"cos": 0.12226588279008865,
+"rank": 73,
+"dose": 0.75
+}
+},
+{
+"id": "fearfulC_L47_N7551_+1@1.0",
+"targets": [
+[
+47,
+7551,
+1.0
+]
+],
+"meta": {
+"persona": "fearful",
+"src": "cos_oth",
+"cos": 0.12226588279008865,
+"rank": 73,
+"dose": 1.0
+}
+},
+{
+"id": "fearfulC_L47_N7551_+1@-0.75",
+"targets": [
+[
+47,
+7551,
+-0.75
+]
+],
+"meta": {
+"persona": "fearful",
+"src": "cos_oth",
+"cos": 0.12226588279008865,
+"rank": 73,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L47_50@0.75",
+"targets": [
+[
+47,
+16592,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "sadC_L48_N221_+1@0.5",
+"targets": [
+[
+48,
+221,
+0.5
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_neu",
+"cos": 0.15783149003982544,
+"rank": 21,
+"dose": 0.5
+}
+},
+{
+"id": "sadC_L48_N221_+1@0.75",
+"targets": [
+[
+48,
+221,
+0.75
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_neu",
+"cos": 0.15783149003982544,
+"rank": 21,
+"dose": 0.75
+}
+},
+{
+"id": "sadC_L48_N221_+1@1.0",
+"targets": [
+[
+48,
+221,
+1.0
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_neu",
+"cos": 0.15783149003982544,
+"rank": 21,
+"dose": 1.0
+}
+},
+{
+"id": "sadC_L48_N221_+1@-0.75",
+"targets": [
+[
+48,
+221,
+-0.75
+]
+],
+"meta": {
+"persona": "sad",
+"src": "cos_neu",
+"cos": 0.15783149003982544,
+"rank": 21,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L48_55@0.75",
+"targets": [
+[
+48,
+6861,
+0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+},
+{
+"id": "in_loveC_L23_N7409_-1@0.5",
+"targets": [
+[
+23,
+7409,
+-0.5
+]
+],
+"meta": {
+"persona": "in_love",
+"src": "cos_oth",
+"cos": -0.11661078780889511,
+"rank": 73,
+"dose": 0.5
+}
+},
+{
+"id": "in_loveC_L23_N7409_-1@0.75",
+"targets": [
+[
+23,
+7409,
+-0.75
+]
+],
+"meta": {
+"persona": "in_love",
+"src": "cos_oth",
+"cos": -0.11661078780889511,
+"rank": 73,
+"dose": 0.75
+}
+},
+{
+"id": "in_loveC_L23_N7409_-1@1.0",
+"targets": [
+[
+23,
+7409,
+-1.0
+]
+],
+"meta": {
+"persona": "in_love",
+"src": "cos_oth",
+"cos": -0.11661078780889511,
+"rank": 73,
+"dose": 1.0
+}
+},
+{
+"id": "in_loveC_L23_N7409_-1@-0.75",
+"targets": [
+[
+23,
+7409,
+0.75
+]
+],
+"meta": {
+"persona": "in_love",
+"src": "cos_oth",
+"cos": -0.11661078780889511,
+"rank": 73,
+"dose": -0.75,
+"flip": true
+}
+},
+{
+"id": "ctrl_same_L23_60@0.75",
+"targets": [
+[
+23,
+13130,
+-0.75
+]
+],
+"meta": {
+"persona": "control"
+}
+}
+]
