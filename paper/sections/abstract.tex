@@ -8,8 +8,10 @@ prompt set and confirmed on held-out prompts against random same-layer neurons a
 dozen single neurons that each install a coherent, nameable personality: a bidirectional affect dial
 (\neuron{33}{3570}: giddy at $-1.0$, flat at $+1.0$), a heartbroken ex, a narcissist, a pirate, a sarcastic
 cynic, a conspiracy narrator, a mystic oracle, and others. Three of them share layer 34 with the original
-evil neuron. Random controls never exceed a trait $z$ of about 3; the confirmed neurons reach 14 to 26.
-Cosine ranking against $\Wdown$ columns finds these neurons where activation-contrast ranking does not (the
-evil neuron ranks 13{,}156th by paired $t$). We argue that assistant personality in this model is a thin
-layer written by a small number of individually addressable MLP directions, and discuss what that does and
-does not imply for alignment. \todo{tighten numbers after the additional runs in OUTLINE.md}
+evil neuron. Random controls never exceed a trait $z$ of about 3; the confirmed neurons reach 14 to 26. A blind human
+labeler agrees with the judge on 89\% of labels ($\kappa=.66$). Cosine ranking against $\Wdown$ columns
+produced nearly every hit; activation-contrast ranking surfaced punctuation neurons instead. Neither would
+have found the original evil neuron, whose write vector is almost orthogonal to the system-prompted evil
+direction. We argue that assistant personality in this model is a thin layer written by a small number of
+individually addressable MLP directions, and we are explicit about what a forced push does and does not show
+about the model's ordinary behaviour.

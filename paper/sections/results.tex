@@ -95,8 +95,12 @@ human saw the effect but named it differently (poetic as mystical, joyful as chi
 \subsection{What ranking works}
 Seven of the first eight screen hits came from the cosine list; the paired-$t$ list mostly produced
 punctuation and tokenisation neurons (an exclamation-mark neuron, \neuron{53}{9459}, was the top ``joyful''
-candidate). By paired $t$ the known evil neuron ranks 13{,}156 of 1.1M. Hit rates: about 8 of 450 on the
-first screen over layers 6--57; about 15 of 320 for joyful alone once restricted to layers 14--48.
+candidate). Hit rates: about 8 of 450 on the first screen over layers 6--57; about 15 of 320 for joyful
+alone once restricted to layers 14--48. Neither ranking would have found the original evil neuron. By paired
+$t$ on the evil persona \neuron{34}{3838} ranks 13{,}156th of 1.1M; by cosine with the evil direction it
+ranks 764{,}973rd, with a cosine of $0.003$. Its best cosine match among our thirteen personas is grandiose
+(rank 2{,}847, cosine $0.058$). The system-prompted evil persona and the steered one are not the same
+direction.
 
 \subsection{Where personality lives}
 Pushes at $0.75$ in layers 6--8 produce immediate end-of-sequence; pushes past layer 50 mostly change

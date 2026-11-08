@@ -12,12 +12,18 @@ residual vector. The calibration for layer 34 is $93.30$ and the implementation 
 \texttt{steer.py} text for \neuron{34}{3838} at $0.75$ token for token.
 
 \subsection{Candidate ranking}
-For each of 13 target personas we generate persona reply sets on the TRAIN prompts \todo{how: system
-prompt? state the exact procedure from collect.py} and form a residual direction
-$d_{p}^{(L)} = \bar h_{p}^{(L)} - \bar h_{\neg p}^{(L)}$ per layer (persona minus other personas; also a
-persona-minus-neutral variant). Candidates are ranked by
-$\cos\big(\Wdown^{(L)}[:,n],\, d_{p}^{(L)}\big)$ over layers 14--48. We also tried a paired $t$ statistic on
-neuron activations between persona and non-persona replies.
+For each of 13 target personas (joyful, sad, fearful, evil, in love, pirate, poetic, paranoid, childlike,
+mystical, bored, sycophantic, grandiose) plus a neutral condition, the unsteered model answers the 32 TRAIN
+prompts under a one-sentence system prompt describing the persona (120 tokens, greedy). Each answer is then
+fed back teacher-forced after the plain user prompt, with no system prompt, and we record every MLP
+neuron's mean activation over the answer tokens and the mean residual stream leaving each layer. The
+persona direction is $d_{p}^{(L)} = \bar h_{p}^{(L)} - \bar h_{\neg p}^{(L)}$, the persona's mean residual
+minus the mean over the other thirteen conditions, averaged over prompts (a persona-minus-neutral variant
+was used in the wider joyful screen). Candidates are ranked by $\cos\big(\Wdown^{(L)}[:,n],\,
+d_{p}^{(L)}\big)$, first over layers 6--57 and later restricted to 14--48, and the dose sign is chosen to
+push along $d_p$. In parallel we ranked by a paired $t$ statistic on each neuron's activation between the
+persona's answers and the other conditions' answers to the same prompt. The first screen took the top 20
+from each list per persona.
 
 \subsection{Screening, confirmation, controls}
 Screen: top-$k$ candidates per persona at dose $+0.75$ (and $-0.75$ where the sign is ambiguous) on the
