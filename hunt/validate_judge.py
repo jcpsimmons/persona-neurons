@@ -4,6 +4,7 @@ labeling page, and agreement statistics between the human labels and Jev.
   python3 hunt/validate_judge.py sample            # -> out/validate/sample.json (blind) + key.json (conditions, Jev)
   python3 hunt/validate_judge.py page              # -> out/validate/label.html (sample embedded)
   python3 hunt/validate_judge.py agree labels.json # -> out/validate/agreement.md
+  python3 hunt/validate_judge.py diff labels.json  # -> out/validate/disagreements.md (per trait, with excerpts)
 
 Pool: every held-out confirmation run (HOLDOUT / HOLDOUT2 prompts). Screens and the demo are excluded.
 Stdlib only, so it runs without the MLX environment.
@@ -183,6 +184,48 @@ def agree(labels_path):
     print("\n".join(lines))
 
 
+def diff(labels_path):
+    key = {r["n"]: r for r in json.loads((OUT / "key.json").read_text())}
+    samp = {r["n"]: r for r in json.loads((OUT / "sample.json").read_text())}
+    labels = {int(k): v for k, v in json.loads(Path(labels_path).read_text()).items()}
+    ns = sorted(n for n in labels if n in key and labels[n].get("done"))
+    ex = lambda n, k=170: samp[n]["output"][:k].replace("\n", " ")
+    L = ["# Human vs Jev disagreements\n"]
+    for q in TRAITS + ["strange"]:
+        fn = [n for n in ns if q in labels[n]["yes"] and key[n]["jev"][q] < 0.5]
+        fp = [n for n in ns if q not in labels[n]["yes"] and key[n]["jev"][q] >= 0.5]
+        L.append(f"\n## {q}: human yes / Jev no = {len(fn)}; human no / Jev yes = {len(fp)}\n")
+        for lbl, lst in (("human yes, Jev no", fn), ("human no, Jev yes", fp)):
+            for n in sorted(lst, key=lambda n: -abs(key[n]["jev"][q] - 0.5)):
+                L.append(f"- [{lbl}] n={n} Jev {key[n]['jev'][q]:.2f} | {key[n]['stratum']} | human {labels[n]['yes']} | {ex(n)}")
+    for q in ("coherent", "on_topic"):
+        rows = [n for n in ns if (key[n]["jev"][q] >= 0.5) != bool(labels[n].get(q, True))]
+        L.append(f"\n## {q}: {len(rows)} disagreements\n")
+        for n in rows:
+            L.append(f"- n={n} Jev {key[n]['jev'][q]:.2f} human {labels[n].get(q, True)} | {key[n]['stratum']} | {samp[n]['prompt'][:50]} -> {ex(n, 120)}")
+    L.append("\n## Confirmed personas: human marked the target trait (of 4 replies) vs Jev mean P\n")
+    tgt = {"evil": "evil", "affect dial (joy pole)": "joyful", "heartbroken": "sad", "conspiracy": "paranoid",
+           "narcissist": "grandiose", "pirate": "pirate", "cynic": "evil", "contempt": "evil", "oracle mystic": "mystical",
+           "royal": "grandiose", "infatuation": "in_love", "theatrical host": "joyful", "cosmic awe": "mystical",
+           "childlike": "childlike", "surrealist": "poetic"}
+    agg = {}
+    for n in ns:
+        st = key[n]["stratum"]
+        if st.startswith("confirmed:"):
+            name = st.split(":", 1)[1]; t = tgt[name]; a = agg.setdefault(name, [0, 0, 0.0, {}])
+            a[0] += t in labels[n]["yes"]; a[1] += 1; a[2] += key[n]["jev"][t]
+            for h in labels[n]["yes"]: a[3][h] = a[3].get(h, 0) + 1
+    L.append("| persona | target | human | Jev mean P | all human labels |"); L.append("|---|---|---|---|---|")
+    for name, (h, tot, jp, hl) in agg.items():
+        L.append(f"| {name} | {tgt[name]} | {h}/{tot} | {jp / tot:.2f} | {', '.join(f'{k} {v}' for k, v in sorted(hl.items(), key=lambda x: -x[1]))} |")
+    L.append("\n## Controls and baseline where the human marked any trait\n")
+    for n in ns:
+        if key[n]["stratum"] in ("control", "baseline") and labels[n]["yes"]:
+            L.append(f"- n={n} {key[n]['stratum']} human {labels[n]['yes']} | {ex(n, 120)}")
+    (OUT / "disagreements.md").write_text("\n".join(L) + "\n")
+    print(OUT / "disagreements.md")
+
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "sample"
-    {"sample": sample, "page": page}.get(cmd, lambda: agree(sys.argv[2]))()
+    {"sample": sample, "page": page, "agree": lambda: agree(sys.argv[2]), "diff": lambda: diff(sys.argv[2])}[cmd]()

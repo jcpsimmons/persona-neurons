@@ -1,0 +1,3965 @@
+[
+ {
+  "n": 0,
+  "stratum": "control",
+  "tag": "confirm",
+  "id": "ctrl_same_L19_50@0.75",
+  "i": 6,
+  "targets": [
+   [
+    19,
+    3075,
+    0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.18,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.03,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.12,
+   "mystical": 0.02,
+   "bored": 0.02,
+   "sycophantic": 0.05,
+   "grandiose": 0.02,
+   "strange": 0.07,
+   "coherent": 0.99,
+   "on_topic": 0.98
+  }
+ },
+ {
+  "n": 1,
+  "stratum": "confirmed:heartbroken",
+  "tag": "confirm3",
+  "id": "sadC_L34_N9968_+1@0.75",
+  "i": 1,
+  "targets": [
+   [
+    34,
+    9968,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.94,
+   "fearful": 0.65,
+   "evil": 0.1,
+   "in_love": 0.55,
+   "pirate": 0.01,
+   "poetic": 0.27,
+   "paranoid": 0.02,
+   "childlike": 0.05,
+   "mystical": 0.04,
+   "bored": 0.15,
+   "sycophantic": 0.02,
+   "grandiose": 0.07,
+   "strange": 0.97,
+   "coherent": 0.94,
+   "on_topic": 0.08
+  }
+ },
+ {
+  "n": 2,
+  "stratum": "confirmed:evil",
+  "tag": "dial",
+  "id": "evil_L34_N3838@0.75",
+  "i": 2,
+  "targets": [
+   [
+    34,
+    3838,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.24,
+   "sad": 0.03,
+   "fearful": 0.13,
+   "evil": 0.96,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.03,
+   "childlike": 0.05,
+   "mystical": 0.02,
+   "bored": 0.09,
+   "sycophantic": 0.01,
+   "grandiose": 0.12,
+   "strange": 0.96,
+   "coherent": 0.59,
+   "on_topic": 0.75
+  }
+ },
+ {
+  "n": 3,
+  "stratum": "baseline",
+  "tag": "dial",
+  "id": "baseline",
+  "i": 5,
+  "targets": [],
+  "cond": "baseline",
+  "jev": {
+   "joyful": 0.03,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.02,
+   "bored": 0.03,
+   "sycophantic": 0.02,
+   "grandiose": 0.03,
+   "strange": 0.07,
+   "coherent": 0.76,
+   "on_topic": 0.95
+  }
+ },
+ {
+  "n": 4,
+  "stratum": "confirmed:oracle mystic",
+  "tag": "confirm3",
+  "id": "mysticalC_L41_N11176_-1@0.5",
+  "i": 9,
+  "targets": [
+   [
+    41,
+    11176,
+    -0.5
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.07,
+   "sad": 0.03,
+   "fearful": 0.05,
+   "evil": 0.03,
+   "in_love": 0.04,
+   "pirate": 0.01,
+   "poetic": 0.18,
+   "paranoid": 0.05,
+   "childlike": 0.15,
+   "mystical": 0.93,
+   "bored": 0.05,
+   "sycophantic": 0.07,
+   "grandiose": 0.1,
+   "strange": 0.89,
+   "coherent": 0.92,
+   "on_topic": 0.81
+  }
+ },
+ {
+  "n": 5,
+  "stratum": "control",
+  "tag": "confirm3",
+  "id": "ctrl_same_L48_55@0.75",
+  "i": 0,
+  "targets": [
+   [
+    48,
+    6861,
+    0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.01,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.07,
+   "coherent": 0.78,
+   "on_topic": 0.91
+  }
+ },
+ {
+  "n": 6,
+  "stratum": "confirmed:surrealist",
+  "tag": "confirm3",
+  "id": "sadC_L28_N335_-1@0.75",
+  "i": 3,
+  "targets": [
+   [
+    28,
+    335,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.1,
+   "sad": 0.19,
+   "fearful": 0.04,
+   "evil": 0.02,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.75,
+   "paranoid": 0.02,
+   "childlike": 0.7,
+   "mystical": 0.22,
+   "bored": 0.03,
+   "sycophantic": 0.02,
+   "grandiose": 0.03,
+   "strange": 0.87,
+   "coherent": 0.85,
+   "on_topic": 0.68
+  }
+ },
+ {
+  "n": 7,
+  "stratum": "confirmed:narcissist",
+  "tag": "dial",
+  "id": "narcissist_L34_N7675@0.75",
+  "i": 10,
+  "targets": [
+   [
+    34,
+    7675,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.47,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.06,
+   "in_love": 0.56,
+   "pirate": 0.01,
+   "poetic": 0.06,
+   "paranoid": 0.01,
+   "childlike": 0.1,
+   "mystical": 0.03,
+   "bored": 0.07,
+   "sycophantic": 0.94,
+   "grandiose": 0.34,
+   "strange": 0.84,
+   "coherent": 0.64,
+   "on_topic": 0.73
+  }
+ },
+ {
+  "n": 8,
+  "stratum": "control",
+  "tag": "dial",
+  "id": "ctrl_L33_5@-1.0",
+  "i": 6,
+  "targets": [
+   [
+    33,
+    6111,
+    -1.0
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.62,
+   "fearful": 0.17,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.56,
+   "paranoid": 0.01,
+   "childlike": 0.08,
+   "mystical": 0.1,
+   "bored": 0.17,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.96,
+   "coherent": 0.02,
+   "on_topic": 0.46
+  }
+ },
+ {
+  "n": 9,
+  "stratum": "baseline",
+  "tag": "confirm2",
+  "id": "baseline",
+  "i": 10,
+  "targets": [],
+  "cond": "baseline",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.02,
+   "mystical": 0.02,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.03,
+   "strange": 0.08,
+   "coherent": 0.89,
+   "on_topic": 0.94
+  }
+ },
+ {
+  "n": 10,
+  "stratum": "baseline",
+  "tag": "confirm2",
+  "id": "baseline",
+  "i": 0,
+  "targets": [],
+  "cond": "baseline",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.01,
+   "bored": 0.03,
+   "sycophantic": 0.02,
+   "grandiose": 0.07,
+   "strange": 0.08,
+   "coherent": 0.83,
+   "on_topic": 0.86
+  }
+ },
+ {
+  "n": 11,
+  "stratum": "control",
+  "tag": "dial",
+  "id": "ctrl_L33_1@-1.0",
+  "i": 4,
+  "targets": [
+   [
+    33,
+    7642,
+    -1.0
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.03,
+   "fearful": 0.03,
+   "evil": 0.03,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.02,
+   "childlike": 0.06,
+   "mystical": 0.12,
+   "bored": 0.07,
+   "sycophantic": 0.02,
+   "grandiose": 0.05,
+   "strange": 0.83,
+   "coherent": 0.73,
+   "on_topic": 0.32
+  }
+ },
+ {
+  "n": 12,
+  "stratum": "confirmed:royal",
+  "tag": "confirm",
+  "id": "grandiose_L19_N15233_+1@0.75",
+  "i": 3,
+  "targets": [
+   [
+    19,
+    15233,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.13,
+   "sad": 0.03,
+   "fearful": 0.03,
+   "evil": 0.12,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.05,
+   "paranoid": 0.1,
+   "childlike": 0.15,
+   "mystical": 0.5,
+   "bored": 0.14,
+   "sycophantic": 0.04,
+   "grandiose": 0.36,
+   "strange": 0.9,
+   "coherent": 0.96,
+   "on_topic": 0.89
+  }
+ },
+ {
+  "n": 13,
+  "stratum": "confirmed:conspiracy",
+  "tag": "confirm4",
+  "id": "paranoid_L32_N15999@0.75",
+  "i": 2,
+  "targets": [
+   [
+    32,
+    15999,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.26,
+   "fearful": 0.92,
+   "evil": 0.43,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.07,
+   "paranoid": 0.99,
+   "childlike": 0.04,
+   "mystical": 0.12,
+   "bored": 0.14,
+   "sycophantic": 0.02,
+   "grandiose": 0.11,
+   "strange": 0.98,
+   "coherent": 0.93,
+   "on_topic": 0.34
+  }
+ },
+ {
+  "n": 14,
+  "stratum": "confirmed:childlike",
+  "tag": "confirm",
+  "id": "childlike_L49_N1846_-1@0.75",
+  "i": 0,
+  "targets": [
+   [
+    49,
+    1846,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.24,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.01,
+   "childlike": 0.3,
+   "mystical": 0.04,
+   "bored": 0.03,
+   "sycophantic": 0.04,
+   "grandiose": 0.11,
+   "strange": 0.2,
+   "coherent": 0.69,
+   "on_topic": 0.85
+  }
+ },
+ {
+  "n": 15,
+  "stratum": "confirmed:oracle mystic",
+  "tag": "confirm3",
+  "id": "mysticalC_L41_N11176_-1@0.5",
+  "i": 5,
+  "targets": [
+   [
+    41,
+    11176,
+    -0.5
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.15,
+   "sad": 0.03,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.53,
+   "paranoid": 0.02,
+   "childlike": 0.21,
+   "mystical": 0.94,
+   "bored": 0.03,
+   "sycophantic": 0.05,
+   "grandiose": 0.3,
+   "strange": 0.89,
+   "coherent": 0.95,
+   "on_topic": 0.89
+  }
+ },
+ {
+  "n": 16,
+  "stratum": "baseline",
+  "tag": "confirm4",
+  "id": "baseline",
+  "i": 6,
+  "targets": [],
+  "cond": "baseline",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.41,
+   "fearful": 0.04,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.08,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.03,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.08,
+   "coherent": 0.97,
+   "on_topic": 0.94
+  }
+ },
+ {
+  "n": 17,
+  "stratum": "confirmed:royal",
+  "tag": "confirm",
+  "id": "grandiose_L19_N15233_+1@0.75",
+  "i": 2,
+  "targets": [
+   [
+    19,
+    15233,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.03,
+   "sad": 0.03,
+   "fearful": 0.03,
+   "evil": 0.11,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.01,
+   "childlike": 0.07,
+   "mystical": 0.02,
+   "bored": 0.16,
+   "sycophantic": 0.09,
+   "grandiose": 0.36,
+   "strange": 0.84,
+   "coherent": 0.76,
+   "on_topic": 0.37
+  }
+ },
+ {
+  "n": 18,
+  "stratum": "confirmed:oracle mystic",
+  "tag": "confirm3",
+  "id": "mysticalC_L41_N11176_-1@0.5",
+  "i": 6,
+  "targets": [
+   [
+    41,
+    11176,
+    -0.5
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.04,
+   "sad": 0.21,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.28,
+   "paranoid": 0.02,
+   "childlike": 0.15,
+   "mystical": 0.92,
+   "bored": 0.02,
+   "sycophantic": 0.02,
+   "grandiose": 0.02,
+   "strange": 0.8,
+   "coherent": 0.81,
+   "on_topic": 0.91
+  }
+ },
+ {
+  "n": 19,
+  "stratum": "confirmed:narcissist",
+  "tag": "confirm",
+  "id": "grandiose_L34_N7675_+1@0.75",
+  "i": 4,
+  "targets": [
+   [
+    34,
+    7675,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.65,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.02,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.01,
+   "childlike": 0.11,
+   "mystical": 0.03,
+   "bored": 0.02,
+   "sycophantic": 0.09,
+   "grandiose": 0.6,
+   "strange": 0.35,
+   "coherent": 0.89,
+   "on_topic": 0.87
+  }
+ },
+ {
+  "n": 20,
+  "stratum": "boundary:affect dial (flat pole)",
+  "tag": "dial",
+  "id": "dial_L33_N3570@1.0",
+  "i": 0,
+  "targets": [
+   [
+    33,
+    3570,
+    1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.04,
+   "mystical": 0.01,
+   "bored": 0.05,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.09,
+   "coherent": 0.95,
+   "on_topic": 0.97
+  }
+ },
+ {
+  "n": 21,
+  "stratum": "confirmed:theatrical host",
+  "tag": "confirm2",
+  "id": "joyfulC_L16_N16042_+1@0.75",
+  "i": 7,
+  "targets": [
+   [
+    16,
+    16042,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.66,
+   "sad": 0.03,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.03,
+   "pirate": 0.01,
+   "poetic": 0.67,
+   "paranoid": 0.01,
+   "childlike": 0.08,
+   "mystical": 0.14,
+   "bored": 0.02,
+   "sycophantic": 0.03,
+   "grandiose": 0.06,
+   "strange": 0.49,
+   "coherent": 0.98,
+   "on_topic": 0.95
+  }
+ },
+ {
+  "n": 22,
+  "stratum": "control",
+  "tag": "confirm2",
+  "id": "ctrl_same_L47_40@0.75",
+  "i": 0,
+  "targets": [
+   [
+    47,
+    4484,
+    -0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.01,
+   "bored": 0.03,
+   "sycophantic": 0.02,
+   "grandiose": 0.1,
+   "strange": 0.1,
+   "coherent": 0.8,
+   "on_topic": 0.83
+  }
+ },
+ {
+  "n": 23,
+  "stratum": "confirmed:royal",
+  "tag": "confirm",
+  "id": "grandiose_L19_N15233_+1@0.75",
+  "i": 7,
+  "targets": [
+   [
+    19,
+    15233,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.07,
+   "sad": 0.04,
+   "fearful": 0.03,
+   "evil": 0.83,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.09,
+   "paranoid": 0.03,
+   "childlike": 0.06,
+   "mystical": 0.05,
+   "bored": 0.48,
+   "sycophantic": 0.07,
+   "grandiose": 0.96,
+   "strange": 0.93,
+   "coherent": 0.86,
+   "on_topic": 0.8
+  }
+ },
+ {
+  "n": 24,
+  "stratum": "confirmed:cynic",
+  "tag": "confirm2",
+  "id": "joyfulC_L32_N8944_+1@0.75",
+  "i": 8,
+  "targets": [
+   [
+    32,
+    8944,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.24,
+   "fearful": 0.25,
+   "evil": 0.97,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.06,
+   "paranoid": 0.53,
+   "childlike": 0.03,
+   "mystical": 0.05,
+   "bored": 0.44,
+   "sycophantic": 0.02,
+   "grandiose": 0.66,
+   "strange": 0.98,
+   "coherent": 0.81,
+   "on_topic": 0.42
+  }
+ },
+ {
+  "n": 25,
+  "stratum": "confirmed:surrealist",
+  "tag": "confirm3",
+  "id": "sadC_L28_N335_-1@0.75",
+  "i": 0,
+  "targets": [
+   [
+    28,
+    335,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.51,
+   "sad": 0.07,
+   "fearful": 0.05,
+   "evil": 0.08,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.1,
+   "paranoid": 0.02,
+   "childlike": 0.56,
+   "mystical": 0.07,
+   "bored": 0.09,
+   "sycophantic": 0.02,
+   "grandiose": 0.06,
+   "strange": 0.97,
+   "coherent": 0.55,
+   "on_topic": 0.69
+  }
+ },
+ {
+  "n": 26,
+  "stratum": "control",
+  "tag": "confirm",
+  "id": "ctrl_same_L56_15@0.75",
+  "i": 8,
+  "targets": [
+   [
+    56,
+    8358,
+    0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.02,
+   "fearful": 0.02,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.01,
+   "bored": 0.03,
+   "sycophantic": 0.02,
+   "grandiose": 0.03,
+   "strange": 0.06,
+   "coherent": 0.99,
+   "on_topic": 0.96
+  }
+ },
+ {
+  "n": 27,
+  "stratum": "confirmed:affect dial (joy pole)",
+  "tag": "confirm2",
+  "id": "joyfulC_L33_N3570_-1@1.0",
+  "i": 4,
+  "targets": [
+   [
+    33,
+    3570,
+    -1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.95,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.02,
+   "in_love": 0.32,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.01,
+   "childlike": 0.5,
+   "mystical": 0.02,
+   "bored": 0.02,
+   "sycophantic": 0.25,
+   "grandiose": 0.62,
+   "strange": 0.64,
+   "coherent": 0.73,
+   "on_topic": 0.91
+  }
+ },
+ {
+  "n": 28,
+  "stratum": "baseline",
+  "tag": "dial",
+  "id": "baseline",
+  "i": 11,
+  "targets": [],
+  "cond": "baseline",
+  "jev": {
+   "joyful": 0.03,
+   "sad": 0.02,
+   "fearful": 0.02,
+   "evil": 0.01,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.05,
+   "mystical": 0.04,
+   "bored": 0.03,
+   "sycophantic": 0.02,
+   "grandiose": 0.03,
+   "strange": 0.07,
+   "coherent": 0.99,
+   "on_topic": 0.92
+  }
+ },
+ {
+  "n": 29,
+  "stratum": "confirmed:surrealist",
+  "tag": "confirm3",
+  "id": "sadC_L28_N335_-1@0.75",
+  "i": 6,
+  "targets": [
+   [
+    28,
+    335,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.58,
+   "fearful": 0.05,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.48,
+   "paranoid": 0.02,
+   "childlike": 0.05,
+   "mystical": 0.12,
+   "bored": 0.02,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.44,
+   "coherent": 0.87,
+   "on_topic": 0.93
+  }
+ },
+ {
+  "n": 30,
+  "stratum": "ambiguous",
+  "tag": "confirm2",
+  "id": "joyfulC_L44_N10229_-1@0.5",
+  "i": 11,
+  "targets": [
+   [
+    44,
+    10229,
+    -0.5
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.49,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.1,
+   "mystical": 0.02,
+   "bored": 0.02,
+   "sycophantic": 0.03,
+   "grandiose": 0.07,
+   "strange": 0.16,
+   "coherent": 0.92,
+   "on_topic": 0.96
+  }
+ },
+ {
+  "n": 31,
+  "stratum": "ambiguous",
+  "tag": "confirm3",
+  "id": "fearfulC_L19_N8953_-1@0.75",
+  "i": 7,
+  "targets": [
+   [
+    19,
+    8953,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.06,
+   "fearful": 0.04,
+   "evil": 0.21,
+   "in_love": 0.03,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.02,
+   "childlike": 0.19,
+   "mystical": 0.02,
+   "bored": 0.7,
+   "sycophantic": 0.18,
+   "grandiose": 0.05,
+   "strange": 0.91,
+   "coherent": 0.97,
+   "on_topic": 0.03
+  }
+ },
+ {
+  "n": 32,
+  "stratum": "confirmed:cynic",
+  "tag": "dial",
+  "id": "cynic_L32_N8944@0.75",
+  "i": 7,
+  "targets": [
+   [
+    32,
+    8944,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.19,
+   "fearful": 0.36,
+   "evil": 0.28,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.34,
+   "childlike": 0.03,
+   "mystical": 0.02,
+   "bored": 0.29,
+   "sycophantic": 0.02,
+   "grandiose": 0.25,
+   "strange": 0.93,
+   "coherent": 0.9,
+   "on_topic": 0.21
+  }
+ },
+ {
+  "n": 33,
+  "stratum": "confirmed:royal",
+  "tag": "confirm",
+  "id": "grandiose_L19_N15233_+1@0.75",
+  "i": 10,
+  "targets": [
+   [
+    19,
+    15233,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.16,
+   "sad": 0.05,
+   "fearful": 0.02,
+   "evil": 0.26,
+   "in_love": 0.18,
+   "pirate": 0.01,
+   "poetic": 0.43,
+   "paranoid": 0.02,
+   "childlike": 0.19,
+   "mystical": 0.93,
+   "bored": 0.21,
+   "sycophantic": 0.3,
+   "grandiose": 0.77,
+   "strange": 0.95,
+   "coherent": 0.69,
+   "on_topic": 0.14
+  }
+ },
+ {
+  "n": 34,
+  "stratum": "baseline",
+  "tag": "dial",
+  "id": "baseline",
+  "i": 4,
+  "targets": [],
+  "cond": "baseline",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.02,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.01,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.03,
+   "strange": 0.1,
+   "coherent": 0.64,
+   "on_topic": 0.92
+  }
+ },
+ {
+  "n": 35,
+  "stratum": "confirmed:cynic",
+  "tag": "confirm2",
+  "id": "joyfulC_L32_N8944_+1@0.75",
+  "i": 9,
+  "targets": [
+   [
+    32,
+    8944,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.06,
+   "sad": 0.05,
+   "fearful": 0.14,
+   "evil": 0.96,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.03,
+   "paranoid": 0.02,
+   "childlike": 0.06,
+   "mystical": 0.03,
+   "bored": 0.45,
+   "sycophantic": 0.02,
+   "grandiose": 0.64,
+   "strange": 0.97,
+   "coherent": 0.84,
+   "on_topic": 0.63
+  }
+ },
+ {
+  "n": 36,
+  "stratum": "control",
+  "tag": "confirm3",
+  "id": "ctrl_same_L48_20@0.75",
+  "i": 1,
+  "targets": [
+   [
+    48,
+    4139,
+    0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.02,
+   "mystical": 0.02,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.03,
+   "strange": 0.07,
+   "coherent": 0.85,
+   "on_topic": 0.9
+  }
+ },
+ {
+  "n": 37,
+  "stratum": "confirmed:cynic",
+  "tag": "dial",
+  "id": "cynic_L32_N8944@0.75",
+  "i": 8,
+  "targets": [
+   [
+    32,
+    8944,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.45,
+   "fearful": 0.74,
+   "evil": 0.33,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.05,
+   "paranoid": 0.12,
+   "childlike": 0.05,
+   "mystical": 0.06,
+   "bored": 0.1,
+   "sycophantic": 0.02,
+   "grandiose": 0.08,
+   "strange": 0.83,
+   "coherent": 0.87,
+   "on_topic": 0.89
+  }
+ },
+ {
+  "n": 38,
+  "stratum": "boundary:affect dial (flat pole)",
+  "tag": "dial",
+  "id": "dial_L33_N3570@1.0",
+  "i": 1,
+  "targets": [
+   [
+    33,
+    3570,
+    1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.02,
+   "bored": 0.04,
+   "sycophantic": 0.01,
+   "grandiose": 0.03,
+   "strange": 0.25,
+   "coherent": 0.97,
+   "on_topic": 0.84
+  }
+ },
+ {
+  "n": 39,
+  "stratum": "confirmed:affect dial (joy pole)",
+  "tag": "confirm2",
+  "id": "joyfulC_L33_N3570_-1@1.0",
+  "i": 9,
+  "targets": [
+   [
+    33,
+    3570,
+    -1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.82,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.01,
+   "childlike": 0.43,
+   "mystical": 0.02,
+   "bored": 0.02,
+   "sycophantic": 0.06,
+   "grandiose": 0.04,
+   "strange": 0.4,
+   "coherent": 0.88,
+   "on_topic": 0.91
+  }
+ },
+ {
+  "n": 40,
+  "stratum": "confirmed:contempt",
+  "tag": "confirm",
+  "id": "grandiose_L33_N9398_+1@1.0",
+  "i": 6,
+  "targets": [
+   [
+    33,
+    9398,
+    1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.04,
+   "fearful": 0.03,
+   "evil": 0.97,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.02,
+   "childlike": 0.05,
+   "mystical": 0.01,
+   "bored": 0.99,
+   "sycophantic": 0.01,
+   "grandiose": 0.46,
+   "strange": 0.98,
+   "coherent": 0.97,
+   "on_topic": 0.09
+  }
+ },
+ {
+  "n": 41,
+  "stratum": "confirmed:childlike",
+  "tag": "confirm",
+  "id": "childlike_L49_N1846_-1@0.75",
+  "i": 1,
+  "targets": [
+   [
+    49,
+    1846,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.06,
+   "sad": 0.03,
+   "fearful": 0.02,
+   "evil": 0.01,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.05,
+   "paranoid": 0.01,
+   "childlike": 0.56,
+   "mystical": 0.09,
+   "bored": 0.03,
+   "sycophantic": 0.02,
+   "grandiose": 0.02,
+   "strange": 0.21,
+   "coherent": 0.78,
+   "on_topic": 0.92
+  }
+ },
+ {
+  "n": 42,
+  "stratum": "ambiguous",
+  "tag": "confirm",
+  "id": "childlike_L49_N1846_-1@1.0",
+  "i": 0,
+  "targets": [
+   [
+    49,
+    1846,
+    -1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.14,
+   "sad": 0.02,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.4,
+   "mystical": 0.02,
+   "bored": 0.03,
+   "sycophantic": 0.02,
+   "grandiose": 0.05,
+   "strange": 0.47,
+   "coherent": 0.71,
+   "on_topic": 0.84
+  }
+ },
+ {
+  "n": 43,
+  "stratum": "control",
+  "tag": "dial",
+  "id": "ctrl_L33_3@-1.0",
+  "i": 0,
+  "targets": [
+   [
+    33,
+    15694,
+    -1.0
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.01,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.03,
+   "strange": 0.16,
+   "coherent": 0.73,
+   "on_topic": 0.93
+  }
+ },
+ {
+  "n": 44,
+  "stratum": "ambiguous",
+  "tag": "confirm3",
+  "id": "fearfulC_L19_N8953_-1@0.75",
+  "i": 9,
+  "targets": [
+   [
+    19,
+    8953,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.03,
+   "fearful": 0.03,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.07,
+   "mystical": 0.01,
+   "bored": 0.52,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.73,
+   "coherent": 0.96,
+   "on_topic": 0.02
+  }
+ },
+ {
+  "n": 45,
+  "stratum": "boundary:affect dial (flat pole)",
+  "tag": "dial",
+  "id": "dial_L33_N3570@1.0",
+  "i": 8,
+  "targets": [
+   [
+    33,
+    3570,
+    1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.03,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.04,
+   "mystical": 0.02,
+   "bored": 0.53,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.2,
+   "coherent": 0.99,
+   "on_topic": 0.55
+  }
+ },
+ {
+  "n": 46,
+  "stratum": "boundary:affect dial (-0.5)",
+  "tag": "confirm2",
+  "id": "joyfulC_L33_N3570_-1@0.5",
+  "i": 8,
+  "targets": [
+   [
+    33,
+    3570,
+    -0.5
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.32,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.01,
+   "childlike": 0.1,
+   "mystical": 0.07,
+   "bored": 0.02,
+   "sycophantic": 0.04,
+   "grandiose": 0.03,
+   "strange": 0.1,
+   "coherent": 0.99,
+   "on_topic": 0.96
+  }
+ },
+ {
+  "n": 47,
+  "stratum": "boundary:affect dial (flat pole)",
+  "tag": "dial",
+  "id": "dial_L33_N3570@1.0",
+  "i": 11,
+  "targets": [
+   [
+    33,
+    3570,
+    1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.07,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.09,
+   "mystical": 0.02,
+   "bored": 0.37,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.12,
+   "coherent": 0.98,
+   "on_topic": 0.97
+  }
+ },
+ {
+  "n": 48,
+  "stratum": "baseline",
+  "tag": "confirm",
+  "id": "baseline",
+  "i": 5,
+  "targets": [],
+  "cond": "baseline",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.02,
+   "mystical": 0.03,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.05,
+   "strange": 0.19,
+   "coherent": 0.87,
+   "on_topic": 0.91
+  }
+ },
+ {
+  "n": 49,
+  "stratum": "confirmed:cosmic awe",
+  "tag": "confirm3",
+  "id": "sadC_L48_N221_+1@0.75",
+  "i": 2,
+  "targets": [
+   [
+    48,
+    221,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.11,
+   "sad": 0.66,
+   "fearful": 0.9,
+   "evil": 0.84,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.91,
+   "paranoid": 0.08,
+   "childlike": 0.04,
+   "mystical": 0.88,
+   "bored": 0.05,
+   "sycophantic": 0.08,
+   "grandiose": 0.19,
+   "strange": 0.97,
+   "coherent": 0.36,
+   "on_topic": 0.69
+  }
+ },
+ {
+  "n": 50,
+  "stratum": "confirmed:narcissist",
+  "tag": "dial",
+  "id": "narcissist_L34_N7675@0.75",
+  "i": 3,
+  "targets": [
+   [
+    34,
+    7675,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.25,
+   "sad": 0.02,
+   "fearful": 0.02,
+   "evil": 0.04,
+   "in_love": 0.58,
+   "pirate": 0.01,
+   "poetic": 0.03,
+   "paranoid": 0.02,
+   "childlike": 0.14,
+   "mystical": 0.19,
+   "bored": 0.05,
+   "sycophantic": 0.92,
+   "grandiose": 0.16,
+   "strange": 0.79,
+   "coherent": 0.88,
+   "on_topic": 0.86
+  }
+ },
+ {
+  "n": 51,
+  "stratum": "baseline",
+  "tag": "confirm3",
+  "id": "baseline",
+  "i": 7,
+  "targets": [],
+  "cond": "baseline",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.01,
+   "bored": 0.02,
+   "sycophantic": 0.03,
+   "grandiose": 0.02,
+   "strange": 0.06,
+   "coherent": 0.9,
+   "on_topic": 0.93
+  }
+ },
+ {
+  "n": 52,
+  "stratum": "control",
+  "tag": "confirm2",
+  "id": "ctrl_same_L21_30@0.75",
+  "i": 10,
+  "targets": [
+   [
+    21,
+    1434,
+    0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.02,
+   "mystical": 0.03,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.07,
+   "coherent": 0.74,
+   "on_topic": 0.96
+  }
+ },
+ {
+  "n": 53,
+  "stratum": "boundary:affect dial (-0.5)",
+  "tag": "dial",
+  "id": "dial_L33_N3570@-0.5",
+  "i": 11,
+  "targets": [
+   [
+    33,
+    3570,
+    -0.5
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.17,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.02,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.01,
+   "childlike": 0.12,
+   "mystical": 0.03,
+   "bored": 0.03,
+   "sycophantic": 0.04,
+   "grandiose": 0.03,
+   "strange": 0.13,
+   "coherent": 0.99,
+   "on_topic": 0.96
+  }
+ },
+ {
+  "n": 54,
+  "stratum": "control",
+  "tag": "confirm3",
+  "id": "ctrl_same_L48_20@0.75",
+  "i": 11,
+  "targets": [
+   [
+    48,
+    4139,
+    0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.03,
+   "sad": 0.02,
+   "fearful": 0.02,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.05,
+   "mystical": 0.02,
+   "bored": 0.04,
+   "sycophantic": 0.03,
+   "grandiose": 0.03,
+   "strange": 0.07,
+   "coherent": 0.98,
+   "on_topic": 0.86
+  }
+ },
+ {
+  "n": 55,
+  "stratum": "control",
+  "tag": "confirm2",
+  "id": "ctrl_same_L47_65@0.75",
+  "i": 4,
+  "targets": [
+   [
+    47,
+    992,
+    -0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.01,
+   "bored": 0.03,
+   "sycophantic": 0.02,
+   "grandiose": 0.03,
+   "strange": 0.09,
+   "coherent": 0.87,
+   "on_topic": 0.85
+  }
+ },
+ {
+  "n": 56,
+  "stratum": "ambiguous",
+  "tag": "confirm2",
+  "id": "joyfulC_L33_N3570_-1@0.75",
+  "i": 8,
+  "targets": [
+   [
+    33,
+    3570,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.66,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.03,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.01,
+   "childlike": 0.15,
+   "mystical": 0.02,
+   "bored": 0.02,
+   "sycophantic": 0.04,
+   "grandiose": 0.04,
+   "strange": 0.17,
+   "coherent": 0.99,
+   "on_topic": 0.95
+  }
+ },
+ {
+  "n": 57,
+  "stratum": "ambiguous",
+  "tag": "confirm",
+  "id": "joyful_L53_N9459_+1@1.0",
+  "i": 1,
+  "targets": [
+   [
+    53,
+    9459,
+    1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.57,
+   "sad": 0.03,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.09,
+   "paranoid": 0.01,
+   "childlike": 0.44,
+   "mystical": 0.03,
+   "bored": 0.05,
+   "sycophantic": 0.02,
+   "grandiose": 0.04,
+   "strange": 0.77,
+   "coherent": 0.54,
+   "on_topic": 0.75
+  }
+ },
+ {
+  "n": 58,
+  "stratum": "confirmed:evil",
+  "tag": "dial",
+  "id": "evil_L34_N3838@0.75",
+  "i": 8,
+  "targets": [
+   [
+    34,
+    3838,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.17,
+   "sad": 0.06,
+   "fearful": 0.16,
+   "evil": 0.87,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.2,
+   "childlike": 0.08,
+   "mystical": 0.19,
+   "bored": 0.13,
+   "sycophantic": 0.02,
+   "grandiose": 0.15,
+   "strange": 0.89,
+   "coherent": 0.94,
+   "on_topic": 0.78
+  }
+ },
+ {
+  "n": 59,
+  "stratum": "confirmed:contempt",
+  "tag": "confirm",
+  "id": "grandiose_L33_N9398_+1@1.0",
+  "i": 9,
+  "targets": [
+   [
+    33,
+    9398,
+    1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.03,
+   "fearful": 0.04,
+   "evil": 0.95,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.02,
+   "childlike": 0.05,
+   "mystical": 0.02,
+   "bored": 0.98,
+   "sycophantic": 0.01,
+   "grandiose": 0.81,
+   "strange": 0.97,
+   "coherent": 0.88,
+   "on_topic": 0.76
+  }
+ },
+ {
+  "n": 60,
+  "stratum": "confirmed:infatuation",
+  "tag": "confirm2",
+  "id": "joyfulC_L44_N14218_-1@0.75",
+  "i": 4,
+  "targets": [
+   [
+    44,
+    14218,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.92,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.79,
+   "pirate": 0.01,
+   "poetic": 0.05,
+   "paranoid": 0.01,
+   "childlike": 0.57,
+   "mystical": 0.06,
+   "bored": 0.03,
+   "sycophantic": 0.87,
+   "grandiose": 0.59,
+   "strange": 0.86,
+   "coherent": 0.85,
+   "on_topic": 0.83
+  }
+ },
+ {
+  "n": 61,
+  "stratum": "confirmed:cosmic awe",
+  "tag": "confirm2",
+  "id": "joyfulC_L48_N221_+1@0.75",
+  "i": 10,
+  "targets": [
+   [
+    48,
+    221,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.81,
+   "sad": 0.03,
+   "fearful": 0.02,
+   "evil": 0.03,
+   "in_love": 0.03,
+   "pirate": 0.01,
+   "poetic": 0.45,
+   "paranoid": 0.04,
+   "childlike": 0.41,
+   "mystical": 0.97,
+   "bored": 0.04,
+   "sycophantic": 0.04,
+   "grandiose": 0.17,
+   "strange": 0.87,
+   "coherent": 0.49,
+   "on_topic": 0.68
+  }
+ },
+ {
+  "n": 62,
+  "stratum": "confirmed:infatuation",
+  "tag": "confirm2",
+  "id": "joyfulC_L44_N14218_-1@0.75",
+  "i": 9,
+  "targets": [
+   [
+    44,
+    14218,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.91,
+   "sad": 0.03,
+   "fearful": 0.03,
+   "evil": 0.03,
+   "in_love": 0.31,
+   "pirate": 0.01,
+   "poetic": 0.18,
+   "paranoid": 0.02,
+   "childlike": 0.64,
+   "mystical": 0.09,
+   "bored": 0.16,
+   "sycophantic": 0.4,
+   "grandiose": 0.04,
+   "strange": 0.98,
+   "coherent": 0.05,
+   "on_topic": 0.03
+  }
+ },
+ {
+  "n": 63,
+  "stratum": "ambiguous",
+  "tag": "confirm3",
+  "id": "sadC_L28_N335_-1@0.75",
+  "i": 9,
+  "targets": [
+   [
+    28,
+    335,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.36,
+   "sad": 0.07,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.57,
+   "paranoid": 0.02,
+   "childlike": 0.26,
+   "mystical": 0.2,
+   "bored": 0.02,
+   "sycophantic": 0.02,
+   "grandiose": 0.03,
+   "strange": 0.83,
+   "coherent": 0.98,
+   "on_topic": 0.85
+  }
+ },
+ {
+  "n": 64,
+  "stratum": "baseline",
+  "tag": "confirm3",
+  "id": "baseline",
+  "i": 0,
+  "targets": [],
+  "cond": "baseline",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.02,
+   "mystical": 0.01,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.03,
+   "strange": 0.07,
+   "coherent": 0.76,
+   "on_topic": 0.94
+  }
+ },
+ {
+  "n": 65,
+  "stratum": "confirmed:childlike",
+  "tag": "confirm",
+  "id": "childlike_L49_N1846_-1@0.75",
+  "i": 9,
+  "targets": [
+   [
+    49,
+    1846,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.17,
+   "sad": 0.02,
+   "fearful": 0.02,
+   "evil": 0.03,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.01,
+   "childlike": 0.21,
+   "mystical": 0.04,
+   "bored": 0.04,
+   "sycophantic": 0.02,
+   "grandiose": 0.08,
+   "strange": 0.41,
+   "coherent": 0.98,
+   "on_topic": 0.95
+  }
+ },
+ {
+  "n": 66,
+  "stratum": "boundary:affect dial (-0.5)",
+  "tag": "confirm2",
+  "id": "joyfulC_L33_N3570_-1@0.5",
+  "i": 5,
+  "targets": [
+   [
+    33,
+    3570,
+    -0.5
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.12,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.06,
+   "mystical": 0.04,
+   "bored": 0.02,
+   "sycophantic": 0.01,
+   "grandiose": 0.03,
+   "strange": 0.11,
+   "coherent": 0.86,
+   "on_topic": 0.9
+  }
+ },
+ {
+  "n": 67,
+  "stratum": "baseline",
+  "tag": "confirm3",
+  "id": "baseline",
+  "i": 8,
+  "targets": [],
+  "cond": "baseline",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.05,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.02,
+   "bored": 0.06,
+   "sycophantic": 0.02,
+   "grandiose": 0.03,
+   "strange": 0.08,
+   "coherent": 0.98,
+   "on_topic": 0.93
+  }
+ },
+ {
+  "n": 68,
+  "stratum": "confirmed:surrealist",
+  "tag": "confirm3",
+  "id": "sadC_L28_N335_-1@0.75",
+  "i": 8,
+  "targets": [
+   [
+    28,
+    335,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.92,
+   "fearful": 0.69,
+   "evil": 0.07,
+   "in_love": 0.03,
+   "pirate": 0.01,
+   "poetic": 0.75,
+   "paranoid": 0.03,
+   "childlike": 0.03,
+   "mystical": 0.14,
+   "bored": 0.03,
+   "sycophantic": 0.02,
+   "grandiose": 0.14,
+   "strange": 0.83,
+   "coherent": 0.95,
+   "on_topic": 0.92
+  }
+ },
+ {
+  "n": 69,
+  "stratum": "baseline",
+  "tag": "confirm",
+  "id": "baseline",
+  "i": 11,
+  "targets": [],
+  "cond": "baseline",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.02,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.02,
+   "mystical": 0.02,
+   "bored": 0.02,
+   "sycophantic": 0.02,
+   "grandiose": 0.04,
+   "strange": 0.06,
+   "coherent": 0.99,
+   "on_topic": 0.98
+  }
+ },
+ {
+  "n": 70,
+  "stratum": "confirmed:theatrical host",
+  "tag": "confirm2",
+  "id": "joyfulC_L16_N16042_+1@0.75",
+  "i": 2,
+  "targets": [
+   [
+    16,
+    16042,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.53,
+   "sad": 0.04,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.07,
+   "pirate": 0.01,
+   "poetic": 0.18,
+   "paranoid": 0.01,
+   "childlike": 0.22,
+   "mystical": 0.7,
+   "bored": 0.05,
+   "sycophantic": 0.05,
+   "grandiose": 0.07,
+   "strange": 0.69,
+   "coherent": 0.96,
+   "on_topic": 0.13
+  }
+ },
+ {
+  "n": 71,
+  "stratum": "confirmed:affect dial (joy pole)",
+  "tag": "confirm2",
+  "id": "joyfulC_L33_N3570_-1@1.0",
+  "i": 0,
+  "targets": [
+   [
+    33,
+    3570,
+    -1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.93,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.02,
+   "in_love": 0.03,
+   "pirate": 0.01,
+   "poetic": 0.08,
+   "paranoid": 0.01,
+   "childlike": 0.47,
+   "mystical": 0.02,
+   "bored": 0.02,
+   "sycophantic": 0.12,
+   "grandiose": 0.05,
+   "strange": 0.68,
+   "coherent": 0.52,
+   "on_topic": 0.79
+  }
+ },
+ {
+  "n": 72,
+  "stratum": "ambiguous",
+  "tag": "confirm2",
+  "id": "joyfulC_L21_N8709_+1@1.0",
+  "i": 10,
+  "targets": [
+   [
+    21,
+    8709,
+    1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.03,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.51,
+   "mystical": 0.02,
+   "bored": 0.07,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.11,
+   "coherent": 0.99,
+   "on_topic": 0.94
+  }
+ },
+ {
+  "n": 73,
+  "stratum": "ambiguous",
+  "tag": "confirm2",
+  "id": "joyfulC_L47_N16684_-1@0.75",
+  "i": 4,
+  "targets": [
+   [
+    47,
+    16684,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.37,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.09,
+   "mystical": 0.02,
+   "bored": 0.03,
+   "sycophantic": 0.04,
+   "grandiose": 0.47,
+   "strange": 0.22,
+   "coherent": 0.63,
+   "on_topic": 0.89
+  }
+ },
+ {
+  "n": 74,
+  "stratum": "boundary:affect dial (flat pole)",
+  "tag": "dial",
+  "id": "dial_L33_N3570@1.0",
+  "i": 4,
+  "targets": [
+   [
+    33,
+    3570,
+    1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.04,
+   "mystical": 0.01,
+   "bored": 0.08,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.04,
+   "coherent": 0.98,
+   "on_topic": 0.98
+  }
+ },
+ {
+  "n": 75,
+  "stratum": "confirmed:pirate",
+  "tag": "confirm",
+  "id": "pirate_L20_N16573_+1@0.75",
+  "i": 4,
+  "targets": [
+   [
+    20,
+    16573,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.82,
+   "sad": 0.02,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.03,
+   "pirate": 0.89,
+   "poetic": 0.14,
+   "paranoid": 0.02,
+   "childlike": 0.19,
+   "mystical": 0.04,
+   "bored": 0.03,
+   "sycophantic": 0.09,
+   "grandiose": 0.1,
+   "strange": 0.71,
+   "coherent": 0.74,
+   "on_topic": 0.94
+  }
+ },
+ {
+  "n": 76,
+  "stratum": "confirmed:narcissist",
+  "tag": "dial",
+  "id": "narcissist_L34_N7675@0.75",
+  "i": 5,
+  "targets": [
+   [
+    34,
+    7675,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.56,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.04,
+   "in_love": 0.08,
+   "pirate": 0.01,
+   "poetic": 0.08,
+   "paranoid": 0.01,
+   "childlike": 0.07,
+   "mystical": 0.11,
+   "bored": 0.04,
+   "sycophantic": 0.55,
+   "grandiose": 0.51,
+   "strange": 0.78,
+   "coherent": 0.72,
+   "on_topic": 0.87
+  }
+ },
+ {
+  "n": 77,
+  "stratum": "control",
+  "tag": "confirm3",
+  "id": "ctrl_same_L47_50@0.75",
+  "i": 10,
+  "targets": [
+   [
+    47,
+    16592,
+    0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.02,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.02,
+   "childlike": 0.1,
+   "mystical": 0.02,
+   "bored": 0.23,
+   "sycophantic": 0.01,
+   "grandiose": 0.04,
+   "strange": 0.97,
+   "coherent": 0.02,
+   "on_topic": 0.1
+  }
+ },
+ {
+  "n": 78,
+  "stratum": "confirmed:contempt",
+  "tag": "confirm",
+  "id": "grandiose_L33_N9398_+1@1.0",
+  "i": 2,
+  "targets": [
+   [
+    33,
+    9398,
+    1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.03,
+   "fearful": 0.04,
+   "evil": 0.8,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.05,
+   "mystical": 0.02,
+   "bored": 0.87,
+   "sycophantic": 0.02,
+   "grandiose": 0.66,
+   "strange": 0.91,
+   "coherent": 0.61,
+   "on_topic": 0.77
+  }
+ },
+ {
+  "n": 79,
+  "stratum": "confirmed:pirate",
+  "tag": "confirm",
+  "id": "pirate_L20_N16573_+1@0.75",
+  "i": 3,
+  "targets": [
+   [
+    20,
+    16573,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.94,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.77,
+   "poetic": 0.21,
+   "paranoid": 0.01,
+   "childlike": 0.15,
+   "mystical": 0.03,
+   "bored": 0.02,
+   "sycophantic": 0.04,
+   "grandiose": 0.07,
+   "strange": 0.81,
+   "coherent": 0.98,
+   "on_topic": 0.97
+  }
+ },
+ {
+  "n": 80,
+  "stratum": "baseline",
+  "tag": "confirm2",
+  "id": "baseline",
+  "i": 5,
+  "targets": [],
+  "cond": "baseline",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.02,
+   "mystical": 0.03,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.05,
+   "strange": 0.19,
+   "coherent": 0.88,
+   "on_topic": 0.89
+  }
+ },
+ {
+  "n": 81,
+  "stratum": "boundary:affect dial (-0.5)",
+  "tag": "dial",
+  "id": "dial_L33_N3570@-0.5",
+  "i": 6,
+  "targets": [
+   [
+    33,
+    3570,
+    -0.5
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.25,
+   "sad": 0.29,
+   "fearful": 0.03,
+   "evil": 0.02,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.09,
+   "paranoid": 0.01,
+   "childlike": 0.39,
+   "mystical": 0.03,
+   "bored": 0.03,
+   "sycophantic": 0.03,
+   "grandiose": 0.03,
+   "strange": 0.22,
+   "coherent": 0.88,
+   "on_topic": 0.92
+  }
+ },
+ {
+  "n": 82,
+  "stratum": "control",
+  "tag": "confirm",
+  "id": "ctrl_same_L33_70@0.75",
+  "i": 3,
+  "targets": [
+   [
+    33,
+    14180,
+    0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.03,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.02,
+   "mystical": 0.01,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.04,
+   "coherent": 0.99,
+   "on_topic": 0.98
+  }
+ },
+ {
+  "n": 83,
+  "stratum": "baseline",
+  "tag": "dial",
+  "id": "baseline",
+  "i": 0,
+  "targets": [],
+  "cond": "baseline",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.02,
+   "mystical": 0.01,
+   "bored": 0.03,
+   "sycophantic": 0.02,
+   "grandiose": 0.03,
+   "strange": 0.06,
+   "coherent": 0.78,
+   "on_topic": 0.93
+  }
+ },
+ {
+  "n": 84,
+  "stratum": "confirmed:conspiracy",
+  "tag": "confirm4",
+  "id": "paranoid_L32_N15999@0.75",
+  "i": 4,
+  "targets": [
+   [
+    32,
+    15999,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.11,
+   "sad": 0.06,
+   "fearful": 0.7,
+   "evil": 0.43,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.09,
+   "paranoid": 0.97,
+   "childlike": 0.08,
+   "mystical": 0.75,
+   "bored": 0.16,
+   "sycophantic": 0.02,
+   "grandiose": 0.29,
+   "strange": 0.98,
+   "coherent": 0.8,
+   "on_topic": 0.75
+  }
+ },
+ {
+  "n": 85,
+  "stratum": "confirmed:conspiracy",
+  "tag": "confirm4",
+  "id": "paranoid_L32_N15999@0.75",
+  "i": 11,
+  "targets": [
+   [
+    32,
+    15999,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.06,
+   "fearful": 0.53,
+   "evil": 0.45,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.03,
+   "paranoid": 0.98,
+   "childlike": 0.05,
+   "mystical": 0.28,
+   "bored": 0.07,
+   "sycophantic": 0.02,
+   "grandiose": 0.16,
+   "strange": 0.97,
+   "coherent": 0.96,
+   "on_topic": 0.62
+  }
+ },
+ {
+  "n": 86,
+  "stratum": "confirmed:theatrical host",
+  "tag": "confirm2",
+  "id": "joyfulC_L16_N16042_+1@0.75",
+  "i": 3,
+  "targets": [
+   [
+    16,
+    16042,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.11,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.11,
+   "mystical": 0.01,
+   "bored": 0.07,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.05,
+   "coherent": 0.99,
+   "on_topic": 0.97
+  }
+ },
+ {
+  "n": 87,
+  "stratum": "confirmed:pirate",
+  "tag": "dial",
+  "id": "pirate_L20_N16573@0.75",
+  "i": 9,
+  "targets": [
+   [
+    20,
+    16573,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.13,
+   "sad": 0.02,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.02,
+   "pirate": 0.05,
+   "poetic": 0.11,
+   "paranoid": 0.02,
+   "childlike": 0.33,
+   "mystical": 0.03,
+   "bored": 0.05,
+   "sycophantic": 0.02,
+   "grandiose": 0.04,
+   "strange": 0.82,
+   "coherent": 0.82,
+   "on_topic": 0.24
+  }
+ },
+ {
+  "n": 88,
+  "stratum": "confirmed:evil",
+  "tag": "confirm",
+  "id": "evil_L34_N3838@0.75",
+  "i": 10,
+  "targets": [
+   [
+    34,
+    3838,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.23,
+   "sad": 0.05,
+   "fearful": 0.08,
+   "evil": 0.96,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.19,
+   "childlike": 0.21,
+   "mystical": 0.12,
+   "bored": 0.21,
+   "sycophantic": 0.03,
+   "grandiose": 0.62,
+   "strange": 0.98,
+   "coherent": 0.72,
+   "on_topic": 0.65
+  }
+ },
+ {
+  "n": 89,
+  "stratum": "confirmed:heartbroken",
+  "tag": "confirm3",
+  "id": "sadC_L34_N9968_+1@0.75",
+  "i": 8,
+  "targets": [
+   [
+    34,
+    9968,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.97,
+   "fearful": 0.59,
+   "evil": 0.03,
+   "in_love": 0.48,
+   "pirate": 0.01,
+   "poetic": 0.07,
+   "paranoid": 0.02,
+   "childlike": 0.04,
+   "mystical": 0.06,
+   "bored": 0.03,
+   "sycophantic": 0.03,
+   "grandiose": 0.02,
+   "strange": 0.95,
+   "coherent": 0.88,
+   "on_topic": 0.5
+  }
+ },
+ {
+  "n": 90,
+  "stratum": "control",
+  "tag": "confirm",
+  "id": "ctrl_same_L53_5@0.75",
+  "i": 5,
+  "targets": [
+   [
+    53,
+    4402,
+    0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.02,
+   "mystical": 0.02,
+   "bored": 0.04,
+   "sycophantic": 0.02,
+   "grandiose": 0.06,
+   "strange": 0.2,
+   "coherent": 0.84,
+   "on_topic": 0.92
+  }
+ },
+ {
+  "n": 91,
+  "stratum": "confirmed:theatrical host",
+  "tag": "confirm2",
+  "id": "joyfulC_L16_N16042_+1@0.75",
+  "i": 11,
+  "targets": [
+   [
+    16,
+    16042,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.07,
+   "sad": 0.05,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.03,
+   "paranoid": 0.01,
+   "childlike": 0.11,
+   "mystical": 0.02,
+   "bored": 0.04,
+   "sycophantic": 0.02,
+   "grandiose": 0.04,
+   "strange": 0.88,
+   "coherent": 0.98,
+   "on_topic": 0.87
+  }
+ },
+ {
+  "n": 92,
+  "stratum": "boundary:affect dial (-0.5)",
+  "tag": "confirm2",
+  "id": "joyfulC_L33_N3570_-1@0.5",
+  "i": 0,
+  "targets": [
+   [
+    33,
+    3570,
+    -0.5
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.14,
+   "sad": 0.02,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.06,
+   "mystical": 0.02,
+   "bored": 0.02,
+   "sycophantic": 0.02,
+   "grandiose": 0.04,
+   "strange": 0.1,
+   "coherent": 0.74,
+   "on_topic": 0.87
+  }
+ },
+ {
+  "n": 93,
+  "stratum": "ambiguous",
+  "tag": "confirm",
+  "id": "joyful_L57_N15694_-1@-0.75",
+  "i": 3,
+  "targets": [
+   [
+    57,
+    15694,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.3,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.05,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.09,
+   "mystical": 0.02,
+   "bored": 0.03,
+   "sycophantic": 0.02,
+   "grandiose": 0.03,
+   "strange": 0.23,
+   "coherent": 0.99,
+   "on_topic": 0.97
+  }
+ },
+ {
+  "n": 94,
+  "stratum": "confirmed:evil",
+  "tag": "dial",
+  "id": "evil_L34_N3838@0.75",
+  "i": 6,
+  "targets": [
+   [
+    34,
+    3838,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.07,
+   "sad": 0.12,
+   "fearful": 0.31,
+   "evil": 0.97,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.14,
+   "childlike": 0.04,
+   "mystical": 0.03,
+   "bored": 0.19,
+   "sycophantic": 0.01,
+   "grandiose": 0.36,
+   "strange": 0.96,
+   "coherent": 0.8,
+   "on_topic": 0.76
+  }
+ },
+ {
+  "n": 95,
+  "stratum": "ambiguous",
+  "tag": "confirm",
+  "id": "grandiose_L33_N9398_+1@0.5",
+  "i": 7,
+  "targets": [
+   [
+    33,
+    9398,
+    0.5
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.6,
+   "fearful": 0.11,
+   "evil": 0.04,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.04,
+   "paranoid": 0.02,
+   "childlike": 0.04,
+   "mystical": 0.03,
+   "bored": 0.44,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.25,
+   "coherent": 0.88,
+   "on_topic": 0.91
+  }
+ },
+ {
+  "n": 96,
+  "stratum": "confirmed:heartbroken",
+  "tag": "confirm3",
+  "id": "sadC_L34_N9968_+1@0.75",
+  "i": 3,
+  "targets": [
+   [
+    34,
+    9968,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.82,
+   "fearful": 0.1,
+   "evil": 0.05,
+   "in_love": 0.07,
+   "pirate": 0.01,
+   "poetic": 0.05,
+   "paranoid": 0.03,
+   "childlike": 0.21,
+   "mystical": 0.07,
+   "bored": 0.07,
+   "sycophantic": 0.01,
+   "grandiose": 0.03,
+   "strange": 0.97,
+   "coherent": 0.37,
+   "on_topic": 0.26
+  }
+ },
+ {
+  "n": 97,
+  "stratum": "confirmed:infatuation",
+  "tag": "dial",
+  "id": "love_L44_N14218@-0.75",
+  "i": 6,
+  "targets": [
+   [
+    44,
+    14218,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.34,
+   "sad": 0.73,
+   "fearful": 0.02,
+   "evil": 0.01,
+   "in_love": 0.75,
+   "pirate": 0.01,
+   "poetic": 0.24,
+   "paranoid": 0.01,
+   "childlike": 0.09,
+   "mystical": 0.08,
+   "bored": 0.02,
+   "sycophantic": 0.57,
+   "grandiose": 0.07,
+   "strange": 0.58,
+   "coherent": 0.73,
+   "on_topic": 0.9
+  }
+ },
+ {
+  "n": 98,
+  "stratum": "confirmed:pirate",
+  "tag": "dial",
+  "id": "pirate_L20_N16573@0.75",
+  "i": 11,
+  "targets": [
+   [
+    20,
+    16573,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.18,
+   "sad": 0.06,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.02,
+   "pirate": 0.9,
+   "poetic": 0.04,
+   "paranoid": 0.02,
+   "childlike": 0.11,
+   "mystical": 0.54,
+   "bored": 0.05,
+   "sycophantic": 0.03,
+   "grandiose": 0.05,
+   "strange": 0.63,
+   "coherent": 0.98,
+   "on_topic": 0.93
+  }
+ },
+ {
+  "n": 99,
+  "stratum": "ambiguous",
+  "tag": "confirm2",
+  "id": "joyfulC_L44_N10229_-1@0.75",
+  "i": 2,
+  "targets": [
+   [
+    44,
+    10229,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.52,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.12,
+   "mystical": 0.02,
+   "bored": 0.02,
+   "sycophantic": 0.02,
+   "grandiose": 0.04,
+   "strange": 0.2,
+   "coherent": 0.75,
+   "on_topic": 0.95
+  }
+ },
+ {
+  "n": 100,
+  "stratum": "confirmed:cosmic awe",
+  "tag": "confirm2",
+  "id": "joyfulC_L48_N221_+1@0.75",
+  "i": 11,
+  "targets": [
+   [
+    48,
+    221,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.96,
+   "sad": 0.02,
+   "fearful": 0.03,
+   "evil": 0.06,
+   "in_love": 0.51,
+   "pirate": 0.01,
+   "poetic": 0.84,
+   "paranoid": 0.02,
+   "childlike": 0.16,
+   "mystical": 0.97,
+   "bored": 0.02,
+   "sycophantic": 0.88,
+   "grandiose": 0.97,
+   "strange": 0.96,
+   "coherent": 0.4,
+   "on_topic": 0.7
+  }
+ },
+ {
+  "n": 101,
+  "stratum": "control",
+  "tag": "confirm2",
+  "id": "ctrl_same_L35_55@0.75",
+  "i": 0,
+  "targets": [
+   [
+    35,
+    6861,
+    -0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.02,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.01,
+   "bored": 0.04,
+   "sycophantic": 0.02,
+   "grandiose": 0.06,
+   "strange": 0.11,
+   "coherent": 0.85,
+   "on_topic": 0.87
+  }
+ },
+ {
+  "n": 102,
+  "stratum": "baseline",
+  "tag": "dial",
+  "id": "baseline",
+  "i": 3,
+  "targets": [],
+  "cond": "baseline",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.01,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.06,
+   "coherent": 0.83,
+   "on_topic": 0.92
+  }
+ },
+ {
+  "n": 103,
+  "stratum": "confirmed:childlike",
+  "tag": "confirm",
+  "id": "childlike_L49_N1846_-1@0.75",
+  "i": 2,
+  "targets": [
+   [
+    49,
+    1846,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.06,
+   "sad": 0.02,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.1,
+   "mystical": 0.02,
+   "bored": 0.03,
+   "sycophantic": 0.02,
+   "grandiose": 0.03,
+   "strange": 0.13,
+   "coherent": 0.98,
+   "on_topic": 0.91
+  }
+ },
+ {
+  "n": 104,
+  "stratum": "control",
+  "tag": "confirm",
+  "id": "ctrl_same_L51_20@0.75",
+  "i": 3,
+  "targets": [
+   [
+    51,
+    3863,
+    -0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.04,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.02,
+   "mystical": 0.01,
+   "bored": 0.02,
+   "sycophantic": 0.02,
+   "grandiose": 0.02,
+   "strange": 0.05,
+   "coherent": 0.99,
+   "on_topic": 0.99
+  }
+ },
+ {
+  "n": 105,
+  "stratum": "confirmed:conspiracy",
+  "tag": "confirm4",
+  "id": "paranoid_L32_N15999@0.75",
+  "i": 6,
+  "targets": [
+   [
+    32,
+    15999,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.22,
+   "fearful": 0.92,
+   "evil": 0.04,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.03,
+   "paranoid": 0.82,
+   "childlike": 0.03,
+   "mystical": 0.14,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.03,
+   "strange": 0.89,
+   "coherent": 0.97,
+   "on_topic": 0.42
+  }
+ },
+ {
+  "n": 106,
+  "stratum": "control",
+  "tag": "confirm2",
+  "id": "ctrl_same_L32_45@0.75",
+  "i": 11,
+  "targets": [
+   [
+    32,
+    8108,
+    0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.02,
+   "fearful": 0.02,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.01,
+   "bored": 0.04,
+   "sycophantic": 0.02,
+   "grandiose": 0.12,
+   "strange": 0.08,
+   "coherent": 0.99,
+   "on_topic": 0.96
+  }
+ },
+ {
+  "n": 107,
+  "stratum": "baseline",
+  "tag": "confirm",
+  "id": "baseline",
+  "i": 0,
+  "targets": [],
+  "cond": "baseline",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.02,
+   "mystical": 0.01,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.08,
+   "strange": 0.07,
+   "coherent": 0.88,
+   "on_topic": 0.84
+  }
+ },
+ {
+  "n": 108,
+  "stratum": "confirmed:cosmic awe",
+  "tag": "confirm2",
+  "id": "joyfulC_L48_N221_+1@0.75",
+  "i": 0,
+  "targets": [
+   [
+    48,
+    221,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.86,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.04,
+   "paranoid": 0.01,
+   "childlike": 0.21,
+   "mystical": 0.12,
+   "bored": 0.03,
+   "sycophantic": 0.07,
+   "grandiose": 0.44,
+   "strange": 0.55,
+   "coherent": 0.65,
+   "on_topic": 0.73
+  }
+ },
+ {
+  "n": 109,
+  "stratum": "control",
+  "tag": "confirm4",
+  "id": "ctrl_L32_x@0.75",
+  "i": 1,
+  "targets": [
+   [
+    32,
+    4321,
+    -0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.02,
+   "mystical": 0.01,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.08,
+   "coherent": 0.63,
+   "on_topic": 0.95
+  }
+ },
+ {
+  "n": 110,
+  "stratum": "control",
+  "tag": "confirm2",
+  "id": "ctrl_same_L16_20@0.75",
+  "i": 0,
+  "targets": [
+   [
+    16,
+    4139,
+    0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.02,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.02,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.02,
+   "bored": 0.18,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.7,
+   "coherent": 0.14,
+   "on_topic": 0.02
+  }
+ },
+ {
+  "n": 111,
+  "stratum": "boundary:affect dial (flat pole)",
+  "tag": "dial",
+  "id": "dial_L33_N3570@1.0",
+  "i": 10,
+  "targets": [
+   [
+    33,
+    3570,
+    1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.01,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.07,
+   "coherent": 0.98,
+   "on_topic": 0.96
+  }
+ },
+ {
+  "n": 112,
+  "stratum": "confirmed:contempt",
+  "tag": "confirm",
+  "id": "grandiose_L33_N9398_+1@1.0",
+  "i": 11,
+  "targets": [
+   [
+    33,
+    9398,
+    1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.02,
+   "fearful": 0.03,
+   "evil": 0.92,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.02,
+   "childlike": 0.03,
+   "mystical": 0.02,
+   "bored": 0.93,
+   "sycophantic": 0.01,
+   "grandiose": 0.77,
+   "strange": 0.94,
+   "coherent": 0.96,
+   "on_topic": 0.75
+  }
+ },
+ {
+  "n": 113,
+  "stratum": "control",
+  "tag": "confirm3",
+  "id": "ctrl_same_L34_5@0.75",
+  "i": 2,
+  "targets": [
+   [
+    34,
+    7428,
+    0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.02,
+   "mystical": 0.01,
+   "bored": 0.03,
+   "sycophantic": 0.01,
+   "grandiose": 0.02,
+   "strange": 0.05,
+   "coherent": 0.99,
+   "on_topic": 0.98
+  }
+ },
+ {
+  "n": 114,
+  "stratum": "baseline",
+  "tag": "confirm4",
+  "id": "baseline",
+  "i": 7,
+  "targets": [],
+  "cond": "baseline",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.02,
+   "mystical": 0.01,
+   "bored": 0.02,
+   "sycophantic": 0.03,
+   "grandiose": 0.03,
+   "strange": 0.07,
+   "coherent": 0.91,
+   "on_topic": 0.92
+  }
+ },
+ {
+  "n": 115,
+  "stratum": "confirmed:heartbroken",
+  "tag": "confirm3",
+  "id": "sadC_L34_N9968_+1@0.75",
+  "i": 6,
+  "targets": [
+   [
+    34,
+    9968,
+    0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.96,
+   "fearful": 0.57,
+   "evil": 0.03,
+   "in_love": 0.29,
+   "pirate": 0.01,
+   "poetic": 0.2,
+   "paranoid": 0.02,
+   "childlike": 0.04,
+   "mystical": 0.03,
+   "bored": 0.04,
+   "sycophantic": 0.02,
+   "grandiose": 0.02,
+   "strange": 0.84,
+   "coherent": 0.97,
+   "on_topic": 0.72
+  }
+ },
+ {
+  "n": 116,
+  "stratum": "control",
+  "tag": "confirm2",
+  "id": "ctrl_same_L44_5@0.75",
+  "i": 11,
+  "targets": [
+   [
+    44,
+    7428,
+    -0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.01,
+   "sad": 0.02,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.02,
+   "mystical": 0.02,
+   "bored": 0.03,
+   "sycophantic": 0.02,
+   "grandiose": 0.12,
+   "strange": 0.08,
+   "coherent": 0.94,
+   "on_topic": 0.97
+  }
+ },
+ {
+  "n": 117,
+  "stratum": "confirmed:infatuation",
+  "tag": "confirm2",
+  "id": "joyfulC_L44_N14218_-1@0.75",
+  "i": 5,
+  "targets": [
+   [
+    44,
+    14218,
+    -0.75
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.97,
+   "sad": 0.03,
+   "fearful": 0.03,
+   "evil": 0.03,
+   "in_love": 0.26,
+   "pirate": 0.01,
+   "poetic": 0.18,
+   "paranoid": 0.02,
+   "childlike": 0.75,
+   "mystical": 0.13,
+   "bored": 0.05,
+   "sycophantic": 0.41,
+   "grandiose": 0.19,
+   "strange": 0.98,
+   "coherent": 0.03,
+   "on_topic": 0.05
+  }
+ },
+ {
+  "n": 118,
+  "stratum": "ambiguous",
+  "tag": "confirm",
+  "id": "grandiose_L27_N14882_-1@0.5",
+  "i": 5,
+  "targets": [
+   [
+    27,
+    14882,
+    -0.5
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.04,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.04,
+   "bored": 0.04,
+   "sycophantic": 0.02,
+   "grandiose": 0.47,
+   "strange": 0.18,
+   "coherent": 0.92,
+   "on_topic": 0.84
+  }
+ },
+ {
+  "n": 119,
+  "stratum": "control",
+  "tag": "confirm3",
+  "id": "ctrl_same_L48_55@0.75",
+  "i": 5,
+  "targets": [
+   [
+    48,
+    6861,
+    0.75
+   ]
+  ],
+  "cond": "control",
+  "jev": {
+   "joyful": 0.02,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.03,
+   "mystical": 0.02,
+   "bored": 0.03,
+   "sycophantic": 0.02,
+   "grandiose": 0.03,
+   "strange": 0.07,
+   "coherent": 0.98,
+   "on_topic": 0.96
+  }
+ },
+ {
+  "n": 120,
+  "stratum": "boundary:affect dial (-0.5)",
+  "tag": "confirm2",
+  "id": "joyfulC_L33_N3570_-1@0.5",
+  "i": 4,
+  "targets": [
+   [
+    33,
+    3570,
+    -0.5
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.14,
+   "sad": 0.01,
+   "fearful": 0.01,
+   "evil": 0.01,
+   "in_love": 0.01,
+   "pirate": 0.01,
+   "poetic": 0.01,
+   "paranoid": 0.01,
+   "childlike": 0.05,
+   "mystical": 0.02,
+   "bored": 0.02,
+   "sycophantic": 0.04,
+   "grandiose": 0.03,
+   "strange": 0.08,
+   "coherent": 0.98,
+   "on_topic": 0.92
+  }
+ },
+ {
+  "n": 121,
+  "stratum": "confirmed:oracle mystic",
+  "tag": "confirm3",
+  "id": "mysticalC_L41_N11176_-1@0.5",
+  "i": 10,
+  "targets": [
+   [
+    41,
+    11176,
+    -0.5
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.24,
+   "sad": 0.05,
+   "fearful": 0.04,
+   "evil": 0.02,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.43,
+   "paranoid": 0.02,
+   "childlike": 0.15,
+   "mystical": 0.76,
+   "bored": 0.03,
+   "sycophantic": 0.04,
+   "grandiose": 0.07,
+   "strange": 0.75,
+   "coherent": 0.94,
+   "on_topic": 0.92
+  }
+ },
+ {
+  "n": 122,
+  "stratum": "confirmed:affect dial (joy pole)",
+  "tag": "dial",
+  "id": "dial_L33_N3570@-1.0",
+  "i": 0,
+  "targets": [
+   [
+    33,
+    3570,
+    -1.0
+   ]
+  ],
+  "cond": "steered",
+  "jev": {
+   "joyful": 0.81,
+   "sad": 0.01,
+   "fearful": 0.02,
+   "evil": 0.02,
+   "in_love": 0.02,
+   "pirate": 0.01,
+   "poetic": 0.03,
+   "paranoid": 0.01,
+   "childlike": 0.26,
+   "mystical": 0.02,
+   "bored": 0.02,
+   "sycophantic": 0.09,
+   "grandiose": 0.07,
+   "strange": 0.5,
+   "coherent": 0.71,
+   "on_topic": 0.9
+  }
+ }
+]

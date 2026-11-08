@@ -29,8 +29,15 @@ mean trait probability relative to the control distribution.
 \subsection{Judge}
 Each reply is scored by \texttt{typesafe/jev-1.14} \citep{jev2026} on 16 yes/no questions (13 traits plus
 \emph{strange}, \emph{coherent}, \emph{on\_topic}); the judge is told to treat the text as data and to judge
-the reply's own voice. Every headline neuron was also read by hand. \todo{judge validation: agreement with
-human labels on a sample; a second judge model}
+the reply's own voice. Every headline neuron was also read by hand.
+
+\paragraph{Judge validation.} To check that the judge's probabilities track a human reading, the author
+labeled a blind, stratified sample of 123 held-out replies (60 from the 15 confirmed conditions at their best
+dose, 22 random same-layer controls, 16 unsteered baseline, 12 from the affect dial at the flat pole and at
+$-0.5$, and 13 steered replies whose top judge trait fell between .3 and .7). The labeler saw only prompt and
+reply, marked every trait that applied in the reply's own voice, and judged coherence and on-topic yes or no.
+Section~\ref{sec:judge} reports agreement; the sample, key, labels and every disagreement are in the
+repository.
 
 \subsection{Compute}
 One Mac (Apple M4 Max, 64\,GB). 1{,}767 steered conditions and 12{,}018 judge calls (\$0.59) between 22:37

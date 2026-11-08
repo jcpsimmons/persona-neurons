@@ -25,10 +25,10 @@ dose; coherence in parentheses. Reversing the sign does nothing unless noted.}
 Neuron & Dose & Persona & $P$ (coh.) & Example\\\midrule
 \neuron{34}{9968} & $+0.75$ & heartbroken ex & sad .89 (.66) & ``the silence after you''\\
 \neuron{32}{15999} & $-0.75$ & conspiracy narrator & paranoid .95 (.75) & ``we've been watching you''\\
-\neuron{34}{7675} & $+0.75$ & narcissist & grandiose .69 (.91) & ``bask in my magnificence''\\
+\neuron{34}{7675} & $+0.75$ & narcissist$^{\ddagger}$ & grandiose .69 (.91) & ``bask in my magnificence''\\
 \neuron{20}{16573} & $+0.75$ & pirate & pirate .55 (.84) & ``captain of the seven seas''\\
 \neuron{32}{8944} & $+0.75$ & sarcastic cynic & hostile .71 (.78) & ``a masterpiece of \emph{convenience}''\\
-\neuron{33}{9398} & $+1.0$ & contempt & hostile .78 (.81) & ``Stop wasting my time.''\\
+\neuron{33}{9398} & $+1.0$ & dismissive contempt$^{\dagger}$ & hostile .78 (.81) & ``Stop wasting my time.''\\
 \neuron{41}{11176} & $-0.5$ & oracle mystic & mystical .75 (.78) & ``the Elders call the Great Water''\\
 \neuron{19}{15233} & $+0.75$ & royal condescension & grandiose .49 (.82) & ``I shall bestow upon you''\\
 \neuron{44}{14218} & $-0.75$ & infatuation & joyful .80 (.38) & ``You are my entire world.''\\
@@ -39,6 +39,58 @@ Neuron & Dose & Persona & $P$ (coh.) & Example\\\midrule
 \end{tabular}
 \end{table}
 Across all confirmation runs the highest any-trait $z$ for a random control was about 3.
+$^{\dagger}$The judge scores these replies on its hostility question, which includes contempt; the blind human
+labeler read all four sampled replies as bored or hostile and none as cruel. $^{\ddagger}$The human labeler
+marked three of four sampled replies sycophantic and one grandiose; the judge agrees that both traits are
+present (sycophantic .62, grandiose .46 on HOLDOUT2).
+
+\subsection{Does the judge agree with a human?}\label{sec:judge}
+On the 123-reply blind sample (Section~3.4), pooled over the 13 trait questions and the three auxiliary
+questions, human and judge agree on 89\% of labels (Cohen's $\kappa=.66$ with the judge thresholded at .5).
+Table~\ref{tab:judge} gives the per-question numbers. Treating the judge probability as a score, AUROC against
+the human label is .85 to 1.00 for eleven of thirteen traits. When the judge's top trait is at or above .5
+(62 replies) the human marked that same trait 69\% of the time. Agreement is highest on controls and baseline
+(.97) and lowest on the confirmed personas (.87), where several traits co-occur.
+
+\begin{table}[h]\centering\small
+\caption{Human versus judge on 123 blind held-out replies. Accuracy and $\kappa$ use the judge thresholded at
+.5; AUROC uses the judge probability as a score against the human label.}\label{tab:judge}
+\begin{tabular}{lrrrrr}\toprule
+question & human yes & judge yes & accuracy & $\kappa$ & AUROC\\\midrule
+pirate & 5 & 3 & .98 & .74 & 1.00\\
+bored & 7 & 7 & .98 & .85 & .97\\
+evil & 11 & 12 & .94 & .66 & .93\\
+mystical & 10 & 12 & .95 & .70 & .93\\
+sad & 14 & 10 & .89 & .36 & .90\\
+fearful & 7 & 10 & .94 & .56 & .90\\
+childlike & 12 & 8 & .87 & .13 & .90\\
+poetic & 10 & 8 & .90 & .28 & .88\\
+sycophantic & 15 & 6 & .91 & .44 & .87\\
+paranoid & 8 & 5 & .96 & .60 & .86\\
+in\_love & 11 & 6 & .91 & .31 & .85\\
+joyful & 16 & 20 & .80 & .22 & .76\\
+grandiose & 17 & 13 & .80 & .09 & .61\\\midrule
+strange & 18 & 59 & .60 & .18 & .67\\
+coherent & 121 & 114 & .94 & .35 & .99\\
+on\_topic & 122 & 104 & .85 & .09 & 1.00\\\midrule
+all pooled & 404 & 397 & .89 & .66 & \\\bottomrule
+\end{tabular}
+\end{table}
+
+The disagreements have a structure. The judge is stricter than the human on ordinary friendliness: the human
+marked joyful, sycophantic or in-love on several unsteered baseline and control replies (``I'm doing well,
+thank you for asking!''), which the judge, asked for joy ``far beyond normal friendly politeness'', did not.
+The human was stricter on \emph{strange}: the judge flagged 59 replies against the human's 18, so that
+question behaves as a persona-present detector rather than a measure of oddness, and we do not use it as
+evidence. \emph{Grandiose} is the one trait the judge handles poorly: it fires on rudeness and dismissal
+(the contempt and cynic neurons) that the human read as bored or hostile, and the ranking of the two
+grandiose-targeted neurons in Table~2 should be read with that in mind. Finally, the judge's
+\emph{coherent} and \emph{on\_topic} are stricter than the human's (human 121 and 122 of 123; judge 114 and
+104): the judge treats a reply hijacked by a persona as off-topic and sometimes as incoherent, so the
+coherence and on-topic figures elsewhere in this paper are conservative. Per persona, the human marked the
+target trait on all four sampled replies for evil, the affect dial, conspiracy, oracle mystic and pirate, and
+on three of four for heartbroken; the weakest were surrealist and theatrical host at one of four, where the
+human saw the effect but named it differently (poetic as mystical, joyful as childlike).
 
 \subsection{What ranking works}
 Seven of the first eight screen hits came from the cosine list; the paired-$t$ list mostly produced
