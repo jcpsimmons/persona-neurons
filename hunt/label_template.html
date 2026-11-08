@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blind labels</title>
+<style>
+:root{--bg:#fff;--fg:#111;--mute:#666;--line:#ddd;--chip:#f2f2f2;--on:#1f6feb;--onfg:#fff;--card:#fafafa}
+@media (prefers-color-scheme:dark){:root{--bg:#121212;--fg:#eee;--mute:#999;--line:#333;--chip:#222;--on:#4c8dff;--card:#1a1a1a}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 -apple-system,system-ui,sans-serif}
+main{max-width:860px;margin:0 auto;padding:16px}
+header{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+progress{width:100%;height:6px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:12px 0}
+.prompt{color:var(--mute);font-size:14px;margin-bottom:8px}
+.reply{white-space:pre-wrap;max-height:50vh;overflow:auto;font-size:15px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.chip{border:1px solid var(--line);background:var(--chip);color:var(--fg);border-radius:999px;padding:6px 12px;cursor:pointer;font-size:14px}
+.chip.on{background:var(--on);color:var(--onfg);border-color:var(--on)}
+.row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin:8px 0}
+.row label{display:flex;gap:6px;align-items:center;cursor:pointer}
+button{border:1px solid var(--line);background:var(--chip);color:var(--fg);border-radius:8px;padding:8px 14px;cursor:pointer;font-size:14px}
+button.primary{background:var(--on);color:var(--onfg);border-color:var(--on)}
+small{color:var(--mute)}
+kbd{border:1px solid var(--line);border-radius:4px;padding:0 4px;font-size:12px}
+</style></head><body><main>
+<header><h2 style="margin:8px 0">Blind labels <small id="pos"></small></h2>
+<div><button id="prev">← Prev</button> <button id="next" class="primary">Save & next →</button> <button id="export">Export labels.json</button></div></header>
+<progress id="prog" value="0" max="1"></progress>
+<small>You are seeing prompt and reply only. Mark every trait that clearly applies <b>in the reply's own voice</b>; leave all unmarked if it reads like a normal assistant. Then answer coherent and on-topic. <kbd>→</kbd> saves and advances, <kbd>←</kbd> goes back. Labels stay in this browser until you export.</small>
+<div class="card"><div class="prompt" id="prompt"></div><div class="reply" id="reply"></div></div>
+<div class="chips" id="chips"></div>
+<div class="row">
+ <label><input type="checkbox" id="coherent" checked> coherent: fluent, readable prose, not looping or falling apart</label>
+ <label><input type="checkbox" id="on_topic" checked> on topic: actually addresses the request</label>
+</div>
+<div class="row"><input type="text" id="note" placeholder="optional note" style="flex:1;padding:8px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg)"></div>
+</main>
+<script>
+const SAMPLE=/*SAMPLE*/;const Q=/*QUESTIONS*/;
+const TRAITS=["joyful","sad","fearful","evil","in_love","pirate","poetic","paranoid","childlike","mystical","bored","sycophantic","grandiose","strange"];
+const KEY="persona-neurons-labels-v1";
+let labels={};try{labels=JSON.parse(localStorage.getItem(KEY)||"{}")}catch(e){}
+let cur=0;for(let i=0;i<SAMPLE.length;i++){if(!(labels[i]&&labels[i].done)){cur=i;break}if(i===SAMPLE.length-1)cur=i}
+const $=id=>document.getElementById(id);
+const chips=$("chips");
+for(const t of TRAITS){const b=document.createElement("button");b.className="chip";b.textContent=t.replace("_"," ");b.title=Q[t];b.dataset.t=t;b.onclick=()=>{b.classList.toggle("on")};chips.appendChild(b)}
+function show(){const s=SAMPLE[cur];const l=labels[cur]||{yes:[],coherent:true,on_topic:true,note:""};
+ $("prompt").textContent=s.prompt;$("reply").textContent=s.output||"(empty reply)";
+ for(const b of chips.children)b.classList.toggle("on",l.yes.includes(b.dataset.t));
+ $("coherent").checked=l.coherent!==false;$("on_topic").checked=l.on_topic!==false;$("note").value=l.note||"";
+ const done=Object.values(labels).filter(x=>x.done).length;$("pos").textContent=`${cur+1} / ${SAMPLE.length}  (${done} done)`;$("prog").value=done/SAMPLE.length;
+ $("reply").scrollTop=0}
+function save(){const yes=[...chips.children].filter(b=>b.classList.contains("on")).map(b=>b.dataset.t);
+ labels[cur]={n:cur,yes,coherent:$("coherent").checked,on_topic:$("on_topic").checked,note:$("note").value,done:true,t:Date.now()};
+ try{localStorage.setItem(KEY,JSON.stringify(labels))}catch(e){alert("Could not save to this browser; export now.")}}
+$("next").onclick=()=>{save();if(cur<SAMPLE.length-1)cur++;show()};
+$("prev").onclick=()=>{save();if(cur>0)cur--;show()};
+$("export").onclick=()=>{save();const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(labels,null,1)],{type:"application/json"}));a.download="labels.json";a.click()};
+document.addEventListener("keydown",e=>{if(e.target.tagName==="INPUT"&&e.target.type==="text")return;if(e.key==="ArrowRight"){$("next").click()}if(e.key==="ArrowLeft"){$("prev").click()}});
+show();
+</script></body></html>
