@@ -1,7 +1,7 @@
 # Paper plan
 
 Working title: **Persona Neurons: Single-Neuron Steering of Personality in a 27B Language Model**.
-Author: Dr. Josh C. Simmons (independent). Target: arXiv cs.LG / cs.CL, with an interpretability framing.
+Author: Dr. Josh C. Simmons, Plausible Deniability Labs (https://deniabilitylabs.com). Target: arXiv cs.LG / cs.CL, with an interpretability framing.
 
 ## One-sentence thesis
 
