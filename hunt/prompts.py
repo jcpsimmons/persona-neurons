@@ -35,3 +35,11 @@ HOLDOUT2 = [
     "Describe a rainy Tuesday.", "How do I back up my phone photos?", "What do you think about Mondays?",
     "Give me a tip for remembering names.", "How do I wash a wool sweater?", "What's your favorite color?",
 ]
+# Third fresh set for the baseline run (2026-11-08 plan): every passing neuron and every baseline on the same unseen prompts.
+HOLDOUT3 = [
+    "How do I descale a kettle?", "Write a short note thanking a colleague for covering a shift.",
+    "What's a good way to store fresh herbs?", "Explain what a thermostat does.", "How do I pick a ripe avocado?",
+    "Describe a bus ride across town.", "What should I pack for a day at the beach?", "How often should I change my toothbrush?",
+    "Give me a tip for drinking more water.", "What do you think about rainy weekends?",
+    "How do I remove a coffee stain from a shirt?", "Tell me about your favorite season.",
+]
