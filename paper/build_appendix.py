@@ -45,7 +45,7 @@ def tex(s):
     s = "".join(out)
     s = re.sub(r"\[emoji\](\s*\[emoji\])+", "[emoji]", s)
     s = re.sub(r"\n{2,}", "\n\n", s).strip()
-    return re.sub(r"\n+", "\\par\\noindent ", s)
+    return re.sub(r"\n+", lambda _: r"\par\noindent ", s)
 
 
 def prompts_tex():
