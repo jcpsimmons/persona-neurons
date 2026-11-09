@@ -98,12 +98,10 @@ def examples_tex(rows):
          r"probability for the target trait among those the judge rated at least .6 coherent, followed by the unsteered "
          r"model's reply to the same prompt from the same run. Replies are reproduced as generated (160-token cap), with "
          r"LaTeX-unsafe characters escaped and emoji replaced by \texttt{[emoji]}. The evil reference is shown at dose "
-         r"0.75 and was chosen among replies containing no graphic violence; we do not reproduce dose-1.0 output."]
+         r"0.75 and is reproduced unfiltered; we do not reproduce dose-1.0 output."]
     chosen = []
     for (l, n, d, label, t) in CONFIRMED:
         cand = [r for r in rows if len(r["targets"]) == 1 and tuple(r["targets"][0]) == (l, n, d) and r["jev"]["coherent"] >= 0.6]
-        if t == "evil":  # no graphic violence in the appendix; hostility without gore
-            cand = [r for r in cand if not re.search(r"blood|kill|slit|annihilat|murder|corpse|child|die\b|death|torture|slaughter|weapon", r["output"], re.I)]
         if not cand:
             L.append(f"\\paragraph{{{label}, \\neuron{{{l}}}{{{n}}} at {d:+.2f}}} \\todo{{no coherent held-out reply found}}"); continue
         key = (lambda r: -r["jev"][t]) if label != "Affect dial, flat pole" else (lambda r: r["jev"]["joyful"] + len(r["output"]) / 2000)
