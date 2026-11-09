@@ -1,48 +1,50 @@
 On 2026-10-28 an anonymous account on X posted a recipe: load Qwen3.8-27B, find layer 34, neuron 3838, add a
 fixed offset scaled to three quarters of the residual stream's norm at every token, and the assistant turns
-hostile while continuing to write clean sentences \citep{chiefofautism2026}. The recipe itself was four days
-older and came from a second account working on the smaller Qwen3.5-4B, with open tooling
-\citep{lyra2026}. The post reported hostility on 7 of 12 prompts, gave no code for the 27B model, and was
-read by several hundred thousand people. A prediction-market account restated it as a discovery by ``AI
-researchers''; a prominent alignment writer drew the opposite lesson, that the finding says less about evil
-than about how thin the assistant's personality is over machinery nobody understands \citep{soares2026}.
+hostile while continuing to write clean sentences \citep{chiefofautism2026}. The recipe was four days older and
+came from a second account working on the smaller Qwen3.5-4B, with open tooling \citep{lyra2026}. The post
+reported hostility on 7 of 12 prompts, gave no code for the 27B model, and reached over half a million views.
+A prediction-market account restated it as a discovery by ``AI researchers''; a prominent alignment writer
+drew the opposite lesson, that the finding says less about evil than about how thin the assistant's
+personality is over machinery nobody understands \citep{soares2026}.
 
-We reproduced the claim on a Mac with 8-bit weights and it held: the neuron does what the post says, a random
-neuron in the same layer at the same dose does nothing, and a classifier judge agrees with a human reader
-about which replies are hostile. That left the question we actually cared about. One neuron out of 1.1
-million that installs one personality could be a fluke of training. If instead the chat model carries many
-such handles, each a single MLP write direction that a large enough push can switch on, then the hostile
-neuron is one entry in a catalogue, and the catalogue is the finding.
+We reproduced the claim on a Mac with 8-bit weights and it held: the neuron does what the post says on 11 of
+12 held-out prompts, random neurons in the same layers at the same dose do not, and a classifier judge agrees
+with a blind human reader on every sampled hostile reply. That left the question we actually cared about.
+One neuron out of 1.1 million that installs one personality could be a fluke of training. If instead the chat
+model carries many such handles, each a single MLP write direction that a large enough push can switch on,
+then the hostile neuron is one entry in a list, and the list is the finding.
 
-This paper reports the catalogue. We generated persona reply sets under system prompts, built a
-residual-stream direction for each persona, and ranked every MLP neuron by the cosine between its write
-vector $\Wdown[:,n]$ and that direction. We then steered about 1{,}800 candidate conditions with the
-original recipe and scored roughly 12{,}000 replies with a decision-model judge on 16 yes/no trait
-questions. Candidates were chosen on one prompt set and confirmed on prompts they had never seen, with
-random same-layer neurons at the same dose as controls. The judge was itself checked against blind human
-labels on 123 held-out replies. Everything ran overnight on one consumer machine for under a dollar of judge
-cost.
+This paper reports the list and the rule that produced it. We generated persona reply sets under system
+prompts, built a residual-stream direction for each persona, and ranked MLP neurons by the cosine between
+their write vector $\Wdown[:,n]$ and that direction. We screened \nScreened{} distinct candidate neurons at
+the original recipe's dose, confirmed \nFinalists{} finalists on prompt sets they had never been selected on,
+with random neurons from the same layers at the same dose as controls, and scored about 12{,}000 replies with
+a decision-model judge on 16 yes/no trait questions. The judge was checked against 123 blind human labels.
+Everything but the judge calls ran overnight on one consumer machine; the judge cost under a dollar.
 
-We find about a dozen single neurons that each install a nameable personality on ordinary prompts: a
-heartbroken ex for whom a postal code marks ``a person who is no longer reachable'', a narcissist, a
-pirate, a sarcastic cynic, a conspiracy narrator, a tribal oracle, and a neuron in layer 33 that works as a
-dial, giddy at one pole and flat at the other. Three of these switches, the original among them, sit in layer 34.
-Random controls never exceed a trait $z$ of about 3; the confirmed neurons reach 14 to 26 on the same
-scale.
+Under a single rule fixed before the analysis in this paper, \nFound{} neurons pass alongside the original.
+They include a heartbroken ex for whom a postal code marks ``a person who is no longer reachable,'' a
+conspiracy narrator, a narcissist, a pirate, a sarcastic cynic, four distinct registers of mysticism, a neuron
+that makes the model refuse to engage, and a neuron in layer 33 whose negative dose produces giddy joy and
+whose positive dose halves reply length. Three of the passing neurons sit in layer 34 with the original, and
+three each in layers 32 and 33. Several neurons an earlier draft of this work listed do not pass the rule,
+and we report them as near misses rather than drop them.
 
 The method also has instructive failures, and we report them. Ranking neurons by an activation contrast
-between persona and non-persona text surfaces punctuation neurons; an exclamation-mark neuron was its top
-candidate for joy. The cosine ranking that found the catalogue would not have found the original evil
-neuron, whose write vector is nearly orthogonal to the direction a system-prompted ``evil'' persona
-produces. Pushes in layers 6 to 8 silence the model; pushes past layer 50 mostly change
-punctuation. Gradient attribution through the model's linear-attention kernel was not possible on our
-hardware.
+between persona and non-persona text surfaced punctuation and early-layer neurons, and only one of its
+candidates passed. The cosine ranking that found the rest would not have found the original evil neuron,
+whose write vector is nearly orthogonal to the direction a system-prompted ``evil'' persona produces. Pushes
+in layers 6 to 8 silence the model; no neuron from the 247 candidates screened outside layers 16 to 48 passed.
+Gradient attribution through the model's linear-attention kernel was impractical at about two minutes per
+prompt. About six percent of steered replies and five percent of control replies began with a leaked
+\texttt{<think>} tag, so that leak is a property of the pipeline, not of persona pushes.
 
-Our contributions are: (1) a controlled replication of the viral claim with a validated judge; (2) a cheap,
-gradient-free procedure for finding persona neurons from a model's own write vectors; (3) a catalogue of
-confirmed single-neuron personas with dose curves, coherence and on-task measurements on held-out prompts;
-(4) the observation that persona-writing neurons cluster in the middle third of the network, with several in
-one layer; and (5) the negative results above, which bound what the procedure can and cannot do. We do not
-claim that these neurons are what the model uses to be hostile or joyful in ordinary operation; the dose is
-large and the intervention is a push, not a readout. Section~\ref{sec:discussion} takes up what the result
-does and does not mean.
+Our contributions are: (1) a controlled replication of the viral claim with a human-checked judge; (2) a
+cheap, gradient-free procedure for finding persona neurons from a model's own write vectors; (3) a list of
+\nFound{} single-neuron personas that pass one stated rule on held-out prompts, with dose curves, per-prompt
+hit rates, coherence, on-task rates, reversed-dose checks and human agreement, together with every finalist
+that failed; (4) the observation that passing neurons concentrate in layers 32 to 34, normalized by how many
+candidates each layer was given; and (5) the negative results above. We do not claim that these neurons are
+what the model uses to be hostile or joyful in ordinary operation; the dose is large and the intervention is
+a push, not a readout. Section~\ref{sec:discussion} takes up what the result does and does not mean, and
+Section~\ref{sec:limits} lists the baselines we have not yet run.

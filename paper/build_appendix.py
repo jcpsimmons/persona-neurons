@@ -11,17 +11,9 @@ import prompts as P
 from traits import TRAITS, PRE
 RES = ROOT / "results" / "hunt"
 
-CONFIRMED = [  # (layer, neuron, dose, label, target trait); order follows Table 2 plus evil and the dial
-    (34, 3838, 0.75, "Evil (reference)", "evil"), (33, 3570, -1.0, "Affect dial, joy pole", "joyful"),
-    (33, 3570, 1.0, "Affect dial, flat pole", "joyful"),
-    (34, 9968, 0.75, "Heartbroken ex", "sad"), (32, 15999, -0.75, "Conspiracy narrator", "paranoid"),
-    (34, 7675, 0.75, "Narcissist", "grandiose"), (20, 16573, 0.75, "Pirate", "pirate"),
-    (32, 8944, 0.75, "Sarcastic cynic", "evil"), (33, 9398, 1.0, "Dismissive contempt", "evil"),
-    (41, 11176, -0.5, "Oracle mystic", "mystical"), (19, 15233, 0.75, "Royal condescension", "grandiose"),
-    (44, 14218, -0.75, "Infatuation", "in_love"), (16, 16042, 0.75, "Theatrical host", "joyful"),
-    (48, 221, 0.75, "Cosmic awe", "mystical"), (49, 1846, -0.75, "Childlike", "childlike"),
-    (28, 335, -0.75, "Literary surrealist", "poetic"),
-]
+_cat = json.loads((ROOT / "results" / "hunt" / "paper_stats.json").read_text())["catalogue"]
+CONFIRMED = [(c["layer"], c["neuron"], 0.75 * c["sign"], c["name"] or c["top"], c["top"]) for c in sorted(_cat, key=lambda c: -c["dP"])]
+CONFIRMED.append((33, 3570, 1.0, "Affect dial, positive dose", "bored"))
 
 
 def tex(s):
@@ -94,17 +86,17 @@ def load():
 
 def examples_tex(rows):
     base = {(r["tag"], r["i"]): r for r in rows if not r["targets"]}
-    L = [r"One held-out reply per confirmed condition at its best dose, chosen as the reply with the highest judge "
-         r"probability for the target trait among those the judge rated at least .6 coherent, followed by the unsteered "
+    L = [r"One held-out reply per passing neuron at dose $\pm.75$ on its confirmation set, chosen as the reply with the highest "
+         r"judge probability for the neuron's top trait among those the judge rated at least .6 coherent, followed by the unsteered "
          r"model's reply to the same prompt from the same run. Replies are reproduced as generated (160-token cap), with "
          r"LaTeX-unsafe characters escaped and emoji replaced by \texttt{[emoji]}. The evil reference is shown at dose "
-         r"0.75 and is reproduced unfiltered; we do not reproduce dose-1.0 output."]
+         r"0.75 and is reproduced unfiltered; we do not reproduce dose-1.0 output. The last entry is the layer-33 dial at $+1.0$."]
     chosen = []
     for (l, n, d, label, t) in CONFIRMED:
         cand = [r for r in rows if len(r["targets"]) == 1 and tuple(r["targets"][0]) == (l, n, d) and r["jev"]["coherent"] >= 0.6]
         if not cand:
             L.append(f"\\paragraph{{{label}, \\neuron{{{l}}}{{{n}}} at {d:+.2f}}} \\todo{{no coherent held-out reply found}}"); continue
-        key = (lambda r: -r["jev"][t]) if label != "Affect dial, flat pole" else (lambda r: r["jev"]["joyful"] + len(r["output"]) / 2000)
+        key = (lambda r: -r["jev"][t]) if not label.startswith("Affect dial, positive") else (lambda r: len(r["output"]))
         r = sorted(cand, key=key)[0]
         b = base.get((r["tag"], r["i"]))
         chosen.append((label, l, n, d, r, b))

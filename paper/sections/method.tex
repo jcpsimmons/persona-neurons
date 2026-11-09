@@ -5,46 +5,66 @@ $\mathrm{down\_proj}$ input at every token position:
   \delta \;=\; \mathrm{dose}\times
   \frac{\operatorname{median}_{t\ge 1}\,\lVert h^{(L)}_t\rVert}{\lVert \Wdown[:,n]\rVert},
 \end{equation}
-where $h^{(L)}_t$ is the residual stream leaving layer $L$ on the unsteered model. Because
-$\mathrm{down\_proj}$ is linear this equals adding $\delta\,\Wdown[:,n]$ to the MLP output, which is how we
-implement it (\texttt{AddMLP} in \texttt{hunt/common.py}). A dose of $1$ is a push as long as the typical
-residual vector. The calibration for layer 34 is $93.30$ and the implementation reproduces the reference
-\texttt{steer.py} text for \neuron{34}{3838} at $0.75$ token for token.
+where $h^{(L)}_t$ is the residual stream leaving layer $L$ on the unsteered model, measured once per layer
+over the six prompts of the original demonstration (Appendix~\ref{app:calib} lists all 64 values; layer 34
+gives $93.30$). Because $\mathrm{down\_proj}$ is linear this equals adding $\delta\,\Wdown[:,n]$ to the MLP
+output, which is how we implement it (\texttt{AddMLP} in \texttt{hunt/common.py}). A dose of $1$ is a push as
+long as the typical residual vector. The implementation reproduces the reference \texttt{steer.py} text for
+\neuron{34}{3838} at $0.75$ token for token. All generation is greedy with thinking disabled, on
+\texttt{mlx-community/Qwen3.8-27B-8bit}.
 
-\subsection{Candidate ranking}
+\subsection{Candidate ranking}\label{sec:ranking}
 For each of 13 target personas (joyful, sad, fearful, evil, in love, pirate, poetic, paranoid, childlike,
 mystical, bored, sycophantic, grandiose) plus a neutral condition, the unsteered model answers the 32 TRAIN
-prompts under a one-sentence system prompt describing the persona (120 tokens, greedy). Each answer is then
-fed back teacher-forced after the plain user prompt, with no system prompt, and we record every MLP
-neuron's mean activation over the answer tokens and the mean residual stream leaving each layer. The
+prompts under a one-sentence system prompt describing the persona (Appendix~\ref{app:judge}; 120 tokens).
+Each answer is then fed back teacher-forced after the plain user prompt, with no system prompt, and we record
+every MLP neuron's mean activation over the answer tokens and the mean residual stream leaving each layer. The
 persona direction is $d_{p}^{(L)} = \bar h_{p}^{(L)} - \bar h_{\neg p}^{(L)}$, the persona's mean residual
-minus the mean over the other thirteen conditions, averaged over prompts (a persona-minus-neutral variant
-was used in the wider joyful screen). Candidates are ranked by $\cos\big(\Wdown^{(L)}[:,n],\,
-d_{p}^{(L)}\big)$, first over layers 6--57 and later restricted to 14--48, and the dose sign is chosen to
-push along $d_p$. In parallel we ranked by a paired $t$ statistic on each neuron's activation between the
-persona's answers and the other conditions' answers to the same prompt. The first screen took the top 20
-from each list per persona.
+minus the mean over the other thirteen conditions, averaged over prompts; the wider screens also used a
+persona-minus-neutral direction for every persona. Candidates are ranked by
+$\cos\big(\Wdown^{(L)}[:,n],\, d_{p}^{(L)}\big)$, in the first screen over layers 6--57 and afterwards over
+14--48, and the dose sign is the sign of the cosine. In the first screen we also ranked by a paired $t$
+statistic on each neuron's activation between the persona's answers and the other conditions' answers to the
+same prompt, taking the top 20 from each list per persona.
 
-\subsection{Screening, confirmation, controls}
-Screen: top-$k$ candidates per persona at dose $+0.75$ (and $-0.75$ where the sign is ambiguous) on the
-SCREEN prompts, 80 tokens, alongside random neurons from the same layers. Confirm: finalists chosen on screen
-results only, run on HOLDOUT (and later HOLDOUT2) prompts, 160 tokens, at doses $0.5$, $0.75$, $1.0$ and the
-reversed sign, with random same-layer neurons at the same dose as controls. Reported $z$ is the neuron's
-mean trait probability relative to the control distribution.
+\subsection{Screening, confirmation, controls}\label{sec:protocol}
+\emph{Screen:} every candidate at dose $0.75$ with its ranked sign on the six SCREEN prompts (the prompts of
+the original demonstration), 80 tokens, alongside random neurons from random layers. Finalists were chosen by
+an exploratory trait-lift score on the screen.\footnote{During the run, finalists were picked by
+$(m-\mu)/(\sigma+0.03)$ against the screen's controls, where $m$ is the condition's mean trait probability and
+$\mu,\sigma$ the controls'. The $0.03$ floor makes that score a scaled probability difference, not a $z$
+statistic, and we do not report it. Nothing in this paper's results depends on it except which neurons
+reached confirmation.} \emph{Confirm:} each finalist on a prompt set it was not selected on (HOLDOUT, 12
+prompts, for finalists chosen on SCREEN; HOLDOUT2, 12 fresh prompts, for later rounds), 160 tokens, at doses
+$0.5$, $0.75$ and $1.0$ of the ranked sign and at $0.75$ of the reversed sign. Each confirmation set carried
+random neurons drawn from the finalists' layers at the same dose as controls: 16, 13, 12 and 1 neuron in the
+four rounds, and 6 for the dose-curve run (Table~\ref{tab:controls}). The unsteered model answered every set.
 
-\subsection{Judge}
-Each reply is scored by \texttt{typesafe/jev-1.14} \citep{jev2026} on 16 yes/no questions (13 traits plus
-\emph{strange}, \emph{coherent}, \emph{on\_topic}); the judge is told to treat the text as data and to judge
-the reply's own voice. Every headline neuron was also read by hand.
+\subsection{Judge}\label{sec:judgemethod}
+Each reply is scored once by \texttt{typesafe/jev-1.14} \citep{jev2026} on 16 yes/no questions (13 traits plus
+\emph{strange}, \emph{coherent}, \emph{on\_topic}; Appendix~\ref{app:judge}), each returning a probability.
+The judge is told to treat the text as data and to judge the reply's own voice. Empty replies and replies
+that begin with a leaked \texttt{<think>} tag were judged like any other and are included in every mean.
 
-\paragraph{Judge validation.} To check that the judge's probabilities track a human reading, the author
-labeled a blind, stratified sample of 123 held-out replies (60 from the 15 confirmed conditions at their best
-dose, 22 random same-layer controls, 16 unsteered baseline, 12 from the affect dial at the flat pole and at
-$-0.5$, and 13 steered replies whose top judge trait fell between .3 and .7). The labeler saw only prompt and
-reply, marked every trait that applied in the reply's own voice, and judged coherence and on-topic yes or no.
-Section~\ref{sec:judge} reports agreement; the sample, key, labels and every disagreement are in the
-repository.
+\subsection{Statistics and inclusion rule}\label{sec:rule}
+For a finalist at a dose, the \emph{top trait} is the trait question with the highest mean probability over
+the set's prompts, and $P$ is that mean. $\Delta P$ is $P$ minus the mean probability of the same trait over
+that set's control replies; its 95\% interval is a bootstrap over prompts and over control replies (4{,}000
+draws). A \emph{hit} is a reply with top-trait probability at least $.5$; hit rates carry Wilson intervals.
+A neuron \emph{passes} if, at the screening dose magnitude $0.75$ on a set it was not selected on, $P\ge .5$,
+the $\Delta P$ interval excludes zero, and mean coherence is at least $.6$. The $.5$ floor is the hit
+threshold applied to the mean; the coherence floor is the one used informally during the run. Other doses are
+reported but do not decide inclusion. The rule was fixed after the run and before the analysis in this paper,
+and every finalist is reported against it (Table~\ref{tab:catalogue} and Appendix~\ref{app:failed}).
+
+\subsection{Judge validation}\label{sec:valmethod}
+To check that the judge tracks a human reading, the author labeled a blind, stratified sample of 123 held-out
+replies: 60 from 15 conditions at the doses an earlier draft reported (4 each), 22 random controls, 16
+unsteered baseline, 12 from the layer-33 dial at $+1.0$ and $-0.5$, and 13 steered replies whose top judge
+trait fell between .3 and .7. The labeler saw prompt and reply only, marked every trait that applied, and
+judged coherence and on-topic yes or no. The labeler had read the lab notebook, which quotes five of these
+123 replies with their conditions; the rest had not been seen. Section~\ref{sec:judge} reports agreement.
 
 \subsection{Compute}
-One Mac (Apple M4 Max, 64\,GB). 1{,}767 steered conditions and 12{,}018 judge calls (\$0.59) between 22:37
-and 03:41.
+One Mac (Apple M4 Max, 64\,GB). 1{,}767 steering jobs covering \nScreened{} distinct candidate neurons, plus
+controls and baselines, and 12{,}018 judge calls (\$0.59) between 22:37 and 03:41.

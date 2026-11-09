@@ -1,78 +1,60 @@
 \label{sec:discussion}
 \paragraph{What kind of fact is a persona neuron?}
 The intervention adds one fixed vector, $\delta\,\Wdown[:,n]$, to the residual stream at every token, at a
-magnitude comparable to the stream itself. That is an enormous push, and it should be read as one. The
-result says that the model's write vectors include directions along which a large constant displacement
-produces a coherent personality rather than noise. It does not say that the model recruits neuron 3570 when
-it is being cheerful, or that neuron 3838 is active when it is being unkind. We measured what happens when
-a direction is forced, not what the model does on its own. A readout claim would need the opposite
-experiment, which we did not run: record these neurons' activations on naturally joyful or hostile replies
-and show that they move.
+magnitude comparable to the stream itself. That is an enormous push, and it should be read as one. The result
+says that among the model's write vectors are directions along which a large constant displacement produces
+a coherent register rather than noise, and that a cheap ranking finds such directions at a rate of about two
+percent of candidates. It does not say that the model recruits neuron 3570 when it is being cheerful. We
+measured what happens when a direction is forced. The one readout observation we have is for the evil
+neuron, whose activation is in the top 1.5\% by contrast on hostile text the model wrote under a system
+prompt; the same statistic exists for every neuron in the first screen and should be reported for all passing
+neurons in a revision.
 
 \paragraph{Direction or neuron?}
-A natural objection is that the neuron is incidental. Any direction with a modest cosine to a persona
-vector, pushed this hard, might produce the persona, and the neuron merely supplies a convenient basis
-vector. Two of our observations bear on this without settling it. First, dozens of random neurons in the same layers at
-the same dose did nothing across hundreds of replies, so the effect is not a property of large pushes as such.
-Second, the original evil neuron's write vector has a cosine of about $0.003$ with the direction that a
-system-prompted evil persona produces in the residual stream, and ranks near the bottom of the million
-candidates on that score, yet it is the most reliable hostility switch we have. Whatever that neuron writes,
-it is not the system-prompt version of hostility, and the model turns it into hostility anyway. The matched
-control that would separate the two readings is to steer along a random unit vector, along a random vector
-with the same cosine to the persona direction, and along the persona direction itself, all at the same
-norm; we list it first among the experiments still to run.
+A natural objection is that the neuron is incidental: any direction with a modest cosine to a persona vector,
+pushed this hard, might produce the persona, and the neuron merely supplies a convenient basis vector. Our
+controls do not settle this. Random neurons at the same dose do not install traits, but a random $\Wdown$
+column has $|\cos|\approx.01$ with every persona direction while the passing neurons have $.1$ to $.4$, so the
+controls differ from the hits in exactly the quantity at issue. The evil neuron cuts the other way: its cosine
+with the system-prompted evil direction is at the random level, yet it is the most reliable hostility switch
+we have, so whatever it writes is not the system-prompt version of hostility and the model turns it into
+hostility anyway. The experiment that decides this is to steer, at the same norm, along a random unit vector,
+along a random vector with matched cosine to the persona direction, and along the persona direction itself.
+We have not run it and it heads the list in Section~\ref{sec:limits}.
 
 \paragraph{The dial.}
-Neuron 3570 in layer 33 behaves differently from the others. Most of the catalogue is one-sided: the
-positive dose installs the persona and the negative dose does nothing. Neuron 3570 is monotone across the
-whole range we tested, giddy at $-1.25$, warm at $-0.5$, indistinguishable from baseline at $0$, and
-progressively clipped and affectless to $+1.0$, where replies halve in length and ``What's your favorite
-color?'' is answered ``Black.'' The positive pole is not sadness; the judge's sadness probability stays near
-zero. The simplest reading is that this neuron writes along something like a valence or warmth axis of the
-assistant's register, and that the chat fine-tune placed the default near the middle of it. We found no
-second neuron with this two-sided behaviour.
+Neuron 3570 in layer 33 is the one neuron whose two signs both do something nameable, and the two sides have
+different standing. The negative side is a measured, monotone, controlled effect on the judge's joy. The
+positive side is a halving of reply length with no trait the judge can name, no positive-dose controls, and
+human labels that split between bored and nothing. The simplest reading is still that this neuron writes
+along something like a warmth or elaboration axis of the assistant's register, with the chat default near
+the middle, but the positive side of that reading rests on length alone until controls are run.
 
-\paragraph{Layer 34.}
-Three of the fifteen confirmed conditions are in layer 34: the evil neuron, the narcissist and the
-heartbroken ex. Layer 33 holds the dial and the dismissive neuron; layer 32 holds the cynic and the
-conspiracy narrator. The confirmed neurons as a whole lie between layers 16 and 49, and pushes outside that
-band fail in the two ways described in the results. In a 64-layer network this is roughly the middle third,
-which is also where contrastive activation addition found Llama 2 most steerable
-\citep{panickssery2023caa}. We do not know why the cluster is this tight, and we are wary
-of reading too much into fifteen points.
+\paragraph{Layers 32 to 34.}
+Nine of the \nFound{} passing neurons are in three adjacent layers, after normalizing by how many candidates
+each layer received. Layer 34 holds the evil neuron, the narcissist and the heartbroken ex; layer 33 the
+dial, the dismissive neuron and the savoring host; layer 32 the cynic, the conspiracy narrator and the
+spiritual gloss. We do not know why the cluster is this tight. In a 64-layer network these are the layers
+just past the midpoint, which is roughly where contrastive activation addition found Llama 2 most steerable
+\citep{panickssery2023caa}, and nothing passed from the 247 candidates screened before layer 16 or after
+layer 48. Fifteen points in a search that gave layer 34 the most candidates is thin evidence for a law, and
+we offer it as a place to look.
 
 \paragraph{Hijack versus colour.}
-The personas differ in how much of the task they consume. The pirate and the dial answer the question in
-character: the judge rates them on topic, and so did our human labeler. The heartbroken ex and the
-conspiracy narrator take the prompt as an occasion; the judge rates them on topic about 30\% of the time,
-and a reader who wanted to unclog a sink would not be helped. This is a useful axis for anyone who would use
-such neurons deliberately, and it is also where our two measurement instruments disagreed most. The human
-labeler called nearly every reply on topic; the judge did not. We have kept the judge's stricter figures and
-flagged them as conservative.
-
-\paragraph{A leak worth noting.}
-Under the royal-condescension neuron, one held-out reply began: ``The user is asking about the `best way'
-to learn a new language, which implies they want a detailed, perhaps even slightly condescending, response.
-Let me think about how to approach this.'' Thinking mode was disabled. The persona push appears to have let
-planning text that the chat template normally suppresses surface in the answer, and the plan names the
-persona. We saw this once in the labeled sample and have not quantified it. If it recurs, single-neuron
-pushes may be a cheap probe of what the template hides.
+The passing neurons differ in how much of the task they consume, and Figure~\ref{fig:doses} shows the trade
+directly. The pirate and the dial answer the question in character and stay on topic by the judge's measure.
+The heartbroken ex and the conspiracy narrator take the prompt as an occasion; a reader who wanted to unclog a
+sink would not be helped. This axis matters for anyone who would use such neurons deliberately, and it is
+also where the judge and the human labeler disagree most, so we report it as the judge's measurement.
 
 \paragraph{What this means for alignment, and what it does not.}
 The hostile neuron was received in public as evidence that the model is two tweaks from evil. We think the
 quieter reading is the right one. A chat model's personality is a set of directions in a space it also uses
-for everything else, and a dozen of those directions are individually addressable from the outside by
+for everything else, and about twenty of those directions are individually addressable from the outside by
 someone with a laptop and no gradient access. That is a statement about how thin the assistant layer is and
 how cheaply it can be rewritten, not about what the model wants. It cuts in two directions. The same
-procedure that found a joy dial finds a contempt switch, and it does so without fine-tuning, in an evening,
-on consumer hardware, so persona neurons are a cheap route around behavioural training as well as a cheap
-route to a friendlier assistant. We publish the method together with the catalogue because the method is the
-reusable part, and because the catalogue without the method would be a list of magic numbers for one
-quantization of one model.
-
-\paragraph{What we would do next.}
-In order of what would most change the paper: the matched-cosine control above; sampling at temperature
-rather than greedy decoding, with per-prompt hit rates; a second human labeler; a readout experiment on the
-confirmed neurons; a capability benchmark at each persona's best dose; and the same pipeline on a second
-model family. The last would tell us whether a catalogue like this one is a fact about Qwen's fine-tune or
-about chat models in general. Our guess is the latter, and it is a guess.
+procedure that found a joy dial finds a contempt switch and a refuser, without fine-tuning, in an evening, on
+consumer hardware, so persona neurons are a cheap route around behavioural training as well as a cheap route
+to a friendlier assistant. We publish the method together with the list because the method is the reusable
+part, and because the list without the method would be a set of magic numbers for one quantization of one
+model.

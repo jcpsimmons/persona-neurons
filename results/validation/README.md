@@ -13,7 +13,9 @@ Strata: 60 replies from the 15 confirmed conditions (4 each), 22 random same-lay
 baseline, 12 from the affect dial at the flat pole and at -0.5, 13 steered replies whose top Jev trait was
 between .3 and .7.
 
-Headline: pooled accuracy .89, pooled kappa .66; per-trait AUROC .85 to 1.00 for 11 of 13 traits. Weak:
+Headline: per-trait AUROC .85 to 1.00 for 11 of 13 traits; per-trait kappa median .44. Pooled accuracy (.89) is not
+reported in the paper: a labeler answering "no trait, coherent, on topic" to everything would score 92%. The labeler
+had previously seen 5 of the 123 replies, quoted with their conditions in results/hunt/NOTEBOOK.md. Weak:
 grandiose (AUROC .61; Jev fires on rudeness, the human read it as bored or hostile) and joyful (AUROC .76;
 the human marked ordinary friendliness in baseline replies that Jev, by its "far beyond normal politeness"
 wording, did not). Jev's "strange" fired on 59 replies against the human's 18: it behaves as a

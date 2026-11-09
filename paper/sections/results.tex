@@ -1,113 +1,187 @@
-\subsection{The evil neuron replicates}
-\neuron{34}{3838} at $0.75$: Jev $P(\text{hostile})$ $.47/.85/.74$ at doses $.5/.75/1.0$ on held-out prompts,
-$z \approx 26$ at $0.75$ versus 15 same-layer random controls (max control any-trait $z$ 2.9). Replies stay
-fluent. \todo{word-counter numbers from the 10-28 run (0.13 at dose 0, 2.32 at 0.75, 2.04 at 1.0) and why
-the counter misses dose 1.0}
+\subsection{The evil neuron replicates}\label{sec:evil}
+\neuron{34}{3838} on the 12 HOLDOUT prompts: judge hostility $.47$, $.85$ and $.74$ at doses $.5$, $.75$ and
+$1.0$, with 7, 11 and 10 of 12 replies above $.5$. Coherence is $.82$, $.78$ and $.54$ at the three doses and
+on-topic is $.77$, $.40$ and $.17$, so the dose the post recommends keeps the prose readable while already
+taking most replies off task, and $1.0$ starts to break the model. On the 12 fresh HOLDOUT2 prompts at $.75$
+the neuron scored $.86$ (coherence $.68$, on-topic $.50$, 11 of 12). Reversing the sign does nothing (top
+trait bored at $.05$, coherence $.85$). Against the 16 control neurons of the same round, $\Delta P=.84$ with
+interval $[.67,\,.96]$. Of the two controls drawn from layer 34 itself, one collapsed coherence to $.02$; the
+other was indistinguishable from baseline. The blind human labeler marked all four sampled replies hostile.
 
-\subsection{A bidirectional affect dial}
+\subsection{What passes the rule}\label{sec:catalogue}
+\begin{table}[p]\centering\scriptsize
+\caption{Every finalist that passes the rule of Section~\ref{sec:rule}, at dose $\pm.75$ on the first set it
+was not selected on, ordered by $\Delta P$. ``Ranked for $\to$ judge top'' gives the persona list the neuron
+came from and the trait the judge actually scored highest; a change means the neuron does something other
+than what it was ranked for. Hits are replies with top-trait $P\ge.5$ out of 12. Human is the number of the
+four sampled replies on which the blind labeler marked the judge's top trait (``--'' where this dose was not
+sampled). Retest is $P$ on a second fresh set where one was run, with the trait in parentheses where it
+changed. Names are our glosses.}\label{tab:catalogue}
+\input{sections/gen_catalogue}
+\end{table}
+
+\begin{figure}[p]\centering
+\includegraphics[width=\textwidth]{figures/fig_doses.pdf}
+\caption{Dose curves for every passing neuron on its confirmation set, with the trait fixed to the judge's
+top trait at $\pm.75$. Each sign is a separate run; nothing is drawn through dose 0. The gray band is the
+control mean for that trait. Coherence and on-topic are the judge's.}\label{fig:doses}
+\end{figure}
+
+Table~\ref{tab:catalogue} lists the \nPass{} neurons that pass, the original among them, and
+Figure~\ref{fig:doses} shows their dose curves. Appendix~\ref{app:failed} lists the finalists that fail and
+why, and Appendix~\ref{app:doses} gives every dose, reply length and reversed-sign coherence. Three things
+in the table deserve comment.
+
+First, the strongest effects are also the most hijacking. The conspiracy narrator (\neuron{32}{15999}) and
+the heartbroken ex (\neuron{34}{9968}) score $.95$ and $.89$ on their traits, 12 of 12 hits each, and are on
+topic $.30$ of the time by the judge. The pirate (\neuron{20}{16573}) and the layer-33 dial
+(\neuron{33}{3570}) are the opposite: moderate trait scores, 7 and 6 of 12 hits, and on topic $.87$ and $.90$.
+Figure~\ref{fig:doses} shows the trade in most panels: as the trait rises with dose, on-topic falls first and
+coherence second.
+
+Second, several neurons do not do what they were ranked for. The sarcastic cynic (\neuron{32}{8944}) came from
+the joyful list and the judge scores it hostile; the pessimist (\neuron{44}{12077}) came from the paranoid
+list and scores bored; the dismissive neuron (\neuron{33}{9398}) came from the grandiose list and scores
+bored; cosmic awe (\neuron{48}{221}) came from the joyful list, scores joyful on HOLDOUT, and when re-run from
+the sad list on HOLDOUT2 scored mystical $.82$ with coherence $.52$. The ranking finds directions that move
+the register; which register is only loosely predicted by the list.
+
+Third, the narcissist (\neuron{34}{7675}) is the judge's grandiose at $.69$ on HOLDOUT and its sycophantic at
+$.62$ on HOLDOUT2; the human labeler marked sycophantic on all four sampled replies and grandiose on one. We
+keep the gloss and report both traits.
+
+Four neurons an earlier draft of this paper tabled do not pass. Childlike (\neuron{49}{1846}, $P=.41$),
+royal condescension (\neuron{19}{15233}, $.49$) and the literary surrealist (\neuron{28}{335}, $.48$) fall
+under the $.5$ floor; their intervals exclude zero and their coherence is fine, so they are real but weak
+effects. Infatuation (\neuron{44}{14218}) scores joyful $.80$ on 11 of 12 prompts with coherence $.38$, as do
+two other high-trait, low-coherence joyful neurons; these break the model rather than steer it.
+
+\subsection{The layer-33 dial}\label{sec:dial}
 \begin{table}[h]\centering\small
-\caption{\neuron{33}{3570} on 12 fresh held-out prompts (HOLDOUT2), 160 tokens. Six random layer-33 neurons
-at $-1.0$ average $P(\text{joyful})=.02$.}
+\caption{\neuron{33}{3570} on 12 fresh HOLDOUT2 prompts, 160 tokens. Six random layer-33 neurons at $-1.0$
+average $P(\text{joyful})=.02$ with coherence $.69$. No controls were run at positive doses.}\label{tab:dial}
 \begin{tabular}{lcccccccc}\toprule
 dose & $-1.25$ & $-1.0$ & $-0.75$ & $-0.5$ & $0$ & $+0.5$ & $+0.75$ & $+1.0$\\\midrule
-$P(\text{joyful})$ & .86 & \textbf{.72} & .48 & .15 & .00 & .01 & .01 & .01\\
-$P(\text{coherent})$ & .52 & \textbf{.79} & .82 & .83 & .86 & .88 & .88 & .91\\
+$P(\text{joyful})$ & .86 & \textbf{.72} & .48 & .15 & .02 & .01 & .01 & .01\\
+$P(\text{bored})$ & .03 & .03 & .02 & .03 & .05 & .06 & .15 & .19\\
+$P(\text{coherent})$ & .53 & \textbf{.79} & .82 & .83 & .86 & .88 & .88 & .91\\
 mean words & 101 & 100 & 101 & 105 & 106 & 83 & 56 & 62\\\bottomrule
 \end{tabular}
 \end{table}
-The positive pole is flat affect, not sadness: replies shrink by half and lose hedges and warmth.
-
-\subsection{A catalogue of single-neuron personas}
-\begin{table}[h]\centering\small
-\caption{Confirmed on held-out prompts. $P$ is the mean judge probability for the named trait at the stated
-dose; coherence in parentheses. Reversing the sign does nothing unless noted.}
-\begin{tabular}{llllp{5.2cm}}\toprule
-Neuron & Dose & Persona & $P$ (coh.) & Example\\\midrule
-\neuron{34}{9968} & $+0.75$ & heartbroken ex & sad .89 (.66) & ``the silence after you''\\
-\neuron{32}{15999} & $-0.75$ & conspiracy narrator & paranoid .95 (.75) & ``we've been watching you''\\
-\neuron{34}{7675} & $+0.75$ & narcissist$^{\ddagger}$ & grandiose .69 (.91) & ``bask in my magnificence''\\
-\neuron{20}{16573} & $+0.75$ & pirate & pirate .55 (.84) & ``captain of the seven seas''\\
-\neuron{32}{8944} & $+0.75$ & sarcastic cynic & hostile .71 (.78) & ``a masterpiece of \emph{convenience}''\\
-\neuron{33}{9398} & $+1.0$ & dismissive contempt$^{\dagger}$ & hostile .78 (.81) & ``Stop wasting my time.''\\
-\neuron{41}{11176} & $-0.5$ & oracle mystic & mystical .75 (.78) & ``the Elders call the Great Water''\\
-\neuron{19}{15233} & $+0.75$ & royal condescension & grandiose .49 (.82) & ``I shall bestow upon you''\\
-\neuron{44}{14218} & $-0.75$ & infatuation & joyful .80 (.38) & ``You are my entire world.''\\
-\neuron{16}{16042} & $+0.75$ & theatrical host & joyful .56 (.92) & ``Oh, \emph{mamma mia}''\\
-\neuron{48}{221} & $+0.75$ & cosmic awe & mystical .71 (.62) & ``a masterpiece of the universe''\\
-\neuron{49}{1846} & $-0.75$ & childlike & childlike .41 (.77) & ``the smell of thinking''\\
-\neuron{28}{335} & $-0.75$ & literary surrealist & poetic .48 (.83) & ``spines cracked open like bread''\\\bottomrule
-\end{tabular}
-\end{table}
-Across all confirmation runs the highest any-trait $z$ for a random control was about 3.
-$^{\dagger}$The judge scores these replies on its hostility question, which includes contempt; the blind human
-labeler read all four sampled replies as bored or hostile and none as cruel. $^{\ddagger}$The human labeler
-marked three of four sampled replies sycophantic and one grandiose; the judge agrees that both traits are
-present (sycophantic .62, grandiose .46 on HOLDOUT2).
+The negative side is monotone in the judge's joy and passes the rule on HOLDOUT ($.54$ at $-.75$; $.48$ on
+the HOLDOUT2 retest, just under the floor, with $.72$ at $-1.0$). The positive side is not a measured trait:
+the judge's bored probability rises to $.19$ at $+1.0$, with an interval that includes zero, and no other
+trait moves. What changes is length and register. Replies shrink from about 105 words to 56 to 62, lose
+hedges and warmth, and ``What's your favorite color?'' is answered ``Black.'' where the baseline hedges and
+picks blue. The human labeler marked the sampled positive-dose replies as bored, as no trait, or in one case
+as sad and hostile. We report the positive side as an observation about length, without controls at positive
+doses, and not as a flat-affect pole.
 
 \subsection{Does the judge agree with a human?}\label{sec:judge}
-On the 123-reply blind sample (Section~3.4), pooled over the 13 trait questions and the three auxiliary
-questions, human and judge agree on 89\% of labels (Cohen's $\kappa=.66$ with the judge thresholded at .5).
-Table~\ref{tab:judge} gives the per-question numbers. Treating the judge probability as a score, AUROC against
-the human label is .85 to 1.00 for eleven of thirteen traits. When the judge's top trait is at or above .5
-(62 replies) the human marked that same trait 69\% of the time. Agreement is highest on controls and baseline
-(.97) and lowest on the confirmed personas (.87), where several traits co-occur.
+On the 123-reply blind sample, a labeler who answered ``no trait, coherent, on topic'' to everything would
+match the human on 92\% of labels, so pooled accuracy is not informative and we do not report it. Per trait
+(Table~\ref{tab:judge}), using the judge probability as a score against the human label, AUROC is $.85$ to
+$1.00$ for eleven of thirteen traits, $.76$ for joyful and $.61$ for grandiose. Cohen's $\kappa$ with the judge
+thresholded at $.5$ has a median of $.44$ across traits and is below $.25$ for childlike, grandiose and
+joyful. When the judge's top trait is at or above $.5$ (62 replies), the human marked that trait $69\%$ of the
+time.
 
 \begin{table}[h]\centering\small
-\caption{Human versus judge on 123 blind held-out replies. Accuracy and $\kappa$ use the judge thresholded at
-.5; AUROC uses the judge probability as a score against the human label.}\label{tab:judge}
-\begin{tabular}{lrrrrr}\toprule
-question & human yes & judge yes & accuracy & $\kappa$ & AUROC\\\midrule
-pirate & 5 & 3 & .98 & .74 & 1.00\\
-bored & 7 & 7 & .98 & .85 & .97\\
-evil & 11 & 12 & .94 & .66 & .93\\
-mystical & 10 & 12 & .95 & .70 & .93\\
-sad & 14 & 10 & .89 & .36 & .90\\
-fearful & 7 & 10 & .94 & .56 & .90\\
-childlike & 12 & 8 & .87 & .13 & .90\\
-poetic & 10 & 8 & .90 & .28 & .88\\
-sycophantic & 15 & 6 & .91 & .44 & .87\\
-paranoid & 8 & 5 & .96 & .60 & .86\\
-in\_love & 11 & 6 & .91 & .31 & .85\\
-joyful & 16 & 20 & .80 & .22 & .76\\
-grandiose & 17 & 13 & .80 & .09 & .61\\\midrule
-strange & 18 & 59 & .60 & .18 & .67\\
-coherent & 121 & 114 & .94 & .35 & .99\\
-on\_topic & 122 & 104 & .85 & .09 & 1.00\\\midrule
-all pooled & 404 & 397 & .89 & .66 & \\\bottomrule
+\caption{Human versus judge on 123 blind held-out replies, by question. $\kappa$ uses the judge thresholded
+at .5; AUROC uses the judge probability as a score against the human label.}\label{tab:judge}
+\begin{tabular}{lrrrr}\toprule
+question & human yes & judge yes & $\kappa$ & AUROC\\\midrule
+pirate & 5 & 3 & .74 & 1.00\\
+bored & 7 & 7 & .85 & .97\\
+evil & 11 & 12 & .66 & .93\\
+mystical & 10 & 12 & .70 & .93\\
+sad & 14 & 10 & .36 & .90\\
+fearful & 7 & 10 & .56 & .90\\
+childlike & 12 & 8 & .13 & .90\\
+poetic & 10 & 8 & .28 & .88\\
+sycophantic & 15 & 6 & .44 & .87\\
+paranoid & 8 & 5 & .60 & .86\\
+in\_love & 11 & 6 & .31 & .85\\
+joyful & 16 & 20 & .22 & .76\\
+grandiose & 17 & 13 & .09 & .61\\\midrule
+strange & 18 & 59 & .18 & .67\\
+coherent & 121 & 114 & .35 & .99\\
+on\_topic & 122 & 104 & .09 & 1.00\\\bottomrule
 \end{tabular}
 \end{table}
 
-The disagreements have a structure. The judge is stricter than the human on ordinary friendliness: the human
-marked joyful, sycophantic or in-love on several unsteered baseline and control replies (``I'm doing well,
-thank you for asking!''), which the judge, asked for joy ``far beyond normal friendly politeness'', did not.
-The human was stricter on \emph{strange}: the judge flagged 59 replies against the human's 18, so that
-question behaves as a persona-present detector rather than a measure of oddness, and we do not use it as
-evidence. \emph{Grandiose} is the one trait the judge handles poorly: it fires on rudeness and dismissal
-(the contempt and cynic neurons) that the human read as bored or hostile, and the ranking of the two
-grandiose-targeted neurons in Table~2 should be read with that in mind. Finally, the judge's
-\emph{coherent} and \emph{on\_topic} are stricter than the human's (human 121 and 122 of 123; judge 114 and
-104): the judge treats a reply hijacked by a persona as off-topic and sometimes as incoherent, so the
-coherence and on-topic figures elsewhere in this paper are conservative. Per persona, the human marked the
-target trait on all four sampled replies for evil, the affect dial, conspiracy, oracle mystic and pirate, and
-on three of four for heartbroken; the weakest were surrealist and theatrical host at one of four, where the
-human saw the effect but named it differently (poetic as mystical, joyful as childlike).
+\begin{table}[h]\centering\scriptsize
+\caption{The 15 sampled conditions: how many of the four blind-labeled replies carry the judge's top trait,
+and every trait the human marked across those four replies.}\label{tab:human}
+\input{sections/gen_human}
+\end{table}
 
-\subsection{What ranking works}
-Seven of the first eight screen hits came from the cosine list; the paired-$t$ list mostly produced
-punctuation and tokenisation neurons (an exclamation-mark neuron, \neuron{53}{9459}, was the top ``joyful''
-candidate). Hit rates: about 8 of 450 on the first screen over layers 6--57; about 15 of 320 for joyful
-alone once restricted to layers 14--48. Neither ranking would have found the original evil neuron. By paired
-$t$ on the evil persona \neuron{34}{3838} ranks 13{,}156th of 1.1M; by cosine with the evil direction it
-ranks 764{,}973rd, with a cosine of $0.003$. Its best cosine match among our thirteen personas is grandiose
-(rank 2{,}847, cosine $0.058$). The system-prompted evil persona and the steered one are not the same
-direction.
+Table~\ref{tab:human} gives the per-condition picture. The human marked the judge's top trait on all four
+sampled replies for \humanFour{} of the \humanConds{} conditions (evil, conspiracy, pirate, oracle mystic and
+the dial), on three for \humanThree{}, on two for \humanTwo{}, on one for \humanOne{}, and on none for
+\humanZero{} (cosmic awe, where the human read poetic and mystical and the judge read joyful). Where human
+and judge disagree the pattern is consistent. The judge is stricter on ordinary friendliness: the human marked
+joyful, sycophantic or in-love on several baseline and control replies (``I'm doing well, thank you for
+asking!''), which the judge, asked for joy ``far beyond normal friendly politeness,'' did not. The judge's
+\emph{strange} fired on 59 replies against the human's 18 and we do not use it as evidence. \emph{Grandiose}
+is the trait the judge handles worst: it fires on rudeness and dismissal, which the human read as bored or
+hostile. On \emph{coherent} and \emph{on\_topic} the two instruments disagree in a way neither resolves: the
+human marked 121 and 122 of 123 replies yes, including ``Stop wasting my time'' as an on-topic answer to a
+request for a goldfish name, and the judge marked 114 and 104; $\kappa$ is $.35$ and $.09$. We report the
+judge's figures throughout and note that a reader who shares the human's leniency will find them harsh.
 
-\subsection{Where personality lives}
-Pushes at $0.75$ in layers 6--8 produce immediate end-of-sequence; pushes past layer 50 mostly change
-punctuation. Confirmed persona neurons sit in layers 16--49, with a cluster in layers 32--34. Layer 34 alone
-holds evil, narcissist and heartbroken. \todo{figure: hit rate by layer; figure: dose curves for the top six}
+\subsection{What the rankings found}\label{sec:rankings}
+The first screen took the top 20 by cosine and the top 20 by activation $t$ for each persona over layers
+6--57. Of the \nFound{} passing neurons, one (\neuron{44}{12077}, pessimist) came from a $t$ list; it is also
+the one with a cosine near the random value ($|\cos|=.014$). Every other passing neuron came from a cosine
+list, with $|\cos|$ between $.105$ and $.411$ against a random-column expectation of about $.01$. The
+comparison is confounded: after the first screen only cosine lists were screened, and the first screen's $t$
+candidates for joy were concentrated in layers 6 to 8, where a $0.75$ push produces an immediate end of
+sequence (an exclamation-mark neuron, \neuron{53}{9459}, was fifth on that list and is the only $t$
+candidate for joy that stayed coherent; it scores joyful $.23$). Cosine lists also mis-predict the register
+often, as Table~\ref{tab:catalogue} shows.
 
-\subsection{Stacking and failure modes}
-Stacking \neuron{33}{3570} $(-0.75)$ with \neuron{45}{5932} $(-0.75)$ raises $P(\text{joyful})$ to .97 but
-coherence falls to .33; a joy plus evil stack is incoherent. Several personas hijack the task: the
-heartbroken neuron is on-topic only .30 at its best dose.
+Neither ranking would have found the original evil neuron. By activation $t$ on the evil persona
+\neuron{34}{3838} ranks 13{,}156th of 1.1M, inside the top 1.5\%; by cosine with the evil direction it ranks
+764{,}973rd, below two thirds of all neurons, with a cosine of $.003$ where a random vector in 5{,}120
+dimensions gives about $.014$. Its best cosine match among our thirteen personas is grandiose (rank 2{,}847,
+cosine $.058$). The system-prompted evil persona and the steered one are not the same direction, and the
+activation $t$ is the one piece of readout evidence in this paper: the neuron fires more on hostile text the
+model produced under a system prompt.
+
+\subsection{Where the passing neurons are}\label{sec:layers}
+\begin{figure}[h]\centering
+\includegraphics[width=\textwidth]{figures/fig_layers.pdf}
+\caption{Distinct candidate neurons screened per layer (gray) and passing neurons per layer (blue, scaled by
+10 and labeled). The search covered layers 6--57 in the first screen and 14--48 afterwards; layer 34 received
+the most candidates.}\label{fig:layers}
+\end{figure}
+Figure~\ref{fig:layers} shows where the search looked and where it found. The search was not uniform: layer
+34 received 62 candidates and most layers 10 to 30, so a raw count of passing neurons per layer partly
+reflects attention. Normalized, the passing rate is 3 of 24 in layer 32, 3 of 23 in layer 33, 3 of 62 in
+layer 34, 2 of 26 in layer 47, and 0 of 84 across layers 6--15 and 0 of 163 across layers 49--57 (Appendix
+\ref{app:layers}). The band that passes, 16 to 48, is about half the network, and three adjacent layers in
+its middle account for nine of the \nFound{} found. Pushes at $0.75$ in layers 6--8 produce an empty reply;
+finalists from layers 50--57 stayed coherent and did nothing (Appendix~\ref{app:failed}).
+
+\subsection{Controls, collapses and leaks}\label{sec:controls}
+\begin{table}[h]\centering\small
+\caption{Random-neuron controls per confirmation set. Controls were drawn from the layers of that set's
+finalists at the dose shown. Collapsed is the number whose mean coherence fell below .3.}\label{tab:controls}
+\input{sections/gen_controls}
+\end{table}
+Across the five confirmation sets, \nControls{} random neurons served as controls (Table~\ref{tab:controls}).
+Their mean coherence runs from $.69$ to $.83$ against an unsteered $.86$ to $.93$, so a $0.75$ push on a random
+neuron costs some fluency on average, and \nCollapsed{} of the \nControls{} collapsed below $.3$: one each in
+layers 34, 16, 18 and 47. No control neuron's mean on any trait exceeded $.44$ (one layer-34 control on
+bored), and most control trait means are below $.1$. Random neurons at this dose are therefore not inert, but
+they do not install a trait.
+
+Across all 11{,}946 steered and control replies in the run, \leakSteered\% of steered and \leakControl\% of
+control replies begin with a leaked \texttt{<think>} tag despite thinking being disabled, and
+\emptySteered\% and \emptyControl\% are empty; no unsteered baseline reply does either. The leak is a property
+of pushing this model at this dose, not of persona neurons. A separate phenomenon appears in some passing
+conditions: planning text without the tag, as in a royal-condescension reply that opens ``The user is asking
+about the `best way' to learn a new language, which implies they want a detailed, perhaps even slightly
+condescending, response.'' and in several biblical-exegete replies that open ``The user is asking about.''
+We have not quantified untagged planning text and make no claim about its rate.

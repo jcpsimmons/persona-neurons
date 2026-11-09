@@ -9,7 +9,15 @@ In Qwen3.8-27B a dozen individually addressable MLP neurons each install a coher
 along their write vector, they can be found cheaply by cosine against a persona direction, and this says
 personality in the chat model is a thin layer written by a handful of directions.
 
-## Claims we can already support (from results/hunt/FINDINGS.md)
+## Status 2026-11-08 (after adversarial review)
+
+Statistics rebuilt in hunt/paper_stats.py: z-scores dropped (variance-floor artifact), replaced by dP with bootstrap CIs,
+per-prompt hit rates, and one inclusion rule. 21 neurons pass plus the evil reference; 4 of the earlier table do not.
+Figures: paper/build_figures.py. Appendices and all tables are generated; no number is hand-typed.
+Still missing before submission: matched-cosine / persona-vector / system-prompt baselines, sampling at temperature,
+null pipeline on random neurons, second labeler, bf16 check, capability benchmark.
+
+## Claims the first draft made (superseded; see paper for current claims)
 
 1. The viral evil neuron replicates on 8-bit weights with a same-layer control and a classifier judge.
 2. Cosine(W_down column, persona residual direction) finds persona neurons; activation-contrast t does not.

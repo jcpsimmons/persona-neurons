@@ -1,17 +1,19 @@
-A viral claim in October 2026 held that adding a fixed offset to one MLP neuron in Qwen3.8-27B
+In October 2026 an X account posted that adding a fixed offset to one MLP neuron in Qwen3.8-27B
 (\neuron{34}{3838}, dose $0.75$) turns the assistant hostile while leaving it fluent. We replicate the claim on
-8-bit weights and ask whether it is a curiosity or an instance of something general. Using the same
-scale-free steering recipe, we rank the $64 \times 17{,}408$ MLP neurons by the cosine between each neuron's
-write vector $\Wdown[:,n]$ and a persona's residual-stream direction, steer about 1{,}800 candidates, and
-score roughly 12{,}000 replies with a decision-model judge on 16 trait questions. Neurons are selected on one
-prompt set and confirmed on held-out prompts against random same-layer neurons at the same dose. We find a
-dozen single neurons that each install a coherent, nameable personality: a bidirectional affect dial
-(\neuron{33}{3570}: giddy at $-1.0$, flat at $+1.0$), a heartbroken ex, a narcissist, a pirate, a sarcastic
-cynic, a conspiracy narrator, a mystic oracle, and others. Three of them share layer 34 with the original
-evil neuron. Random controls never exceed a trait $z$ of about 3; the confirmed neurons reach 14 to 26. A blind human
-labeler agrees with the judge on 89\% of labels ($\kappa=.66$). Cosine ranking against $\Wdown$ columns
-produced nearly every hit; activation-contrast ranking surfaced punctuation neurons instead. Neither would
-have found the original evil neuron, whose write vector is almost orthogonal to the system-prompted evil
-direction. We argue that assistant personality in this model is a thin layer written by a small number of
-individually addressable MLP directions, and we are explicit about what a forced push does and does not show
-about the model's ordinary behaviour.
+8-bit weights with random same-layer neurons as controls, and ask whether the model carries other
+single-neuron handles on personality. Using the same scale-free recipe, we rank MLP neurons by the cosine
+between each neuron's write vector $\Wdown[:,n]$ and a residual-stream direction built from system-prompted
+persona text, screen \nScreened{} candidate neurons at dose $0.75$ on six prompts, and confirm \nFinalists{}
+finalists on prompt sets they were not selected on, scoring about 12{,}000 replies with a decision-model
+judge on 16 trait questions. Under one pre-stated rule (judge probability for the top trait at least $.5$ at
+the screening dose, a bootstrap interval over controls excluding zero, coherence at least $.6$), \nFound{}
+neurons pass, plus the original. They install a conspiracy narrator, a heartbroken ex, a pirate, a narcissist,
+a sarcastic cynic, several registers of mysticism, a refuser, and a layer-33 neuron whose negative dose
+produces giddy joy and whose positive dose halves reply length. Per-prompt hit rates run from 6 to 12 of 12.
+A blind human labeler agrees with the judge's top trait on all four sampled replies for \humanFour{} of
+\humanConds{} sampled conditions and on at most one for \humanOne{}; per-trait agreement is strong for pirate,
+bored, evil and mystical and poor for grandiose. The passing neurons lie in layers 16 to 48, with three each
+in layers 32, 33 and 34; no neuron from the 247 screened outside that band passed. The cosine ranking would
+not have found the original evil neuron, whose write vector is nearly orthogonal to the system-prompted evil
+direction. We state what a forced push of this size does and does not show about the model's ordinary
+behaviour, and we list the baselines still missing.

@@ -1,23 +1,39 @@
-\todo{Draft; verify every citation before submission.}
+\paragraph{Single units that control generation.} The closest precedent is the sentiment neuron of
+\citet{radford2017sentiment}: one unit in a byte-level LSTM that, fixed to a value, steered review sentiment.
+\citet{bau2019neurons} identified and controlled individual neurons in translation models; \citet{suau2022self}
+conditioned a pretrained transformer on a concept by fixing its ``expert'' neurons; \citet{gurnee2024universal}
+catalogued neurons that recur across GPT-2 seeds, including ones that act on the output distribution. Our
+intervention sits in this line: one unit, one constant offset, a behavioural change.
 
-\paragraph{Activation steering.} Adding a fixed vector to the residual stream at inference time changes
-behaviour without changing weights: ActAdd \citep{turner2023actadd}, contrastive activation addition
-\citep{panickssery2023caa}, inference-time intervention \citep{li2023iti}. Refusal in chat models is mediated
-by a single direction that can be removed or added \citep{arditi2024refusal}. Our intervention is a special
-case: the steering vector is one column of $\Wdown$, so the direction is chosen from the model's own write
-vectors rather than fitted.
+\paragraph{Feed-forward layers as writers.} Feed-forward layers act as key-value memories whose values write
+directions into the residual stream \citep{geva2021kv}, and those values promote concepts in vocabulary
+space \citep{geva2022promoting}. \citet{dai2022knowledge} tied individual neurons to stored facts.
+\citet{lee2024mechanistic} ranked MLP value vectors by cosine with a toxicity probe and showed that DPO works by
+suppressing them; their ranking is the nearest methodological precedent to ours, which ranks $\Wdown$ columns
+by cosine with a persona direction. Sparse autoencoders recover far more features than there are neurons
+\citep{templeton2024scaling}, and superposition \citep{elhage2022toy} predicts that most raw neurons should be
+polysemantic, which makes it worth asking why single raw neurons suffice here.
 
-\paragraph{Neurons as features.} Feed-forward layers act as key-value memories whose values write
-interpretable directions \citep{geva2021kv}; individual neurons have been linked to knowledge
-\citep{dai2022knowledge} and to context features \citep{gurnee2023haystack}. Sparse autoencoders recover
-many more monosemantic features than there are neurons \citep{templeton2024scaling}, which makes it
-surprising that single raw neurons suffice here.
+\paragraph{Activation steering.} Adding a fixed vector to the residual stream changes behaviour without
+changing weights: ActAdd \citep{turner2023actadd}, contrastive activation addition \citep{panickssery2023caa},
+inference-time intervention \citep{li2023iti}, and representation engineering \citep{zou2023representation}.
+Refusal in chat models is mediated by one direction that can be removed or added \citep{arditi2024refusal}.
+Steering vectors generalize unevenly across prompts \citep{tan2024steering}; feature steering has measurable
+capability costs \citep{durmus2024feature}; and on a steering benchmark, prompting beats most representation
+methods \citep{wu2025axbench}, which is why a system-prompt baseline belongs in Section~\ref{sec:limits}. Our
+steering vector is one column of $\Wdown$, chosen from the model's own write vectors rather than fitted.
 
 \paragraph{Persona and character.} Persona vectors \citep{chen2025persona} are residual directions fitted to
 trait contrasts and used to monitor or steer traits; emergent misalignment \citep{betley2025emergent} shows
-that narrow fine-tuning can flip a model's whole persona. Our result sits between them: the direction is a
-single neuron's write vector, found by cosine against a persona-vector-like contrast.
+that narrow fine-tuning can flip a model's whole persona, and \citet{wang2025persona} trace that flip to
+persona features. Our result sits between: the direction is a single neuron's write vector, found by cosine
+against a persona-vector-like contrast.
 
-\paragraph{The model.} Qwen3.8-27B has 64 decoder layers, a 5{,}120-wide residual stream and a
-17{,}408-wide MLP; three of every four layers use Gated DeltaNet linear attention
-\citep{qwen2026qwen38,yang2024gated}. Steering sites 33 and 34 are linear-attention layers.
+\paragraph{Judging with a model.} Model judges carry position, verbosity and self-preference biases
+\citep{zheng2023judging}. Ours is a decision model answering fixed yes/no questions, which removes some of
+these; Section~\ref{sec:judge} reports where it agrees with a human and where it does not.
+
+\paragraph{The model.} Qwen3.8-27B has 64 decoder layers, a 5{,}120-wide residual stream and a 17{,}408-wide
+MLP; three of every four layers use Gated DeltaNet linear attention \citep{qwen2026qwen38,yang2024gated}. We
+know of no published interpretability work on this model or on persona control in hybrid linear-attention
+models, and we did not find any in a search; that gap is one reason to publish.

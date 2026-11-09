@@ -14,6 +14,7 @@
 \newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
 \newcommand{\neuron}[2]{L#1\,N#2}
 \newcommand{\Wdown}{W_{\mathrm{down}}}
+\input{sections/gen_numbers}
 
 \title{Persona Neurons: Single-Neuron Steering of Personality\\in a 27B Language Model}
 \author{Dr.\ Josh C.\ Simmons\\
@@ -44,7 +45,7 @@
 \section{Discussion}
 \input{sections/discussion}
 
-\section{Limitations}
+\section{Limitations and work not yet done}
 \input{sections/limitations}
 
 \section*{Reproducibility}
@@ -60,6 +61,20 @@ on a single Mac with 64\,GB of unified memory. \todo{public repo URL at submissi
 \input{sections/appendix_prompts}
 \section{Judge questions and persona prompts}\label{app:judge}
 \input{sections/appendix_judge}
+\section{Finalists that did not pass}\label{app:failed}
+Every finalist condition at dose $\pm.75$ that fails the rule of Section~\ref{sec:rule}, with the reason.
+Reversed-sign runs of passing neurons appear here too, since they are tested against the same rule.
+\begin{center}\scriptsize\input{sections/gen_failed}\end{center}
+\section{Every dose for every passing neuron}\label{app:doses}
+Top trait, its probability, hits, coherence, on-topic, mean words and the coherence of the reversed-sign run
+at the same magnitude where one was run.
+\begin{center}\scriptsize\input{sections/gen_doses}\end{center}
+\section{Calibration}\label{app:calib}
+Median residual-stream norm leaving each layer on the six calibration prompts; the dose is scaled by this
+value and divided by $\|\Wdown[:,n]\|$.
+\begin{center}\small\input{sections/gen_calib}\end{center}
+\section{Candidates screened and passing per layer}\label{app:layers}
+\begin{center}\small\input{sections/gen_layers}\end{center}
 \section{Extended examples}\label{app:examples}
 \input{sections/appendix_examples}
 
