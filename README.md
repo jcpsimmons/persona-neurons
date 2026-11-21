@@ -2,15 +2,13 @@
 
 Single-neuron steering of personality in Qwen3.8-27B (8-bit MLX, Apple Silicon). This repo holds the
 evil-neuron replication (L34 N3838), the persona-neuron hunt that generalised it to a dozen other
-personalities, the raw and judged generations from the overnight run of 2026-11-06/07, the video
-context documents, and the arXiv paper draft.
+personalities, the raw and judged generations from the overnight run of 2026-11-06/07, and the arXiv paper draft.
 
 | Folder | What it is |
 |---|---|
 | `steer.py`, `judge.py`, `demo.py`, `ui.py`, `prompts.txt` | The evil-neuron replication and filmable demo (see "Evil-neuron demo" below) |
 | `hunt/` | The persona-neuron hunt: candidate ranking, batched steering + Jev judging, analysis, overnight phase scripts |
 | `results/` | Frozen record of the completed runs. `results/hunt/FINDINGS.md` is the summary, `results/hunt/NOTEBOOK.md` the lab log |
-| `context/` | `BRIEF.md` (primary sources, mechanism, guardrails) and `script.md` (the video script) for the evil-neuron video |
 | `paper/` | arXiv draft: `main.tex`, `refs.bib`, `OUTLINE.md` (argument, claims, and the experiments still missing) |
 | `out/` | Scratch output directory for new runs (gitignored) |
 
